@@ -1,0 +1,61 @@
+<script setup>
+
+</script>
+
+<template>
+    <div class="my-logo">
+        <NuxtLink to="/">
+            <svg width="36" height="50" viewBox="0 0 36 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M32.8141 7.80304C31.3671 5.34653 29.3414 3.43334 26.7484 2.05769C24.1612 0.693604 21.1688 0 17.7713 0C14.3738 0 11.3814 0.687824 8.78842 2.05769C6.20121 3.43334 4.18122 5.34653 2.73424 7.80304C1.7908 9.39255 1.15413 11.1439 0.824219 13.0397H10.2701C10.409 12.4964 10.6058 11.9878 10.8373 11.5023C11.4914 10.1497 12.4117 9.10355 13.6098 8.37526C14.8079 7.64698 16.197 7.27706 17.7771 7.27706C19.3572 7.27706 20.7694 7.64698 21.956 8.37526C23.1425 9.10355 24.057 10.1497 24.711 11.5023C24.9425 11.982 25.1335 12.4964 25.284 13.0397H34.7299C34.3942 11.1381 33.7634 9.38677 32.8199 7.80304H32.8141Z" fill="black"/>
+                <path d="M35.5553 48.6996C34.525 47.3124 33.9115 45.6015 33.8999 43.7461V33.0762C33.8999 23.7414 26.2946 16.1465 16.9471 16.1465C7.59956 16.1465 0 23.7414 0 33.0762C0 38.0355 0.625097 41.4341 2.02578 44.0929C3.44382 46.7864 6.41303 50.0001 12.4962 50.0001C16.8371 50.0001 22.4688 47.4569 25.9705 43.6768C25.9705 45.5553 26.584 47.2951 27.6258 48.6938H33.8941H35.5495L35.5553 48.6996ZM21.6816 38.9603C18.886 40.8561 15.2801 42.0873 12.4962 42.0873C10.1231 42.0873 9.46906 41.226 9.04075 40.411C8.29411 38.9892 7.92947 36.5904 7.92947 33.0762C7.92947 28.1111 11.9752 24.0709 16.9471 24.0709C21.9189 24.0709 25.9647 28.1111 25.9647 33.0762C25.9647 34.9374 24.3614 37.1338 21.6758 38.9603H21.6816Z" fill="#FFB607"/>
+                <path d="M16.9562 36.6534C19.1778 36.6534 20.9788 34.8549 20.9788 32.6363C20.9788 30.4177 19.1778 28.6191 16.9562 28.6191C14.7346 28.6191 12.9336 30.4177 12.9336 32.6363C12.9336 34.8549 14.7346 36.6534 16.9562 36.6534Z" fill="black"/>
+            </svg>    
+        </Nuxtlink>
+    </div>
+    <ul class="connection-with-me header">
+        <li>
+            <a href="https://www.linkedin.com/in/andreoliveiradesigner/" target="_blank">Linkedin</a>
+        </li>
+        <li>
+            <a href="https://dribbble.com/andreoliveiradesigner" target="_blank">Dribble</a>
+        </li>
+        <li>
+            <a href="https://www.dropbox.com/scl/fi/hb1syvsmrbnknvf3fb7x7/andre-oliveira-curriculo.pdf?rlkey=sda5kzkh6d20gf1clm63j68my&st=uxnkj8go&dl=0" target="_blank">CV</a>
+        </li>
+        <li>
+            <a href="mailto:email@provedor.com.br?subject=Contato através do portfólio">E-mail</a>
+        </li>
+    </ul>
+</template>
+
+<style>
+    .my-logo{
+        position: fixed;
+        padding-top: 8px;
+        padding-left: 12px;
+        z-index: 1;
+    }
+
+    .pl-0{
+        padding-left: 0 !important;
+    }
+
+    .connection-with-me.header{
+        position: fixed;
+        right: 0;
+        height: 65px;
+        padding-left: 12px;
+        align-items: center;
+        width: 25%;
+    }
+
+    .portfolio-header{
+        /*background: rgba(255, 252, 245, 0.0);*/
+        /*backdrop-filter: blur(300px);*/
+        padding: 8px 0;
+        position: sticky;
+        z-index: 1;
+        top: 0;
+    }
+</style>
+
