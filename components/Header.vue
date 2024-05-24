@@ -12,41 +12,21 @@
             </svg>    
         </Nuxtlink>
     </div>
-    <ul class="connection-with-me header">
-        <li>
-            <a href="https://www.linkedin.com/in/andreoliveiradesigner/" target="_blank">Linkedin</a>
-        </li>
-        <li>
-            <a href="https://dribbble.com/andreoliveiradesigner" target="_blank">Dribble</a>
-        </li>
-        <li>
-            <a href="https://www.dropbox.com/scl/fi/hb1syvsmrbnknvf3fb7x7/andre-oliveira-curriculo.pdf?rlkey=sda5kzkh6d20gf1clm63j68my&st=uxnkj8go&dl=0" target="_blank">CV</a>
-        </li>
-        <li>
-            <a href="mailto:email@provedor.com.br?subject=Contato através do portfólio">E-mail</a>
-        </li>
-    </ul>
 </template>
 
 <style>
     .my-logo{
         position: fixed;
-        padding-top: 8px;
+        padding-top: 10px;
         padding-left: 12px;
+        height: 80px;
+        display: flex;
+        align-items: center;
         z-index: 1;
     }
 
     .pl-0{
         padding-left: 0 !important;
-    }
-
-    .connection-with-me.header{
-        position: fixed;
-        right: 0;
-        height: 65px;
-        padding-left: 12px;
-        align-items: center;
-        width: 25%;
     }
 
     .portfolio-header{

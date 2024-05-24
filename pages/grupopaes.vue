@@ -9,16 +9,16 @@ import Index from './index.vue';
         <main class="container-fluid">
             <div class="intro-page">
                 <div class="row h-100">
-                    <div class="offset-lg-3 col-lg-6 align-items-center d-flex">
-                        <p><NuxtLink to="/" data-link="Início">Início</Nuxtlink> / Algum nome qualquer para o projeto</p>
+                    <div class="offset-2 col-10 offset-lg-3 col-lg-9 align-items-center d-flex">
+                        <p>Algum nome qualquer para o projeto</p>
                     </div>
                 </div>
             </div>
             <div class="hero">
                 <div class="wrap-text mb-0">
                     <div class="row">
-                        <div class="offset-lg-3 col-lg-3">
-                            <h1>Algum nome qualquer para o projeto.</h1>
+                        <div class="col-lg-3">
+                            <NuxtLink to="/">Voltar </Nuxtlink>
                         </div>
                         <div class="col-lg-3">
                             <p>Maecenas a ipsum tortor hac duis tristique est elementum. Experiência profissional de mais de 10 anos no digital em visual design. Trabalhou em times gerenciados com base em metodologias ágeis e produtos escaláveis, participou do processo end-to-end. Contribuiu em agência, startups e ecommerce.</p>
@@ -83,6 +83,14 @@ import Index from './index.vue';
 
 <style scoped>
     .next-project{
-        padding: 80px 0;
+        padding: 200px 0;
+
+        h3,p{
+            margin-bottom: 0;
+        }
+    }
+
+    .breadcrumb-item.active{
+        color: hsl(43, 20%, 39%);
     }
 </style>

@@ -10,7 +10,7 @@
 
 body{
     background-color: var(--brandcolor3);
-    color: var(--brandcolor2);
+    color: hsl(43%, 20%, 39%);
     font-family: var(--font);
     font-size: 20px;
 }
@@ -57,6 +57,7 @@ a{
     }
 
     &:hover{
+
         &:before{
             translate: 0px -3px;
             transition: all .2s ease-out;
@@ -74,8 +75,16 @@ img{
 }
 
 h1,
-h2{
+h2,
+h3{
+    font-size: 32px;
     line-height: 120%;
+    margin-bottom: 40px;
+    color: var(--brandcolor2);
+
+    @media (min-width: 960px) {
+        font-size: 40px;    
+    }
 }
 
 .row>*{
@@ -87,41 +96,85 @@ h2{
 CSS Custom
 */
 
+.connection-with-me.header{
+    position: fixed;
+    right: 0;
+    height: 100px;
+    padding-left: 12px;
+    padding-right: 12px;
+    align-items: center;
+
+    @media (max-width: 960px) {
+        width: 83.33333333%;
+        left: 16.66666667%;
+        bottom: 0;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+
+        a{
+            margin-right: 0;
+        }
+    }
+}
+
 .portfolio{
     
     .intro-page{
-        height: 65px;
-        padding-top: 10px;
+        height: 100px;
 
         p{
             margin-bottom: 0;
+            line-height: 1;
+
+            a{
+                margin-bottom: 8px;
+            }
         }
     }
 
     .connection-with-me{
-        padding: 0;
         margin-bottom: 0;
         list-style-type: none;
         display: flex;
+        justify-content: space-between;
+        z-index: 1;
+        position: fixed;
+        
+        @media (min-width: 961px) {
+            width: 25%;
+        }
 
         a{
             text-decoration: none;
-            padding: 10px 0;
-            margin-right: 24px;
-            gap: 12px;
+            padding: 12px 0;
+            font-family: var(--font);
+            color: var(--brandcolor2);
+
+            &:hover{
+                color: var(--brandcolor1);
+            }
         }
     }
 
     .title-1{
-        font-size: 52px;
-        line-height: 110%;
+        font-size: 3.9vw;
+        line-height: 95%;
         padding-bottom: 24px;
         text-decoration: none;
         color: var(--brandcolor2);
+
+        @media (max-width: 960px) {
+            font-size: 32px;
+        }
+
+        &:hover{
+            color: var(--brandcolor1);
+        }
     }
 
     .wrap-text{
-        margin-bottom: 200px;
+        margin-bottom: 24vh;
     }
     
     .title{
@@ -131,5 +184,4 @@ CSS Custom
             font-size: 32px;
         }
     }
-    
 }
