@@ -3,29 +3,29 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { mkdirSync } from 'node:fs';
 import { parentPort, threadId } from 'node:worker_threads';
-import { defineEventHandler, handleCacheHeaders, splitCookiesString, isEvent, createEvent, getRequestHeader, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseHeader, send, getResponseStatus, setResponseStatus, setResponseHeaders, getRequestHeaders, lazyEventHandler, useBase, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, getQuery as getQuery$1, createError, getResponseStatusText } from 'file:///Users/andre/projetos/portfolio/node_modules/h3/dist/index.mjs';
-import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file:///Users/andre/projetos/portfolio/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { stringify, uneval } from 'file:///Users/andre/projetos/portfolio/node_modules/devalue/index.js';
-import { renderToString } from 'file:///Users/andre/projetos/portfolio/node_modules/vue/server-renderer/index.mjs';
-import { renderSSRHead } from 'file:///Users/andre/projetos/portfolio/node_modules/@unhead/ssr/dist/index.mjs';
-import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///Users/andre/projetos/portfolio/node_modules/ofetch/dist/node.mjs';
-import destr from 'file:///Users/andre/projetos/portfolio/node_modules/destr/dist/index.mjs';
-import { createCall, createFetch } from 'file:///Users/andre/projetos/portfolio/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file:///Users/andre/projetos/portfolio/node_modules/hookable/dist/index.mjs';
-import { snakeCase } from 'file:///Users/andre/projetos/portfolio/node_modules/scule/dist/index.mjs';
-import { klona } from 'file:///Users/andre/projetos/portfolio/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file:///Users/andre/projetos/portfolio/node_modules/defu/dist/defu.mjs';
-import { hash } from 'file:///Users/andre/projetos/portfolio/node_modules/ohash/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery } from 'file:///Users/andre/projetos/portfolio/node_modules/ufo/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///Users/andre/projetos/portfolio/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///Users/andre/projetos/portfolio/node_modules/unstorage/drivers/fs.mjs';
-import { toRouteMatcher, createRouter } from 'file:///Users/andre/projetos/portfolio/node_modules/radix3/dist/index.mjs';
+import { defineEventHandler, handleCacheHeaders, splitCookiesString, isEvent, createEvent, getRequestHeader, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseHeader, send, getResponseStatus, setResponseStatus, setResponseHeaders, getRequestHeaders, lazyEventHandler, useBase, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, getQuery as getQuery$1, createError, getResponseStatusText } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/h3/dist/index.mjs';
+import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { stringify, uneval } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/devalue/index.js';
+import { renderToString } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/vue/server-renderer/index.mjs';
+import { renderSSRHead } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/@unhead/ssr/dist/index.mjs';
+import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/ofetch/dist/node.mjs';
+import destr from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/destr/dist/index.mjs';
+import { createCall, createFetch } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/hookable/dist/index.mjs';
+import { snakeCase } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/scule/dist/index.mjs';
+import { klona } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/klona/dist/index.mjs';
+import defu, { defuFn } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/defu/dist/defu.mjs';
+import { hash } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/ohash/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/ufo/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/unstorage/drivers/fs.mjs';
+import { toRouteMatcher, createRouter } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/radix3/dist/index.mjs';
 import { fileURLToPath } from 'node:url';
-import { ipxFSStorage, ipxHttpStorage, createIPX, createIPXH3Handler } from 'file:///Users/andre/projetos/portfolio/node_modules/ipx/dist/index.mjs';
-import { isAbsolute } from 'file:///Users/andre/projetos/portfolio/node_modules/pathe/dist/index.mjs';
-import { version, unref } from 'file:///Users/andre/projetos/portfolio/node_modules/vue/index.mjs';
-import { createServerHead as createServerHead$1 } from 'file:///Users/andre/projetos/portfolio/node_modules/unhead/dist/index.mjs';
-import { defineHeadPlugin } from 'file:///Users/andre/projetos/portfolio/node_modules/@unhead/shared/dist/index.mjs';
+import { ipxFSStorage, ipxHttpStorage, createIPX, createIPXH3Handler } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/ipx/dist/index.mjs';
+import { isAbsolute } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/pathe/dist/index.mjs';
+import { version, unref } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/vue/index.mjs';
+import { createServerHead as createServerHead$1 } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/unhead/dist/index.mjs';
+import { defineHeadPlugin } from 'file:///Users/diegoalmeida/Projetos/portfolio/node_modules/@unhead/shared/dist/index.mjs';
 
 const r=Object.create(null),E=e=>globalThis.process?.env||globalThis._importMeta_.env||globalThis.Deno?.env.toObject()||globalThis.__env__||(e?r:globalThis),s=new Proxy(r,{get(e,o){return E()[o]??r[o]},has(e,o){const i=E();return o in i||o in r},set(e,o,i){const g=E(!0);return g[o]=i,!0},deleteProperty(e,o){if(!o)return !1;const i=E(!0);return delete i[o],!0},ownKeys(){const e=E(!0);return Object.keys(e)}}),t=typeof process<"u"&&process.env&&"development"||"",p=[["APPVEYOR"],["AWS_AMPLIFY","AWS_APP_ID",{ci:!0}],["AZURE_PIPELINES","SYSTEM_TEAMFOUNDATIONCOLLECTIONURI"],["AZURE_STATIC","INPUT_AZURE_STATIC_WEB_APPS_API_TOKEN"],["APPCIRCLE","AC_APPCIRCLE"],["BAMBOO","bamboo_planKey"],["BITBUCKET","BITBUCKET_COMMIT"],["BITRISE","BITRISE_IO"],["BUDDY","BUDDY_WORKSPACE_ID"],["BUILDKITE"],["CIRCLE","CIRCLECI"],["CIRRUS","CIRRUS_CI"],["CLOUDFLARE_PAGES","CF_PAGES",{ci:!0}],["CODEBUILD","CODEBUILD_BUILD_ARN"],["CODEFRESH","CF_BUILD_ID"],["DRONE"],["DRONE","DRONE_BUILD_EVENT"],["DSARI"],["GITHUB_ACTIONS"],["GITLAB","GITLAB_CI"],["GITLAB","CI_MERGE_REQUEST_ID"],["GOCD","GO_PIPELINE_LABEL"],["LAYERCI"],["HUDSON","HUDSON_URL"],["JENKINS","JENKINS_URL"],["MAGNUM"],["NETLIFY"],["NETLIFY","NETLIFY_LOCAL",{ci:!1}],["NEVERCODE"],["RENDER"],["SAIL","SAILCI"],["SEMAPHORE"],["SCREWDRIVER"],["SHIPPABLE"],["SOLANO","TDDIUM"],["STRIDER"],["TEAMCITY","TEAMCITY_VERSION"],["TRAVIS"],["VERCEL","NOW_BUILDER"],["VERCEL","VERCEL",{ci:!1}],["VERCEL","VERCEL_ENV",{ci:!1}],["APPCENTER","APPCENTER_BUILD_ID"],["CODESANDBOX","CODESANDBOX_SSE",{ci:!1}],["STACKBLITZ"],["STORMKIT"],["CLEAVR"],["ZEABUR"],["CODESPHERE","CODESPHERE_APP_ID",{ci:!0}],["RAILWAY","RAILWAY_PROJECT_ID"],["RAILWAY","RAILWAY_SERVICE_ID"]];function B(){if(globalThis.process?.env)for(const e of p){const o=e[1]||e[0];if(globalThis.process?.env[o])return {name:e[0].toLowerCase(),...e[2]}}return globalThis.process?.env?.SHELL==="/bin/jsh"&&globalThis.process?.versions?.webcontainer?{name:"stackblitz",ci:!1}:{name:"",ci:!1}}const l=B(),d=l.name;function n(e){return e?e!=="false":!1}const I=globalThis.process?.platform||"",T=n(s.CI)||l.ci!==!1,R=n(globalThis.process?.stdout&&globalThis.process?.stdout.isTTY);n(s.DEBUG);const C=t==="test"||n(s.TEST);n(s.MINIMAL)||T||C||!R;const a=/^win/i.test(I);!n(s.NO_COLOR)&&(n(s.FORCE_COLOR)||(R||a)&&s.TERM!=="dumb"||T);const _=(globalThis.process?.versions?.node||"").replace(/^v/,"")||null;Number(_?.split(".")[0])||null;const W=globalThis.process||Object.create(null),c={versions:{}};new Proxy(W,{get(e,o){if(o==="env")return s;if(o in e)return e[o];if(o in c)return c[o]}});const A=globalThis.process?.release?.name==="node",L=!!globalThis.Bun||!!globalThis.process?.versions?.bun,D=!!globalThis.Deno,O=!!globalThis.fastly,S=!!globalThis.Netlify,N=!!globalThis.EdgeRuntime,u=globalThis.navigator?.userAgent==="Cloudflare-Workers",b=!!globalThis.__lagon__,F=[[S,"netlify"],[N,"edge-light"],[u,"workerd"],[O,"fastly"],[D,"deno"],[L,"bun"],[A,"node"],[b,"lagon"]];function G(){const e=F.find(o=>o[0]);if(e)return {name:e[1]}}const P=G();P?.name||"";
 
@@ -69,7 +69,7 @@ const _inlineRuntimeConfig = {
     "alias": {},
     "fs": {
       "dir": [
-        "/Users/andre/projetos/portfolio/public"
+        "/Users/diegoalmeida/Projetos/portfolio/public"
       ]
     },
     "http": {
@@ -142,7 +142,7 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
-const serverAssets = [{"baseName":"server","dir":"/Users/andre/projetos/portfolio/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"/Users/diegoalmeida/Projetos/portfolio/server/assets"}];
 
 const assets = createStorage();
 
@@ -154,11 +154,11 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets);
 
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/andre/projetos/portfolio","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/andre/projetos/portfolio/server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/andre/projetos/portfolio/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/andre/projetos/portfolio/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"/Users/andre/projetos/portfolio/.data/kv","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/diegoalmeida/Projetos/portfolio","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/diegoalmeida/Projetos/portfolio/server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/diegoalmeida/Projetos/portfolio/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/diegoalmeida/Projetos/portfolio/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"/Users/diegoalmeida/Projetos/portfolio/.data/kv","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -585,14 +585,14 @@ if (!window.__NUXT_DEVTOOLS_TIME_METRIC__) {
 window.__NUXT_DEVTOOLS_TIME_METRIC__.appInit = Date.now()
 `;
 
-const _O5sR0GJoq3 = (function(nitro) {
+const _d46oPgB8Hp = (function(nitro) {
   nitro.hooks.hook("render:html", (htmlContext) => {
     htmlContext.head.push(`<script>${script}<\/script>`);
   });
 });
 
 const plugins = [
-  _O5sR0GJoq3
+  _d46oPgB8Hp
 ];
 
 function defineRenderHandler(handler) {
@@ -697,7 +697,7 @@ function publicAssetsURL(...path) {
   return path.length ? joinURL(publicBase, ...path) : publicBase;
 }
 
-const _EEXLkw = lazyEventHandler(() => {
+const _zUU0vI = lazyEventHandler(() => {
   const opts = useRuntimeConfig().ipx || {};
   const fsDir = opts?.fs?.dir ? (Array.isArray(opts.fs.dir) ? opts.fs.dir : [opts.fs.dir]).map((dir) => isAbsolute(dir) ? dir : fileURLToPath(new URL(dir, globalThis._importMeta_.url))) : void 0;
   const fsStorage = opts.fs?.dir ? ipxFSStorage({ ...opts.fs, dir: fsDir }) : void 0;
@@ -715,12 +715,12 @@ const _EEXLkw = lazyEventHandler(() => {
   return useBase(opts.baseURL, ipxHandler);
 });
 
-const _lazy_bTP0dL = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_swVhmj = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/__nuxt_error', handler: _lazy_bTP0dL, lazy: true, middleware: false, method: undefined },
-  { route: '/_ipx/**', handler: _EEXLkw, lazy: false, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_bTP0dL, lazy: true, middleware: false, method: undefined }
+  { route: '/__nuxt_error', handler: _lazy_swVhmj, lazy: true, middleware: false, method: undefined },
+  { route: '/_ipx/**', handler: _zUU0vI, lazy: false, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_swVhmj, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
@@ -960,7 +960,7 @@ function createServerHead(options = {}) {
 
 const unheadPlugins = [];
 
-const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[{"rel":"stylesheet","href":"//fonts.googleapis.com/css2?family=Familjen+Grotesk:,wght@0,300..500;1,400..700&display=swap"}],"style":[],"script":[{}],"noscript":[],"charset":"utf-8","viewport":"width=device-width, initial-scale=1"};
+const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"}],"style":[],"script":[{}],"noscript":[],"charset":"utf-8","viewport":"width=device-width, initial-scale=1"};
 
 const appRootId = "__nuxt";
 
@@ -968,8 +968,8 @@ const appRootTag = "div";
 
 globalThis.__buildAssetsURL = buildAssetsURL;
 globalThis.__publicAssetsURL = publicAssetsURL;
-const getClientManifest = () => import('file:///Users/andre/projetos/portfolio/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
-const getServerEntry = () => import('file:///Users/andre/projetos/portfolio/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
+const getClientManifest = () => import('file:///Users/diegoalmeida/Projetos/portfolio/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getServerEntry = () => import('file:///Users/diegoalmeida/Projetos/portfolio/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
 const getSSRRenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
   if (!manifest) {

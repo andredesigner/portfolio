@@ -82,15 +82,5 @@ import Index from './index.vue';
 </template>
 
 <style scoped>
-    .next-project{
-        padding: 200px 0;
-
-        h3,p{
-            margin-bottom: 0;
-        }
-    }
-
-    .breadcrumb-item.active{
-        color: hsl(43, 20%, 39%);
-    }
+    
 </style>
