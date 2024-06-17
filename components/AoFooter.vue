@@ -7,7 +7,8 @@
         {href: 'https://www.linkedin.com/in/andreoliveiradesigner/', text: 'Linkedin'},
         {href: 'https://www.dropbox.com/scl/fi/hb1syvsmrbnknvf3fb7x7/andre-oliveira-curriculo.pdf?rlkey=sda5kzkh6d20gf1clm63j68my&st=92yk43ks&dl=0', text: 'CV'},
         {href: 'https://dribbble.com/andreoliveiradesigner', text: 'Dribbble'},
-        {href: 'https://www.instagram.com/andreoliveira.des.br/', text: 'Instragram'}
+        {href: 'https://www.instagram.com/andreoliveira.des.br/', text: 'Instragram'},
+        {href: 'https://github.com/andredesigner?tab=repositories', text: 'Github'}
     ]
 
     onMounted(() => {
