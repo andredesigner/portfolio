@@ -5,29 +5,19 @@
 <template>
     <main class="container-fluid">
         <div class="row">
-            <div class="offset-lg-1 col-lg-11">
-                <div class="d-flex justify-content-end">
-                <nuxt-link to="/">
-                    <Close></Close>
-                </nuxt-link>
-                </div>
-            </div>
-            <div class="offset-lg-1 col-lg-1">
-                <p class="text-capitalize">{{ $route.name }}</p>
-            </div>
-            <div class="col-lg-4">
-                <ul class="ao-project-list">
+            <div class="offset-lg-2 col-lg-8">
+                <ul class="ao-nav">
                     <li>
-                        <nuxt-link to="/">Título do projeto.</nuxt-link>
+                        <nuxt-link to="/">Grupo Paes.</nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="">Algum nome qualquer.</nuxt-link>
+                        <nuxt-link to="/">Hyundai.</nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="">Chamada do projeto.</nuxt-link>
+                        <nuxt-link to="/">Paraíso Feminino.</nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="">Algum nome.</nuxt-link>
+                        <nuxt-link to="/">Pratic App.</nuxt-link>
                     </li>
                 </ul>
             </div>
@@ -36,9 +26,9 @@
 </template>
 
 <style>
-    #mandado{
+    /* #mandado{
         top: -50vh;
         rotate: -15deg;
         right: 94vw;
-    }
+    } */
 </style>

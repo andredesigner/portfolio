@@ -20,26 +20,7 @@
 <template>
     <footer class="container-fluid">
             <div class="row sky">
-                <div class="offset-lg-9 col-lg-1">
-                    <svg id="mandado" width="65" height="144" viewBox="0 0 65 144" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M36.3692 103.567C42.4399 80.8644 59.1496 31.9435 57.0695 0.101107" stroke="#ADA285" stroke-dasharray="2 2"/>
-                        <rect x="0.867188" y="125.102" width="18" height="18" fill="#ADA285"/>
-                    </svg>
-                </div>
-                <div class="col-lg-1">
-                    <svg id="pipao" width="113" height="291" viewBox="0 0 113 291" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M76.043 0.251953L90.4805 4.3212L87.3607 15.3899L78.3786 19.6116L72.9232 11.3207L76.043 0.251953Z" fill="#ADA285"/>
-                        <path d="M77.7344 22.4199C56.6755 113.035 36.6168 267.922 34.5937 290.287" stroke="#ADA285" stroke-dasharray="2 2"/>
-                    </svg>
-                </div>
-                <div class="col-lg-1">
-                    <svg id="aparado" width="55" height="124" viewBox="0 0 55 124" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M14.4453 123.316L0.00781733 119.247L3.12757 108.178L12.1097 103.957L17.5651 112.248L14.4453 123.316Z" fill="#ADA285"/>
-                        <path d="M12.7537 101.149C19.5181 78.6432 31.0078 28.2402 49.5099 2.24143" stroke="#ADA285" stroke-dasharray="2 2"/>
-                        <path d="M26.4981 103.602C32.5688 80.8996 49.2785 31.9786 47.1984 0.136263" stroke="#ADA285" stroke-dasharray="2 2"/>
-                    </svg>
-                </div>
-                <div class="offset-lg-2 col-lg-7">
+                <div class="offset-lg-2 col-lg-8">
                     <nav>
                         <ul class="ao-nav">
                             <li v-for="link in links">
@@ -227,20 +208,6 @@
 
     .sky{
         background: linear-gradient(180deg, #FFFCF5 0%, #EBD8AD 100%);
-    }
-
-    #mandado,
-    #pipao,
-    #aparado{
-        position: absolute;
-    }
-
-    #pipao{
-        top: -90px;
-    }
-
-    #aparado{
-        top: -40px;
     }
 
     #predinhos{

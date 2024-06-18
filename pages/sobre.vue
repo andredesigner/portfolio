@@ -5,17 +5,14 @@
 <template>
   <main class="container-fluid">
     <div class="row">
-      <div class="offset-lg-1 col-lg-11">
+      <!-- <div class="offset-lg-1 col-lg-11">
         <div class="d-flex justify-content-end">
           <nuxt-link to="/">
             <Close></Close>
           </nuxt-link>
         </div>
-      </div>
-      <div class="offset-lg-1 col-lg-1">
-        <p class="text-capitalize">{{ $route.name }}</p>
-      </div>
-      <div class="col-lg-3">
+      </div> -->
+      <div class="offset-lg-2 col-lg-3">
         <h1>Designer de produtos digitais com experiência em criação de marca e desenvolvimento.</h1>
       </div>
       <div class="offset-lg-1 col-lg-4">
@@ -39,7 +36,7 @@
           Treino Crossfit e jiu-jitsu. Atualmente estou tentando encontrar a melhor forma de conciliar os dois treinos durante a semana. Correr ou caminhar no parque, para mim, é uma terapia.
           <br><br>Sou apreciador de carros, seja antigo (lazanhona) ou novo. O céu com sua imensidão e cores me hipnotiza. Eu tenho algo platônico pelos cachorros de rua que não sei explicar.
         </p>
-        <nuxt-link to="/projetos">Ver projetos</nuxt-link>
+        <nuxt-link class="ao-nav" to="/projetos">Projetos</nuxt-link>
       </div>
     </div>
   </main>
@@ -51,17 +48,8 @@
   }
 
   #mandado{
-
-  /*
-  início
-  top: -60vh;
-  rotate: 45deg;
-  right: 40vw; */
-
-    /* 
-    sobre
     top: -150vh;
     rotate: -55deg;
-    right: 70vw; */
+    right: 70vw;
   }
 </style>

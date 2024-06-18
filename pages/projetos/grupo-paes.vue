@@ -1,8 +1,8 @@
 <script>
 
-    definePageMeta({
-        layout: 'pageup',
-    })
+    // definePageMeta({
+    //     layout: 'pageup',
+    // })
 
 
 </script>

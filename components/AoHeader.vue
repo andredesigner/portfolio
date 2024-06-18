@@ -14,12 +14,15 @@ import AoLogo from './AoLogo.vue';
     <div class="container-fluid">
         <div class="row">
             <div class="offset-lg-2 col-lg-9">
-                <nuxt-link
-                    v-if="$route.name != 'index'" 
-                    class="first-element-page"
-                    to="/" > 
-                    Página inicial
-                </nuxt-link>
+                <div class="first-element-page" v-if="$route.name != 'index'" >
+                    <nuxt-link
+                        class="d-inline-block mr-3"
+                        to="/" > 
+                        Início
+                    </nuxt-link>
+                    <span>/</span>
+                    <span> {{ $route.name }}</span>
+                </div>
                 <p
                     v-else
                     class="first-element-page">
