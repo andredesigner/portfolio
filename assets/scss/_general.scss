@@ -39,29 +39,45 @@
 
         .title{
             font-family: $font-title;
-            font-size: $size-font-title;
             margin-bottom: 20vh;
             margin-top: 30vh;
             font-weight: 400;
+
+            @media(max-width: 992px){
+                font-size: 9vw;
+            }
+
+            @media(min-width: 993px){
+                font-size: $size-font-title;
+            }
         }
     }
 
     main{
         .ao-nav{
-            font-size: $size-font-nav;
+            border-top: 1px solid $brandcolor2;
+            border-bottom: 1px solid $brandcolor2;
 
             li{
-                margin-bottom: 10vh;
-                display: flex;
-
                 &:last-child{
                     margin-bottom: 0;
                 }
+            }
 
+            a{
+                font-family: $font-title;
+                line-height: 100%;
+                display: block;
+                font-weight: 500;
+                padding-top: 3vh;
+                padding-bottom: 3vh;
+                font-size: $size-font-nav;
+                border-top: 1px solid $brandcolor2;
+            }
+
+            @media (max-width: 992px) {
                 a{
-                    font-family: $font-text;
-                    line-height: 100%;
-                    display: block;
+                    font-size: 14vw;
                 }
             }
         }    

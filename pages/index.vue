@@ -21,6 +21,7 @@
         </div>
         <div class="row">
             <nav class="offset-lg-2 col-lg-8">
+                <p>Menu</p>
                 <ul class="ao-nav">
                     <li v-for="link in links">
                         <nuxt-link :to="link.href">

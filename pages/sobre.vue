@@ -35,8 +35,13 @@
         <p>
           Treino Crossfit e jiu-jitsu. Atualmente estou tentando encontrar a melhor forma de conciliar os dois treinos durante a semana. Correr ou caminhar no parque, para mim, é uma terapia.
           <br><br>Sou apreciador de carros, seja antigo (lazanhona) ou novo. O céu com sua imensidão e cores me hipnotiza. Eu tenho algo platônico pelos cachorros de rua que não sei explicar.
+          <br><br>Veja os meus projetos.
         </p>
-        <nuxt-link class="ao-nav" to="/projetos">Projetos</nuxt-link>
+        <ul class="ao-nav">
+          <li>
+            <nuxt-link to="/projetos">Projetos</nuxt-link>
+          </li>
+        </ul>
       </div>
     </div>
   </main>

@@ -13,7 +13,7 @@ import AoLogo from './AoLogo.vue';
     </header>
     <div class="container-fluid">
         <div class="row">
-            <div class="offset-lg-2 col-lg-9">
+            <div class="offset-2 offset-lg-2 col-lg-9">
                 <div class="first-element-page" v-if="$route.name != 'index'" >
                     <nuxt-link
                         class="d-inline-block mr-3"
@@ -43,5 +43,10 @@ import AoLogo from './AoLogo.vue';
         padding-right: 24px;
         padding-left: 24px;
         z-index: 0;
+
+        @media(max-width: 992px){
+            padding-right: 12px;
+            padding-left: 12px;
+        }
     }
 </style>

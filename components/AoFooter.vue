@@ -194,7 +194,7 @@
 </template>
 
 
-<style>
+<style lang="scss">
     footer{
         position: relative;
         margin-top: 20dvh;
@@ -203,6 +203,11 @@
             display: flex;
             gap: 40px;
             margin-bottom: 40px;
+
+            @media(max-width: 992px){
+                flex-direction: column;
+            }
+            
         }
     }
 
