@@ -9,7 +9,7 @@ import AoLogo from './AoLogo.vue';
         <NuxtLink class="my-logo" to="/">
             <AoLogo></AoLogo>
         </Nuxtlink>
-        <NuxtLink id="talk-to-me" to="/fale-comigo">Fale comigo</NuxtLink>
+        <NuxtLink id="talk-to-me" to="/fale-comigo" v-if="$route.name != 'fale-comigo'">Fale comigo</NuxtLink>
     </header>
     <div class="container-fluid">
         <div class="row">
@@ -17,7 +17,7 @@ import AoLogo from './AoLogo.vue';
                 <div class="first-element-page" v-if="$route.name != 'index'" >
                     <nuxt-link
                         class="d-inline-block mr-3"
-                        to="/" > 
+                        to="/" >
                         Início
                     </nuxt-link>
                     <span>/</span>
@@ -33,7 +33,7 @@ import AoLogo from './AoLogo.vue';
     </div>
 </template>
 
-<style>
+<style scoped>
     header{
         display: flex;
         align-items: center;
@@ -47,6 +47,10 @@ import AoLogo from './AoLogo.vue';
         @media(max-width: 992px){
             padding-right: 12px;
             padding-left: 12px;
+        }
+
+        #talk-to-me{
+            padding: 12px 24px;
         }
     }
 </style>
