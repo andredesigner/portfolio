@@ -22,8 +22,8 @@
             <div class="row sky">
                 <div class="offset-lg-2 col-lg-8">
                     <nav>
-                        <ul class="ao-nav">
-                            <li v-for="link in links">
+                        <ul class="ao-nav row">
+                            <li class="col-4 col-lg-auto" v-for="link in links">
                                 <a :href="link.href" target="_blank">{{ link.text }}</a>
                             </li>
                         </ul>
@@ -201,7 +201,6 @@
 
         .ao-nav{
             display: flex;
-            gap: 40px;
             margin-bottom: 40px;
 
             @media(max-width: 992px){

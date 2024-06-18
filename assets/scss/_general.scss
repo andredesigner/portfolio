@@ -58,6 +58,7 @@
         .ao-nav{
             border-top: 1px solid $brandcolor2;
             border-bottom: 1px solid $brandcolor2;
+            z-index: -1;
 
             li{
                 &:last-child{
