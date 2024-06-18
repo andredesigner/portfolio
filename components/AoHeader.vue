@@ -26,7 +26,7 @@ import AoLogo from './AoLogo.vue';
                 <p
                     v-else
                     class="first-element-page">
-                    Olá, seja bem vindo.
+                    Olá, <br> seja bem vindo.
                 </p>
             </div>
         </div>
