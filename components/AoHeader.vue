@@ -13,7 +13,7 @@ import AoLogo from './AoLogo.vue';
     </header>
     <div class="container-fluid">
         <div class="row">
-            <div class="offset-2 offset-lg-2 col-lg-9">
+            <div class="offset-2 col offset-lg-2 col-lg-9">
                 <div class="first-element-page" v-if="$route.name != 'index'" >
                     <nuxt-link
                         class="d-inline-block mr-3"
@@ -42,7 +42,7 @@ import AoLogo from './AoLogo.vue';
         top: 15.6px;
         padding-right: 24px;
         padding-left: 24px;
-        z-index: 0;
+        z-index: 1;
 
         @media(max-width: 992px){
             padding-right: 12px;
@@ -51,6 +51,11 @@ import AoLogo from './AoLogo.vue';
 
         #talk-to-me{
             padding: 12px 24px;
+            background: hsl(42deg 95% 87% / 40%);
+            backdrop-filter: blur(6px);
+            /* Note: backdrop-filter has minimal browser support */
+            border-radius: 2px;
+            translate: 0 87vh;
         }
     }
 </style>

@@ -201,10 +201,6 @@
 
         .ao-nav{
             display: flex;
-
-            // @media(max-width: 992px){
-            //     flex-direction: column;
-            // }
             
             li{
                 a{
