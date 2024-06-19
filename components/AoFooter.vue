@@ -182,7 +182,7 @@
                         <path d="M138.123 51.748H135.523V62.8108H138.123V51.748Z" fill="#565656"/>
                     </svg> -->
 
-                    <svg width="802" height="64" viewBox="0 0 802 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg id="predinhos" viewBox="0 0 802 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_9204_202)">
                         <path d="M233.919 27.3359H77.2188V64.5659H233.919V27.3359Z" fill="#799FA8"/>
                         <path d="M282.692 27.3359H233.922V64.5659H282.692V27.3359Z" fill="#70ACC4"/>
