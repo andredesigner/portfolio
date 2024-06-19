@@ -55,7 +55,10 @@ import AoLogo from './AoLogo.vue';
             backdrop-filter: blur(6px);
             /* Note: backdrop-filter has minimal browser support */
             border-radius: 2px;
-            translate: 0 87dvh;
+
+            @media (max-width: 992px) {
+                translate: 0 87dvh;
+            }
         }
     }
 </style>
