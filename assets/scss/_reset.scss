@@ -12,7 +12,7 @@ p{
     margin-bottom: 10vh;
 
     a{
-        border-bottom: 1px solid $brandcolor2;
+        border-bottom: 2px solid $brandcolor2;
     }
 }
 
@@ -22,39 +22,7 @@ a{
     position: relative;
     display: inline-flex;
     text-decoration: none;
-    font-weight: 700;
-    
-
-    // &::after{
-    //     content: "";
-    //     position: absolute;
-    //     width: 2px;
-    //     height: 2px;
-    //     /*background-color: var(--brandcolor1);*/
-    //     bottom: -2px;
-    //     left: 0;
-    //     transition: all .3s ease-in;
-    // }
-
-    // &::before{
-    //     content: attr(data-link);
-    //     position: absolute;
-    //     color: $brandcolor2;
-    //     transition: all .3s ease-out;
-    // }
-
-    // &:hover{
-
-    //     &:before{
-    //         translate: 0px -3px;
-    //         transition: all .2s ease-out;
-    //     }
-
-    //     &::after{
-    //         width: 100%;
-    //         transition: all .2s ease-out;
-    //     }
-    // }
+    font-weight: 600;
 }
 
 img{

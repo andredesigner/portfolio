@@ -42,8 +42,8 @@
 
         .title{
             font-family: $font-title;
-            margin-bottom: 20vh;
-            margin-top: 18vh;
+            margin-bottom: 22vh;
+            margin-top: 20vh;
             font-weight: 400;
 
             @media(max-width: 992px){
@@ -126,6 +126,69 @@
             color: $brandcolor2;
             font-family: $font-title;
             margin-bottom: 40px;
+        }
+    }
+
+    .ao-input{
+        height: 72px;
+        position: relative;
+        background-color: #EEECE8;
+        border-top: 1px solid $brandcolor3;
+
+        .ao-textarea{
+            resize: both;
+            overflow: scroll;
+        }
+
+        &.radius-top-left-right-10{
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        &.radius-bottom-left-right-10{
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+    
+        .ao-form-label{
+          position: absolute;
+          top: 50%;
+          translate: 24px -50%;
+          margin-bottom: 0;
+          opacity: .4;
+        }
+    
+        .ao-form-control{
+          background: transparent;
+          border: none;
+          height: 100%;
+          padding: 0 0 0 24px;
+          overflow: auto;
+        }
+    }
+
+    .ao-btn{
+        padding: 12px 24px;
+        background: hsl(42deg 95% 87% / 40%);
+        backdrop-filter: blur(6px);
+        border-radius: 2px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .element-in{
+        animation: in-top-bottom .8s ease-out;
+    }
+
+    @keyframes in-top-bottom {
+        from {
+          translate: 0 -100px;
+          opacity: 0;
+        }
+      
+        to {
+            translate: 0 0px;
+            opacity: 1;
         }
     }
 }

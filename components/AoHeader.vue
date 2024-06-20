@@ -7,9 +7,9 @@ import AoLogo from './AoLogo.vue';
 <template>
     <header>
         <NuxtLink class="my-logo" to="/">
-            <AoLogo></AoLogo>
+            <AoLogo class="in-top-bottom"></AoLogo>
         </Nuxtlink>
-        <NuxtLink id="talk-to-me" to="/fale-comigo" v-if="$route.name != 'fale-comigo'">Fale comigo</NuxtLink>
+        <NuxtLink class="in-top-bottom ao-btn" id="talk-to-me" to="/fale-comigo" v-if="$route.name != 'fale-comigo'">Fale comigo</NuxtLink>
     </header>
     <div class="container-fluid">
         <div class="row">
@@ -50,12 +50,6 @@ import AoLogo from './AoLogo.vue';
         }
 
         #talk-to-me{
-            padding: 12px 24px;
-            background: hsl(42deg 95% 87% / 40%);
-            backdrop-filter: blur(6px);
-            /* Note: backdrop-filter has minimal browser support */
-            border-radius: 2px;
-
             @media (max-width: 992px) {
                 translate: 0 87dvh;
             }

@@ -15,13 +15,13 @@
         <div class="row">
             <div class="offset-lg-2 col-lg-8">
                 <div class="hero"> 
-                    <h1 class="title">Designer de produtos digitais com experiência em criação de marca e desenvolvimento.</h1>
+                    <h1 class="title in-top-bottom">Designer de produtos digitais com experiência em criação de marca e desenvolvimento.</h1>
                 </div>
             </div>
         </div>
         <div class="row">
             <nav class="offset-lg-2 col-lg-8">
-                <p>Menu</p>
+                <p class="mb-3">Menu</p>
                 <ul class="ao-nav">
                     <li v-for="link in links">
                         <nuxt-link :to="link.href">
