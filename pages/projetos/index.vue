@@ -31,4 +31,8 @@
         rotate: -15deg;
         right: 94vw;
     } */
+
+    main{
+        margin-top: 20vh;
+    }
 </style>

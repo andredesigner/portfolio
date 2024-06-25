@@ -11,10 +11,19 @@ import AoLogo from './AoLogo.vue';
         </Nuxtlink>
         <NuxtLink class="in-top-bottom ao-btn" id="talk-to-me" to="/fale-comigo" v-if="$route.name != 'fale-comigo'">Fale comigo</NuxtLink>
     </header>
-    <div class="container-fluid">
+    <div class="container-fluid" v-if="$route.name == 'index'">
+        <div class="row">
+            <div class="offset-2 col offset-lg-2 col-lg-7">
+                <p class="first-element-page">
+                    Olá, <br> seja bem vindo.
+                </p>                
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" v-else>
         <div class="row">
             <div class="offset-2 col offset-lg-2 col-lg-9">
-                <div class="first-element-page" v-if="$route.name != 'index'" >
+                <div class="first-element-page position-fixed">
                     <nuxt-link
                         class="d-inline-block mr-3"
                         to="/" >
@@ -23,11 +32,6 @@ import AoLogo from './AoLogo.vue';
                     <span>/</span>
                     <span> {{ $route.name }}</span>
                 </div>
-                <p
-                    v-else
-                    class="first-element-page">
-                    Olá, <br> seja bem vindo.
-                </p>
             </div>
         </div>
     </div>
@@ -42,7 +46,7 @@ import AoLogo from './AoLogo.vue';
         top: 15.6px;
         padding-right: 24px;
         padding-left: 24px;
-        z-index: 1;
+        z-index: 10;
 
         @media(max-width: 992px){
             padding-right: 12px;

@@ -5,13 +5,6 @@
 <template>
   <main class="container-fluid">
     <div class="row">
-      <!-- <div class="offset-lg-1 col-lg-11">
-        <div class="d-flex justify-content-end">
-          <nuxt-link to="/">
-            <Close></Close>
-          </nuxt-link>
-        </div>
-      </div> -->
       <div class="offset-lg-2 col-lg-3">
         <h1>Designer de produtos digitais com experiência em criação de marca e desenvolvimento.</h1>
       </div>
@@ -56,5 +49,9 @@
     top: -150vh;
     rotate: -55deg;
     right: 70vw;
+  }
+
+  main{
+    margin-top: 20vh;
   }
 </style>

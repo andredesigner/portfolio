@@ -20,15 +20,15 @@
     }
 
     .first-element-page{
-        margin-top: -50px;
-        margin-bottom: 0;
-        padding-top: 26.6px;
+        margin-top: -24px;
+        padding: 4px 0;
         display: flex;
         gap: 12px;
-        margin-bottom: 20vh;
         line-height: 1;
-        z-index: 2;
+        z-index: 11;
         position: relative;
+        background: rgba(255, 252, 245, 0.8);
+        backdrop-filter: blur(6px);
     }
     
     .hero{
@@ -42,7 +42,7 @@
 
         .title{
             font-family: $font-title;
-            margin-bottom: 22vh;
+            margin-bottom: 12vh;
             margin-top: 20vh;
             font-weight: 400;
 
