@@ -1,6 +1,6 @@
 <script setup>
-import AoLogo from './AoLogo.vue';
-
+    import AoLogo from './AoLogo.vue';
+    const route = useRoute()
 
 </script>
 
@@ -29,8 +29,8 @@ import AoLogo from './AoLogo.vue';
                         to="/" >
                         Início
                     </nuxt-link>
-                    <span>/</span>
-                    <span> {{ $route.name }}</span>
+                    <span>{{$route.path}}</span>
+                    <!-- <span> {{ $route.fullPath }} {{ $route.name }}</span> -->
                 </div>
             </div>
         </div>

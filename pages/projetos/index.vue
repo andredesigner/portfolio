@@ -1,5 +1,12 @@
 <script setup>
+    import { useRoute } from 'vue-router';
 
+    const links = [
+        {href: '/grupo-paes', text: 'Grupo Paes.'},
+        {href: '/hyundai', text: 'Hyundai.'},
+        {href: '/paraiso-feminino', text: 'Paraíso Feminino.'},
+        {href: '/pratic-app', text: 'Pratic App'}
+    ]
 </script>
 
 <template>
@@ -7,17 +14,10 @@
         <div class="row">
             <div class="offset-lg-2 col-lg-8">
                 <ul class="ao-nav">
-                    <li>
-                        <nuxt-link to="/">Grupo Paes.</nuxt-link>
-                    </li>
-                    <li>
-                        <nuxt-link to="/">Hyundai.</nuxt-link>
-                    </li>
-                    <li>
-                        <nuxt-link to="/">Paraíso Feminino.</nuxt-link>
-                    </li>
-                    <li>
-                        <nuxt-link to="/">Pratic App.</nuxt-link>
+                    <li v-for="link in links">
+                        <nuxt-link :to="'projetos' + link.href">
+                            {{ link.text }}
+                        </nuxt-link>
                     </li>
                 </ul>
             </div>
