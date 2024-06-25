@@ -77,6 +77,7 @@
                 padding-bottom: 3vh;
                 font-size: $size-font-nav;
                 border-top: 1px solid $brandcolor2;
+                text-decoration: none;
             }
 
             @media (max-width: 992px) {
@@ -130,7 +131,7 @@
     }
 
     .ao-input{
-        height: 72px;
+        min-height: 72px;
         position: relative;
         background-color: #EEECE8;
         border-top: 1px solid $brandcolor3;
@@ -139,41 +140,57 @@
             resize: both;
             overflow: scroll;
         }
-
-        &.radius-top-left-right-10{
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-        }
-
-        &.radius-bottom-left-right-10{
-            border-bottom-left-radius: 10px;
-            border-bottom-right-radius: 10px;
-        }
     
         .ao-form-label{
-          position: absolute;
-          top: 50%;
-          translate: 24px -50%;
-          margin-bottom: 0;
-          opacity: .4;
+            position: absolute;
+            margin-bottom: 0;
+            opacity: .4;
+            top: 50%;
+            translate: 0 -50%;
+            left: 24px;
+            z-index: 1;
         }
     
         .ao-form-control{
-          background: transparent;
-          border: none;
-          height: 100%;
-          padding: 0 0 0 24px;
-          overflow: auto;
+            position: absolute;
+            background: transparent;
+            border: none;
+            height: 100%;
+            padding: 16px 0 0 24px;
+            overflow: auto;
+
+            &.ao-textarea{
+                padding-top: 34px;
+            }
+
+            &:focus ~ .ao-form-label,
+            &:valid ~ .ao-form-label{
+                transition: 0.3s ease-in-out all; 
+                top: 32%;
+                font-size: 14px;
+            } 
         }
     }
 
+    .radius-top-left-right-10{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .radius-bottom-left-right-10{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
     .ao-btn{
-        padding: 12px 24px;
-        background: hsl(42deg 95% 87% / 40%);
+        padding: 8px 24px;
+        background: #3E5FAA;
         backdrop-filter: blur(6px);
         border-radius: 2px;
-        font-size: 20px;
-        font-weight: 600;
+        font-size: 18px;
+        font-weight: 400;
+        color: $brandcolor3;
+        text-decoration: none;
     }
 
     .element-in{

@@ -12,17 +12,21 @@ p{
     margin-bottom: 10vh;
 
     a{
-        border-bottom: 2px solid $brandcolor2;
+        
     }
 }
 
 a{
     font-family: $font-text;
-    color: $brandcolor2;
+    color: #3E5FAA;
     position: relative;
     display: inline-flex;
-    text-decoration: none;
     font-weight: 600;
+    text-decoration-style: solid;
+
+    &:hover{
+        text-decoration-style: wavy;
+    }
 }
 
 img{
