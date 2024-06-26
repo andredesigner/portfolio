@@ -8,7 +8,7 @@
 </script>
 
 <template>
-    <main class="container-fluid">
+    <main class="container-fluid my-content">
         <div class="row">
         <div class="offset-lg-2 col-lg-4">
             <h1>Lorem ipsum dolor sit amet consectetur.</h1>
@@ -46,7 +46,7 @@
 
 <style>
 
-    main{
+    /* main{
         margin-top: 20vh;
-    }
+    } */
 </style>

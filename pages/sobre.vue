@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <main class="container-fluid">
+  <main class="container-fluid my-content">
     <div class="row">
       <div class="offset-lg-2 col-lg-3">
         <h1>Designer de produtos digitais com experiência em criação de marca e desenvolvimento.</h1>
@@ -51,7 +51,4 @@
     right: 70vw;
   }
 
-  main{
-    margin-top: 20vh;
-  }
 </style>

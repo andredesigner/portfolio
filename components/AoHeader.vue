@@ -29,7 +29,14 @@
                         to="/" >
                         Início
                     </nuxt-link>
-                    <span>{{$route.path}}</span>
+                    <span>/</span>
+                    <!-- <nuxt-link
+                        class="d-inline-block mr-3"
+                        to="/projetos" >
+                        projetos
+                    </nuxt-link>
+                    <span>/</span> -->
+                    <span>{{$route.name}}</span>
                     <!-- <span> {{ $route.fullPath }} {{ $route.name }}</span> -->
                 </div>
             </div>

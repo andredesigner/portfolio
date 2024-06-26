@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <main class="container-fluid">
+  <main class="container-fluid my-content">
     <div class="row">
       <div class="offset-lg-2 col-lg-3">
         <h1>Muito obrigado pela visita.</h1>
