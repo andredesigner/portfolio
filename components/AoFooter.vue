@@ -386,4 +386,11 @@
             display: block;
         }
     }
+
+    svg{
+        @media (max-width: 992px) {
+            // margin-bottom: 43px;
+        }
+    }
+
 </style>

@@ -1,7 +1,5 @@
 <script setup>
     import AoLogo from './AoLogo.vue';
-    const route = useRoute()
-
 </script>
 
 <template>
@@ -13,7 +11,7 @@
     </header>
     <div class="container-fluid" v-if="$route.name == 'index'">
         <div class="row">
-            <div class="offset-2 col offset-lg-2 col-lg-7">
+            <div class="col offset-lg-2 col-lg-7">
                 <p class="first-element-page in-down">
                     Olá, <br> seja bem vindo.
                 </p>                
@@ -23,21 +21,14 @@
     <div class="container-fluid" v-else>
         <div class="row">
             <div class="offset-2 col offset-lg-2 col-lg-9">
-                <div class="first-element-page position-fixed in-down">
+                <div class="first-element-page with-link in-down">
                     <nuxt-link
                         class="d-inline-block mr-3"
                         to="/" >
                         Início
                     </nuxt-link>
                     <span>/</span>
-                    <!-- <nuxt-link
-                        class="d-inline-block mr-3"
-                        to="/projetos" >
-                        projetos
-                    </nuxt-link>
-                    <span>/</span> -->
-                    <span>{{$route.name}}</span>
-                    <!-- <span> {{ $route.fullPath }} {{ $route.name }}</span> -->
+                    <span class="current-page">{{$route.name}}</span>
                 </div>
             </div>
         </div>
@@ -58,12 +49,6 @@
         @media(max-width: 992px){
             padding-right: 12px;
             padding-left: 12px;
-        }
-
-        #talk-to-me{
-            @media (max-width: 992px) {
-                translate: 0 87dvh;
-            }
         }
     }
 </style>
