@@ -1,0 +1,267 @@
+{
+  "resolvedId": "/Users/diegoalmeida/Projetos/portfolio/assets/scss/main.scss",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "@import './variables';\n@import './reset';\n@import './general';\n",
+      "start": 1719459713751,
+      "end": 1719459713769,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1719459713769,
+      "end": 1719459713769,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1719459713769,
+      "end": 1719459713769,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1719459713769,
+      "end": 1719459713769,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1719459713769,
+      "end": 1719459713769,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1719459713769,
+      "end": 1719459713769,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": "body{background-color:#fffcf5;color:#4e401f;font-family:Sarabun,sans-serif;font-optical-sizing:auto;font-size:20px;font-weight:300}p{line-height:160%;margin-bottom:10vh}a{color:#3e5faa;display:inline-flex;font-family:Sarabun,sans-serif;font-weight:600;position:relative;text-decoration-style:solid}a:hover{text-decoration-style:wavy}img{width:100%}h1,h2,h3{font-family:Epilogue,sans-serif;font-optical-sizing:auto;font-size:36px;font-weight:400;line-height:120%;margin-bottom:10vh}.row>*{padding-left:12px;padding-right:12px}.portfolio:before{background-color:#4e401f;border-top-left-radius:20px;border-top-right-radius:20px;content:\"\";display:block;height:100vh;margin-left:1px;margin-right:1px;position:fixed;top:100%;width:100vw;z-index:5}.portfolio .ao-nav{list-style:none;padding:0}.portfolio .first-element-page{-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);background:rgba(255,252,245,.8);display:flex;gap:12px;line-height:1;margin-bottom:0;margin-top:-24px;padding:4px 0;position:relative;z-index:11}.portfolio .hero{animation:in .7s ease-out;display:flex;flex-direction:column;justify-content:space-between}.portfolio .hero p{margin-bottom:0}.portfolio .hero .title{font-family:Epilogue,sans-serif;font-weight:400;margin-bottom:20vh;margin-top:40vh}@media (max-width:992px){.portfolio .hero .title{font-size:9vw}}@media (min-width:993px){.portfolio .hero .title{font-size:3.9vw}}.portfolio main .ao-nav{border-bottom:1px solid #4e401f;border-top:1px solid #4e401f;z-index:-1}.portfolio main .ao-nav li:last-child{margin-bottom:0}.portfolio main .ao-nav a{border-top:1px solid #4e401f;display:block;font-family:Epilogue,sans-serif;font-size:100px;font-weight:500;line-height:100%;padding-bottom:3vh;padding-top:3vh;text-decoration:none}@media (max-width:992px){.portfolio main .ao-nav a{font-size:14vw}}.portfolio .my-content{padding-top:20vh}.portfolio .ao-content{background-color:#4e401f;border-top-left-radius:20px;border-top-right-radius:20px;margin:10vh 1px 0;padding:10vh 0;position:relative;z-index:2}.portfolio .ao-content a,.portfolio .ao-content h1,.portfolio .ao-content h2,.portfolio .ao-content p{color:#fffcf5}.portfolio .ao-content h1,.portfolio .ao-content h2{font-size:36px}.portfolio .ao-content p{margin-bottom:10vh}.portfolio .ao-project-list{list-style:none;margin:0;padding:0}.portfolio .ao-project-list a{color:#4e401f;font-family:Epilogue,sans-serif;font-size:36px;margin-bottom:40px}.portfolio .ao-input{background-color:#eeece8;border-top:1px solid #fffcf5;min-height:72px;position:relative}.portfolio .ao-input .ao-textarea{overflow:scroll;resize:both}.portfolio .ao-input .ao-form-label{left:24px;margin-bottom:0;opacity:.4;position:absolute;top:50%;translate:0 -50%;z-index:1}.portfolio .ao-input .ao-form-control{background:transparent;border:none;height:100%;overflow:auto;padding:16px 0 0 24px;position:absolute}.portfolio .ao-input .ao-form-control.ao-textarea{padding-top:34px}.portfolio .ao-input .ao-form-control:focus~.ao-form-label,.portfolio .ao-input .ao-form-control:valid~.ao-form-label{font-size:14px;top:32%;transition:all .3s ease-in-out}.portfolio .radius-top-left-right-10{border-top-left-radius:10px;border-top-right-radius:10px}.portfolio .radius-bottom-left-right-10{border-bottom-left-radius:10px;border-bottom-right-radius:10px}.portfolio .ao-btn{-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);background:#3e5faa;border-radius:2px;color:#fffcf5;font-size:18px;font-weight:400;padding:8px 24px;text-decoration:none}.portfolio .element-in{animation:in-top-bottom .8s ease-out}@keyframes in-top-bottom{0%{opacity:0;translate:0 -100px}to{opacity:1;translate:0 0}}@keyframes in{0%{opacity:0;translate:0 40px}to{opacity:1;translate:0 0}}",
+      "start": 1719459713769,
+      "end": 1719459713806,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "/Users/diegoalmeida/Projetos/portfolio/assets/scss/main.scss",
+        "mappings": "AAAA,KACI,wBCIU,CDHV,aCEU,CDDV,8BCOQ,CDJR,yBAFA,cCca,CDbb,gBAIJ,EACI,iBACA,mBAOJ,EAEI,cAEA,oBAHA,8BCTQ,CDaR,gBAFA,kBAGA,4BAEA,QACI,2BAIR,IACI,WAGJ,SAGI,+BC3BS,CD6BT,yBAEA,eAHA,gBAEA,iBAEA,mBAMJ,OACI,kBACA,mBElDA,kBAKI,wBDFM,CCMN,4BACA,6BATA,WACA,cACA,aAQA,gBACA,iBANA,eACA,SAHA,YAIA,UAOJ,mBACI,gBACA,UAGJ,+BAUI,4DADA,gCALA,aACA,SACA,cAJA,gBADA,iBAEA,cAKA,kBADA,WAMJ,iBAII,0BAHA,aAEA,sBADA,8BAIA,mBACI,gBAGJ,wBACI,+BDlCC,CCqCD,gBAFA,mBACA,gBAGA,yBANJ,wBAOQ,eAGJ,yBAVJ,wBAWQ,iBAMR,wBAEI,gCADA,6BAEA,WAGI,sCACI,gBAIR,0BAQI,6BALA,cAFA,+BD9DH,CCoEG,eD9DA,CC2DA,gBAFA,iBAIA,mBADA,gBAIA,qBAGJ,yBACI,0BACI,gBAMhB,uBACI,iBAGJ,uBAKI,wBDjGM,CC+FN,4BACA,6BAHA,kBACA,eAKA,kBADA,UAOA,sGAGI,cAGJ,oDAEI,eAGJ,yBACI,mBAIR,4BAGI,gBADA,SADA,UAIA,8BAEI,aDhIE,CCiIF,+BD1HC,CCwHD,eAGA,mBAIR,qBAGI,yBACA,6BAHA,gBACA,kBAIA,kCAEI,gBADA,YAIJ,oCAMI,UAJA,gBACA,WAFA,kBAGA,QACA,iBAEA,UAGJ,sCAEI,uBACA,YACA,YAEA,cADA,sBAJA,kBAOA,kDACI,iBAGJ,sHAII,eADA,QADA,+BAOZ,qCACI,4BACA,6BAGJ,wCACI,+BACA,gCAGJ,mBAGI,4DADA,mBAEA,kBAGA,aDhMM,CC8LN,eACA,gBALA,iBAOA,qBAGJ,uBACI,qCAGJ,yBACI,GAEE,UADA,mBAIF,GAEI,UADA,eAMZ,cACI,GAEI,UADA,iBAIJ,GAEI,UADA",
+        "names": [],
+        "sources": [
+          "/Users/diegoalmeida/Projetos/portfolio/assets/scss/_reset.scss",
+          "/Users/diegoalmeida/Projetos/portfolio/assets/scss/_variables.scss",
+          "/Users/diegoalmeida/Projetos/portfolio/assets/scss/_general.scss"
+        ],
+        "sourcesContent": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1719459713806,
+      "end": 1719459713806,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1719459713806,
+      "end": 1719459713806,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1719459713806,
+      "end": 1719459713806,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1719459713806,
+      "end": 1719459713806,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1719459713806,
+      "end": 1719459713806,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1719459713806,
+      "end": 1719459713807,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1719459713806,
+      "end": 1719459713807,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1719459713807,
+      "end": 1719459713807,
+      "order": "normal"
+    }
+  ]
+}

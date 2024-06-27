@@ -36,6 +36,7 @@
         display: flex;
         justify-content: space-between;
         flex-direction: column;
+        animation: in ease-out .7s;
 
         p{
             margin-bottom: 0;
@@ -215,3 +216,14 @@
     }
 }
 
+@keyframes in {
+    from{
+        translate: 0 40px;
+        opacity: 0;
+    }
+
+    to{
+        translate: 0 0;
+        opacity: 1;
+    }
+}

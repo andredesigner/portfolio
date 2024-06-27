@@ -1,0 +1,288 @@
+{
+  "resolvedId": "/Users/diegoalmeida/Projetos/portfolio/app.vue?vue&type=style&index=0&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\n.layout-leave-active\n.layout-leave-to{\n\n    transition: all 1s;\n\n    /* .ao-content-home{\n        animation: hidden .6s forwards;\n        transition: all 1s;\n    } */\n\n    /* .ao-content{\n        animation: pageup .6s forwards;\n        transition: all 1s;\n    } */\n}\n\n.layout-enter-active,\n.layout-enter-from{\n\n    transition: all 1s;\n\n    /* .ao-content-home{\n        animation: show .8s forwards;\n        transition: all 1s;\n    } */\n    \n    /* .ao-content{\n        animation: pagedown .6s forwards;\n        transition: all 1s;\n    }    */\n}\n\n@keyframes pageup {\n    from{\n        opacity: 1;\n        translate: 0 0vh;\n    }\n\n    to{\n        opacity: 0;\n        translate: 0 100vh;\n    }   \n}\n\n@keyframes pagedown {\n    from{\n        opacity: 1;\n        translate: 0 100vh;\n    }\n\n    to{\n        translate: 0 0vh;\n    }   \n}\n\n@keyframes show {\n    from{\n        opacity: 0;\n    }\n\n    to{\n        opacity: 1;\n    }   \n}\n\n@keyframes hidden {\n    from{\n        opacity: 1;\n    }\n\n    to{\n        opacity: 0;\n    }   \n}\n",
+      "start": 1719459714297,
+      "end": 1719459714297,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/diegoalmeida/Projetos/portfolio/app.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "/Users/diegoalmeida/Projetos/portfolio/app.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<script setup>\n</script>\n\n<template>\n    <NuxtLayout>\n        <NuxtPage />\n    </NuxtLayout>\n</template>\n\n<style>\n.layout-leave-active\n.layout-leave-to{\n\n    transition: all 1s;\n\n    /* .ao-content-home{\n        animation: hidden .6s forwards;\n        transition: all 1s;\n    } */\n\n    /* .ao-content{\n        animation: pageup .6s forwards;\n        transition: all 1s;\n    } */\n}\n\n.layout-enter-active,\n.layout-enter-from{\n\n    transition: all 1s;\n\n    /* .ao-content-home{\n        animation: show .8s forwards;\n        transition: all 1s;\n    } */\n    \n    /* .ao-content{\n        animation: pagedown .6s forwards;\n        transition: all 1s;\n    }    */\n}\n\n@keyframes pageup {\n    from{\n        opacity: 1;\n        translate: 0 0vh;\n    }\n\n    to{\n        opacity: 0;\n        translate: 0 100vh;\n    }   \n}\n\n@keyframes pagedown {\n    from{\n        opacity: 1;\n        translate: 0 100vh;\n    }\n\n    to{\n        translate: 0 0vh;\n    }   \n}\n\n@keyframes show {\n    from{\n        opacity: 0;\n    }\n\n    to{\n        opacity: 1;\n    }   \n}\n\n@keyframes hidden {\n    from{\n        opacity: 1;\n    }\n\n    to{\n        opacity: 0;\n    }   \n}\n</style>\n"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1719459714299,
+      "end": 1719459714299,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1719459714299,
+      "end": 1719459714299,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1719459714299,
+      "end": 1719459714299,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1719459714299,
+      "end": 1719459714299,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1719459714299,
+      "end": 1719459714299,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".layout-enter-active,.layout-enter-from,.layout-leave-active\n.layout-leave-to{transition:all 1s}@keyframes pageup{0%{opacity:1;translate:0 0}to{opacity:0;translate:0 100vh}}@keyframes pagedown{0%{opacity:1;translate:0 100vh}to{translate:0 0}}@keyframes show{0%{opacity:0}to{opacity:1}}@keyframes hidden{0%{opacity:1}to{opacity:0}}",
+      "start": 1719459714299,
+      "end": 1719459714302,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/Users/diegoalmeida/Projetos/portfolio/app.vue",
+        "mappings": "AAiBA;iBAGI,iBAWJ,CAEA,kBACI,GACI,SAAU,CACV,aACJ,CAEA,GACI,SAAU,CACV,iBACJ,CACJ,CAEA,oBACI,GACI,SAAU,CACV,iBACJ,CAEA,GACI,aACJ,CACJ,CAEA,gBACI,GACI,SACJ,CAEA,GACI,SACJ,CACJ,CAEA,kBACI,GACI,SACJ,CAEA,GACI,SACJ,CACJ",
+        "names": [],
+        "sources": [
+          "/Users/diegoalmeida/Projetos/portfolio/app.vue"
+        ],
+        "sourcesContent": [
+          "\n.layout-leave-active\n.layout-leave-to{\n\n    transition: all 1s;\n\n    /* .ao-content-home{\n        animation: hidden .6s forwards;\n        transition: all 1s;\n    } */\n\n    /* .ao-content{\n        animation: pageup .6s forwards;\n        transition: all 1s;\n    } */\n}\n\n.layout-enter-active,\n.layout-enter-from{\n\n    transition: all 1s;\n\n    /* .ao-content-home{\n        animation: show .8s forwards;\n        transition: all 1s;\n    } */\n    \n    /* .ao-content{\n        animation: pagedown .6s forwards;\n        transition: all 1s;\n    }    */\n}\n\n@keyframes pageup {\n    from{\n        opacity: 1;\n        translate: 0 0vh;\n    }\n\n    to{\n        opacity: 0;\n        translate: 0 100vh;\n    }   \n}\n\n@keyframes pagedown {\n    from{\n        opacity: 1;\n        translate: 0 100vh;\n    }\n\n    to{\n        translate: 0 0vh;\n    }   \n}\n\n@keyframes show {\n    from{\n        opacity: 0;\n    }\n\n    to{\n        opacity: 1;\n    }   \n}\n\n@keyframes hidden {\n    from{\n        opacity: 1;\n    }\n\n    to{\n        opacity: 0;\n    }   \n}\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1719459714302,
+      "end": 1719459714302,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1719459714302,
+      "end": 1719459714302,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1719459714302,
+      "end": 1719459714302,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".layout-enter-active,.layout-enter-from,.layout-leave-active\n.layout-leave-to{transition:all 1s}@keyframes pageup{0%{opacity:1;translate:0 0}to{opacity:0;translate:0 100vh}}@keyframes pagedown{0%{opacity:1;translate:0 100vh}to{translate:0 0}}@keyframes show{0%{opacity:0}to{opacity:1}}@keyframes hidden{0%{opacity:1}to{opacity:0}}",
+      "start": 1719459714302,
+      "end": 1719459714302,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/Users/diegoalmeida/Projetos/portfolio/app.vue",
+        "mappings": "AAAA;iBACiB,iBAAiB,CAAC,kBAAkB,GAAG,SAAS,CAAC,aAAa,CAAC,GAAG,SAAS,CAAC,iBAAiB,CAAC,CAAC,oBAAoB,GAAG,SAAS,CAAC,iBAAiB,CAAC,GAAG,aAAa,CAAC,CAAC,gBAAgB,GAAG,SAAS,CAAC,GAAG,SAAS,CAAC,CAAC,kBAAkB,GAAG,SAAS,CAAC,GAAG,SAAS,CAAC",
+        "names": [],
+        "sources": [
+          "/Users/diegoalmeida/Projetos/portfolio/app.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1719459714302,
+      "end": 1719459714302,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1719459714302,
+      "end": 1719459714302,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1719459714302,
+      "end": 1719459714302,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1719459714302,
+      "end": 1719459714302,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1719459714302,
+      "end": 1719459714302,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1719459714303,
+      "end": 1719459714303,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1719459714303,
+      "end": 1719459714303,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1719459714303,
+      "end": 1719459714305,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1719459714305,
+      "end": 1719459714305,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "resolvedId": "/Users/diegoalmeida/Projetos/portfolio/pages/projetos/index.vue?macro=true",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<script setup>\n    import { useRoute } from 'vue-router';\n\n    const links = [\n        {href: '/grupo-paes', text: 'Grupo Paes.'},\n        {href: '/hyundai', text: 'Hyundai.'},\n        {href: '/paraiso-feminino', text: 'Paraíso Feminino.'},\n        {href: '/pratic-app', text: 'Pratic App'}\n    ]\n</script>\n\n<template>\n    <main class=\"container-fluid my-content\">\n        <div class=\"row\">\n            <div class=\"offset-lg-2 col-lg-8\">\n                <ul class=\"ao-nav\">\n                    <li v-for=\"link in links\">\n                        <nuxt-link :to=\"'projetos' + link.href\">\n                            {{ link.text }}\n                        </nuxt-link>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </main>\n</template>\n\n<style>\n    /* #mandado{\n        top: -50vh;\n        rotate: -15deg;\n        right: 94vw;\n    } */\n</style>",
+      "start": 1719459714270,
+      "end": 1719459714297,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1719459714297,
+      "end": 1719459714297,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1719459714297,
+      "end": 1719459714297,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1719459714297,
+      "end": 1719459714297,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1719459714297,
+      "end": 1719459714297,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1719459714297,
+      "end": 1719459714297,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1719459714297,
+      "end": 1719459714297,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1719459714297,
+      "end": 1719459714297,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1719459714297,
+      "end": 1719459714297,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1719459714297,
+      "end": 1719459714297,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import { resolveComponent as _resolveComponent, withCtx as _withCtx, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\n\nimport { useRoute } from 'vue-router';\n\n    \nconst _sfc_main = {\n  __name: 'index',\n  __ssrInlineRender: true,\n  setup(__props) {\n\n    const links = [\n        {href: '/grupo-paes', text: 'Grupo Paes.'},\n        {href: '/hyundai', text: 'Hyundai.'},\n        {href: '/paraiso-feminino', text: 'Paraíso Feminino.'},\n        {href: '/pratic-app', text: 'Pratic App'}\n    ]\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_nuxt_link = _resolveComponent(\"nuxt-link\")\n\n  _push(`<main${_ssrRenderAttrs(_mergeProps({ class: \"container-fluid my-content\" }, _attrs))}><div class=\"row\"><div class=\"offset-lg-2 col-lg-8\"><ul class=\"ao-nav\"><!--[-->`)\n  _ssrRenderList(links, (link) => {\n    _push(`<li>`)\n    _push(_ssrRenderComponent(_component_nuxt_link, {\n      to: 'projetos' + link.href\n    }, {\n      default: _withCtx((_, _push, _parent, _scopeId) => {\n        if (_push) {\n          _push(`${_ssrInterpolate(link.text)}`)\n        } else {\n          return [\n            _createTextVNode(_toDisplayString(link.text), 1)\n          ]\n        }\n      }),\n      _: 2\n    }, _parent))\n    _push(`</li>`)\n  })\n  _push(`<!--]--></ul></div></div></main>`)\n}\n}\n\n}\n\n\nimport \"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/index.vue?vue&type=style&index=0&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/projetos/index.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
+      "start": 1719459714297,
+      "end": 1719459714299,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/diegoalmeida/Projetos/portfolio/pages/projetos/index.vue"
+        ],
+        "sourcesContent": [
+          "<script setup>\n    import { useRoute } from 'vue-router';\n\n    const links = [\n        {href: '/grupo-paes', text: 'Grupo Paes.'},\n        {href: '/hyundai', text: 'Hyundai.'},\n        {href: '/paraiso-feminino', text: 'Paraíso Feminino.'},\n        {href: '/pratic-app', text: 'Pratic App'}\n    ]\n</script>\n\n<template>\n    <main class=\"container-fluid my-content\">\n        <div class=\"row\">\n            <div class=\"offset-lg-2 col-lg-8\">\n                <ul class=\"ao-nav\">\n                    <li v-for=\"link in links\">\n                        <nuxt-link :to=\"'projetos' + link.href\">\n                            {{ link.text }}\n                        </nuxt-link>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </main>\n</template>\n\n<style>\n    /* #mandado{\n        top: -50vh;\n        rotate: -15deg;\n        right: 94vw;\n    } */\n</style>"
+        ],
+        "names": [],
+        "mappings": ";;;AACI,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1C;AACA,CAAC,CAAC,CAAC;;;;;AAHW;AACd,CAAC,CAAC,CAAC,CAEC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC/D,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjD,CAAC,CAAC,CAAC,CAAC,CAAC;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1719459714299,
+      "end": 1719459714299,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1719459714299,
+      "end": 1719459714299,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1719459714299,
+      "end": 1719459714299,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1719459714299,
+      "end": 1719459714299,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1719459714299,
+      "end": 1719459714300,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1719459714301,
+      "end": 1719459714301,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1719459714301,
+      "end": 1719459714301,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1719459714301,
+      "end": 1719459714301,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1719459714302,
+      "end": 1719459714302,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1719459714302,
+      "end": 1719459714302,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1719459714302,
+      "end": 1719459714302,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1719459714302,
+      "end": 1719459714302,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1719459714302,
+      "end": 1719459714302,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1719459714302,
+      "end": 1719459714302,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1719459714302,
+      "end": 1719459714302,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1719459714302,
+      "end": 1719459714302,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1719459714302,
+      "end": 1719459714302,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1719459714302,
+      "end": 1719459714302,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1719459714302,
+      "end": 1719459714303,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1719459714302,
+      "end": 1719459714303,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1719459714303,
+      "end": 1719459714303,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1719459714303,
+      "end": 1719459714303,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
+      "start": 1719459714303,
+      "end": 1719459714304,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA;AAAA;AAAA;AAAA"
+      }
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
+      "start": 1719459714303,
+      "end": 1719459714304,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA;AAAA;AAAA;AAAA"
+      }
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1719459714304,
+      "end": 1719459714304,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1719459714304,
+      "end": 1719459714304,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1719459714304,
+      "end": 1719459714304,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1719459714304,
+      "end": 1719459714304,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1719459714304,
+      "end": 1719459714304,
+      "order": "normal"
+    }
+  ]
+}

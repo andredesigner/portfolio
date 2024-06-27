@@ -1,0 +1,215 @@
+{
+  "resolvedId": "/Users/diegoalmeida/Projetos/portfolio/app.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<script setup>\n</script>\n\n<template>\n    <NuxtLayout>\n        <NuxtPage />\n    </NuxtLayout>\n</template>\n\n<style>\n.layout-leave-active\n.layout-leave-to{\n\n    transition: all 1s;\n\n    /* .ao-content-home{\n        animation: hidden .6s forwards;\n        transition: all 1s;\n    } */\n\n    /* .ao-content{\n        animation: pageup .6s forwards;\n        transition: all 1s;\n    } */\n}\n\n.layout-enter-active,\n.layout-enter-from{\n\n    transition: all 1s;\n\n    /* .ao-content-home{\n        animation: show .8s forwards;\n        transition: all 1s;\n    } */\n    \n    /* .ao-content{\n        animation: pagedown .6s forwards;\n        transition: all 1s;\n    }    */\n}\n\n@keyframes pageup {\n    from{\n        opacity: 1;\n        translate: 0 0vh;\n    }\n\n    to{\n        opacity: 0;\n        translate: 0 100vh;\n    }   \n}\n\n@keyframes pagedown {\n    from{\n        opacity: 1;\n        translate: 0 100vh;\n    }\n\n    to{\n        translate: 0 0vh;\n    }   \n}\n\n@keyframes show {\n    from{\n        opacity: 0;\n    }\n\n    to{\n        opacity: 1;\n    }   \n}\n\n@keyframes hidden {\n    from{\n        opacity: 1;\n    }\n\n    to{\n        opacity: 0;\n    }   \n}\n</style>\n",
+      "start": 1719459711787,
+      "end": 1719459711876,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1719459711876,
+      "end": 1719459711876,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1719459711876,
+      "end": 1719459711876,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1719459711876,
+      "end": 1719459711876,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1719459711876,
+      "end": 1719459711876,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1719459711876,
+      "end": 1719459711876,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1719459711876,
+      "end": 1719459711876,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1719459711876,
+      "end": 1719459711876,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtPage = _resolveComponent(\"NuxtPage\")\n  const _component_NuxtLayout = _resolveComponent(\"NuxtLayout\")\n\n  return (_openBlock(), _createBlock(_component_NuxtLayout, null, {\n    default: _withCtx(() => [\n      _createVNode(_component_NuxtPage)\n    ]),\n    _: 1\n  }))\n}\n\nimport \"/Users/diegoalmeida/Projetos/portfolio/app.vue?vue&type=style&index=0&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1719459711876,
+      "end": 1719459711877,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1719459711877,
+      "end": 1719459711877,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1719459711877,
+      "end": 1719459711877,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1719459711877,
+      "end": 1719459711877,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1719459711877,
+      "end": 1719459711877,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1719459711877,
+      "end": 1719459711877,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1719459711877,
+      "end": 1719459711877,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1719459711877,
+      "end": 1719459711877,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1719459711877,
+      "end": 1719459711877,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1719459711877,
+      "end": 1719459711877,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1719459711877,
+      "end": 1719459711877,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1719459711877,
+      "end": 1719459711877,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1719459711877,
+      "end": 1719459711877,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1719459711877,
+      "end": 1719459711877,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1719459711877,
+      "end": 1719459711877,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1719459711877,
+      "end": 1719459711877,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1719459711877,
+      "end": 1719459711877,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1719459711877,
+      "end": 1719459711878,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1719459711878,
+      "end": 1719459711878,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1719459711878,
+      "end": 1719459711878,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1719459711878,
+      "end": 1719459711878,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1719459711878,
+      "end": 1719459711878,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"/Users/diegoalmeida/Projetos/portfolio/node_modules/nuxt/dist/pages/runtime/page\";\nimport { default as __nuxt_component_1 } from \"/Users/diegoalmeida/Projetos/portfolio/node_modules/nuxt/dist/app/components/nuxt-layout\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtPage = __nuxt_component_0\n  const _component_NuxtLayout = __nuxt_component_1\n\n  return (_openBlock(), _createBlock(_component_NuxtLayout, null, {\n    default: _withCtx(() => [\n      _createVNode(_component_NuxtPage)\n    ]),\n    _: 1\n  }))\n}\n\nimport \"/Users/diegoalmeida/Projetos/portfolio/app.vue?vue&type=style&index=0&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1719459711878,
+      "end": 1719459711878,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1719459711878,
+      "end": 1719459711878,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1719459711878,
+      "end": 1719459711878,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1719459711878,
+      "end": 1719459711878,
+      "order": "normal"
+    }
+  ]
+}
