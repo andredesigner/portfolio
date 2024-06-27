@@ -20,7 +20,7 @@
             <picture>
                 <NuxtImg
                     src="/img-project.png"
-                    class="mb-4"
+                    class="mb-4 in-up"
                 />
             </picture>
         </div>

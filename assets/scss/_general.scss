@@ -36,7 +36,6 @@
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-        animation: in ease-out .7s;
 
         p{
             margin-bottom: 0;
@@ -44,7 +43,7 @@
 
         .title{
             font-family: $font-title;
-            margin-bottom: 20vh;
+            margin-bottom: 21vh;
             margin-top: 40vh;
             font-weight: 400;
 
@@ -190,13 +189,22 @@
 
     .ao-btn{
         padding: 8px 24px;
-        background: #3E5FAA;
-        backdrop-filter: blur(6px);
-        border-radius: 2px;
+        border-radius: 4px;
         font-size: 18px;
         font-weight: 400;
-        color: $brandcolor3;
         text-decoration: none;
+
+        &-border{
+            border: 1px solid #3E5FAA;
+            background-color: $brandcolor3;
+            backdrop-filter: blur(6px);
+            color: #3E5FAA;
+        }
+
+        &-fill{
+            background-color: #3E5FAA;
+            color: $brandcolor3;
+        }
     }
 
     .element-in{
@@ -216,14 +224,38 @@
     }
 }
 
-@keyframes in {
+.in-up{
+    animation: in-up ease-out .6s;
+}
+
+.in-down{
+    animation: in-down ease-in .8s;
+}
+
+@keyframes in-up {
     from{
         translate: 0 40px;
         opacity: 0;
+        filter: blur(2px);
     }
 
     to{
         translate: 0 0;
         opacity: 1;
+        filter: blur(0);
+    }
+}
+
+@keyframes in-down {
+    from{
+        translate: 0 -20px;
+        opacity: 0;
+        filter: blur(2px);
+    }
+
+    to{
+        translate: 0 0;
+        opacity: 1;
+        filter: blur(0);
     }
 }

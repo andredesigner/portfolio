@@ -9,12 +9,12 @@
         <NuxtLink class="my-logo" to="/">
             <AoLogo class="in-top-bottom"></AoLogo>
         </Nuxtlink>
-        <NuxtLink class="in-top-bottom ao-btn" id="talk-to-me" to="/fale-comigo" v-if="$route.name != 'fale-comigo'">Fale comigo</NuxtLink>
+        <NuxtLink class="in-top-bottom ao-btn ao-btn-border" id="talk-to-me" to="/fale-comigo" v-if="$route.name != 'fale-comigo'">Fale comigo</NuxtLink>
     </header>
     <div class="container-fluid" v-if="$route.name == 'index'">
         <div class="row">
             <div class="offset-2 col offset-lg-2 col-lg-7">
-                <p class="first-element-page">
+                <p class="first-element-page in-down">
                     Olá, <br> seja bem vindo.
                 </p>                
             </div>
@@ -23,7 +23,7 @@
     <div class="container-fluid" v-else>
         <div class="row">
             <div class="offset-2 col offset-lg-2 col-lg-9">
-                <div class="first-element-page position-fixed">
+                <div class="first-element-page position-fixed in-down">
                     <nuxt-link
                         class="d-inline-block mr-3"
                         to="/" >

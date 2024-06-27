@@ -26,7 +26,7 @@
             <label for="message" class="ao-form-label form-label">Você gosta de café?</label>
             <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
           </div>
-          <button type="submit" class="btn ao-btn">Enviar</button>
+          <button type="submit" class="btn ao-btn ao-btn-fill">Enviar</button>
         </form>
       </div>
     </div>

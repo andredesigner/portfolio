@@ -14,7 +14,7 @@
     <main class="container-fluid">
         <div class="row">
             <div class="offset-lg-2 col-lg-8">
-                <div class="hero"> 
+                <div class="hero in-up"> 
                     <h1 class="title in-top-bottom">Designer de produtos digitais com experiência em criação de marca e desenvolvimento.</h1>
                 </div>
             </div>
