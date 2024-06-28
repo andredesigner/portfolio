@@ -1,15 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  
   image: {
     provider: 'netlify',
     netlify: {
       baseURl: process.env.IMAGES_URL
     }
-  },
-  devServer: {
-    port: 8000, // default: 3000     
-    host: '0.0.0.0', 
   },
   app: {
     head: {
@@ -32,14 +27,10 @@ export default defineNuxtConfig({
     "bootstrap/dist/css/bootstrap.min.css",
     "/assets/scss/main.scss"
   ],
-  vite: {
-    define: {
-      'process.env.DEBUG': false,
-    },
-  },
   modules: [
     "@nuxt/image",
-    '@hypernym/nuxt-gsap'
+    '@hypernym/nuxt-gsap',
+    '@nuxt/devtools',
   ],
 
   gsap: {

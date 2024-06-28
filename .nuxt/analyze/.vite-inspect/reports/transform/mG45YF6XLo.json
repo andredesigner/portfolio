@@ -3,58 +3,58 @@
   "transforms": [
     {
       "name": "vite:load-fallback",
-      "result": "<script setup>\n\n</script>\n\n<template>\n  <main class=\"container-fluid my-content\">\n    <div class=\"row\">\n      <div class=\"offset-lg-2 col-lg-3\">\n        <h1>Designer de produtos digitais com experiência em criação de marca e desenvolvimento.</h1>\n      </div>\n      <div class=\"offset-lg-1 col-lg-4\">\n        <p>\n          Experiência profissional de mais de 10 anos no digital em visual design. Trabalhou em times gerenciados com base em metodologias ágeis e produtos escaláveis, participou do processo end-to-end. Contribuiu em agência, startups e e-commerce.\n          <br><br>A capacidade de desenvolver o front-end se deu com a necessidade de entregar além dos desenhos de interfaces e com aprendizados com desenvolvedores incríveis.Como forma de estudo esse portfólio foi desenvolvido com <a href=\"https://nuxt.com/\" target=\"_blank\">Nuxt</a>.\n          <br><br>Possui experiência com criação de identidade visual.\n          Última experiência profissional na <a href=\"https://www.innocean.com/br-en/\" target=\"_blank\">Innocean</a>, uma agência de publicidade, onde eu atendia a <a href=\"https://hyundai.com.br/\" target=\"_blank\"> Hyundai</a>, junto do time de digital.\n        </p>\n        <picture>\n          <NuxtImg\n            src=\"/andre-oliveira-designer.png\"\n          />\n        </picture>\n      </div>\n      <div class=\"offset-lg-2 col-lg-3\">\n        <h1>Além do trabalho e para o trabalho.</h1>\n      </div>\n      <div class=\"offset-lg-1 col-lg-4\">\n        <p>\n          Treino Crossfit e jiu-jitsu. Atualmente estou tentando encontrar a melhor forma de conciliar os dois treinos durante a semana. Correr ou caminhar no parque, para mim, é uma terapia.\n          <br><br>Sou apreciador de carros, seja antigo (lazanhona) ou novo. O céu com sua imensidão e cores me hipnotiza. Eu tenho algo platônico pelos cachorros de rua que não sei explicar.\n          <br><br>Veja os meus projetos.\n        </p>\n        <ul class=\"ao-nav\">\n          <li>\n            <nuxt-link to=\"/projetos\">Projetos</nuxt-link>\n          </li>\n        </ul>\n      </div>\n    </div>\n  </main>\n</template>\n\n<style scoped>\n  img{\n    margin-bottom: 10vh;\n  }\n\n  #mandado{\n    top: -150vh;\n    rotate: -55deg;\n    right: 70vw;\n  }\n\n</style>",
-      "start": 1719459711741,
-      "end": 1719459711814,
+      "result": "<script setup>\n\n</script>\n\n<template>\n  <main class=\"container-fluid my-content\">\n    <div class=\"row\">\n      <div class=\"offset-lg-2 col-lg-3\">\n        <h1>Designer de produtos digitais com experiência em criação de marca e desenvolvimento.</h1>\n      </div>\n      <div class=\"offset-lg-1 col-lg-4\">\n        <p>\n          Experiência profissional de mais de 10 anos no digital em visual design. Trabalhou em times gerenciados com base em metodologias ágeis e produtos escaláveis, participou do processo end-to-end. Contribuiu em agência, startups e e-commerce.\n          <br><br>A capacidade de desenvolver o front-end se deu com a necessidade de entregar além dos desenhos de interfaces e com aprendizados com desenvolvedores incríveis.Como forma de estudo esse portfólio foi desenvolvido com <a href=\"https://nuxt.com/\" target=\"_blank\">Nuxt</a>.\n          <br><br>Possui experiência com criação de identidade visual. Última experiência profissional na <a href=\"https://www.innocean.com/br-en/\" target=\"_blank\">Innocean</a>, uma agência de publicidade, onde eu atendia a <a href=\"https://hyundai.com.br/\" target=\"_blank\"> Hyundai</a>, junto do time de digital.\n          <br><br>Veja os meus projetos.\n        </p>\n        <nuxt-link class=\"ao-btn ao-btn-border\" to=\"/projetos\">Projetos</nuxt-link>\n      </div>\n      <div class=\"offset-lg-6 col-lg-4 col-8 \">\n        <picture>\n          <NuxtImg\n            src=\"/andre-oliveira-designer.png\"\n          />\n        </picture>\n      </div>\n      <div class=\"offset-lg-2 col-lg-3\">\n        <h1>Além do trabalho e para o trabalho.</h1>\n      </div>\n      <div class=\"offset-lg-1 col-lg-4\">\n        <p>\n          Treino Crossfit e jiu-jitsu. Atualmente estou tentando encontrar a melhor forma de conciliar os dois treinos durante a semana. Correr ou caminhar no parque, para mim, é uma terapia.\n          <br><br>Sou apreciador de carros, seja antigo (lazanhona) ou novo. O céu com sua imensidão e cores me hipnotiza. Eu tenho algo platônico pelos cachorros de rua que não sei explicar.\n        </p>\n      </div>\n    </div>\n  </main>\n</template>\n\n<style scoped>\n  img{\n    margin-bottom: 10vh;\n  }\n\n  #mandado{\n    top: -150vh;\n    rotate: -55deg;\n    right: 70vw;\n  }\n\n  .ao-btn{\n    margin-bottom: 10vh;\n  }\n\n</style>",
+      "start": 1719586411199,
+      "end": 1719586412015,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1719459711815,
-      "end": 1719459711815,
+      "start": 1719586412015,
+      "end": 1719586412015,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1719459711815,
-      "end": 1719459711815,
+      "start": 1719586412015,
+      "end": 1719586412015,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1719459711815,
-      "end": 1719459711815,
+      "start": 1719586412015,
+      "end": 1719586412015,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1719459711815,
-      "end": 1719459711815,
+      "start": 1719586412015,
+      "end": 1719586412015,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1719459711815,
-      "end": 1719459711815,
+      "start": 1719586412015,
+      "end": 1719586412015,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1719459711815,
-      "end": 1719459711815,
+      "start": 1719586412015,
+      "end": 1719586412015,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1719459711815,
-      "end": 1719459711815,
+      "start": 1719586412015,
+      "end": 1719586412015,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, withCtx as _withCtx, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-70df7dd7\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"container-fluid my-content\" }\nconst _hoisted_2 = { class: \"row\" }\nconst _hoisted_3 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"offset-lg-2 col-lg-3\" }, [\n  /*#__PURE__*/_createElementVNode(\"h1\", null, \"Designer de produtos digitais com experiência em criação de marca e desenvolvimento.\")\n], -1))\nconst _hoisted_4 = { class: \"offset-lg-1 col-lg-4\" }\nconst _hoisted_5 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", null, [\n  /*#__PURE__*/_createTextVNode(\" Experiência profissional de mais de 10 anos no digital em visual design. Trabalhou em times gerenciados com base em metodologias ágeis e produtos escaláveis, participou do processo end-to-end. Contribuiu em agência, startups e e-commerce. \"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createTextVNode(\"A capacidade de desenvolver o front-end se deu com a necessidade de entregar além dos desenhos de interfaces e com aprendizados com desenvolvedores incríveis.Como forma de estudo esse portfólio foi desenvolvido com \"),\n  /*#__PURE__*/_createElementVNode(\"a\", {\n    href: \"https://nuxt.com/\",\n    target: \"_blank\"\n  }, \"Nuxt\"),\n  /*#__PURE__*/_createTextVNode(\". \"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createTextVNode(\"Possui experiência com criação de identidade visual. Última experiência profissional na \"),\n  /*#__PURE__*/_createElementVNode(\"a\", {\n    href: \"https://www.innocean.com/br-en/\",\n    target: \"_blank\"\n  }, \"Innocean\"),\n  /*#__PURE__*/_createTextVNode(\", uma agência de publicidade, onde eu atendia a \"),\n  /*#__PURE__*/_createElementVNode(\"a\", {\n    href: \"https://hyundai.com.br/\",\n    target: \"_blank\"\n  }, \" Hyundai\"),\n  /*#__PURE__*/_createTextVNode(\", junto do time de digital. \")\n], -1))\nconst _hoisted_6 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"offset-lg-2 col-lg-3\" }, [\n  /*#__PURE__*/_createElementVNode(\"h1\", null, \"Além do trabalho e para o trabalho.\")\n], -1))\nconst _hoisted_7 = { class: \"offset-lg-1 col-lg-4\" }\nconst _hoisted_8 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", null, [\n  /*#__PURE__*/_createTextVNode(\" Treino Crossfit e jiu-jitsu. Atualmente estou tentando encontrar a melhor forma de conciliar os dois treinos durante a semana. Correr ou caminhar no parque, para mim, é uma terapia. \"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createTextVNode(\"Sou apreciador de carros, seja antigo (lazanhona) ou novo. O céu com sua imensidão e cores me hipnotiza. Eu tenho algo platônico pelos cachorros de rua que não sei explicar. \"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createTextVNode(\"Veja os meus projetos. \")\n], -1))\nconst _hoisted_9 = { class: \"ao-nav\" }\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtImg = _resolveComponent(\"NuxtImg\")\n  const _component_nuxt_link = _resolveComponent(\"nuxt-link\")\n\n  return (_openBlock(), _createElementBlock(\"main\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _hoisted_3,\n      _createElementVNode(\"div\", _hoisted_4, [\n        _hoisted_5,\n        _createElementVNode(\"picture\", null, [\n          _createVNode(_component_NuxtImg, { src: \"/andre-oliveira-designer.png\" })\n        ])\n      ]),\n      _hoisted_6,\n      _createElementVNode(\"div\", _hoisted_7, [\n        _hoisted_8,\n        _createElementVNode(\"ul\", _hoisted_9, [\n          _createElementVNode(\"li\", null, [\n            _createVNode(_component_nuxt_link, { to: \"/projetos\" }, {\n              default: _withCtx(() => [\n                _createTextVNode(\"Projetos\")\n              ]),\n              _: 1\n            })\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\nimport \"/Users/diegoalmeida/Projetos/portfolio/pages/sobre.vue?vue&type=style&index=0&scoped=70df7dd7&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',\"data-v-70df7dd7\"]])",
-      "start": 1719459711815,
-      "end": 1719459711816,
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-4fe6a2c1\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"container-fluid my-content\" }\nconst _hoisted_2 = { class: \"row\" }\nconst _hoisted_3 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"offset-lg-2 col-lg-3\" }, [\n  /*#__PURE__*/_createElementVNode(\"h1\", null, \"Designer de produtos digitais com experiência em criação de marca e desenvolvimento.\")\n], -1))\nconst _hoisted_4 = { class: \"offset-lg-1 col-lg-4\" }\nconst _hoisted_5 = /*#__PURE__*/_createStaticVNode(\"<p data-v-4fe6a2c1> Experiência profissional de mais de 10 anos no digital em visual design. Trabalhou em times gerenciados com base em metodologias ágeis e produtos escaláveis, participou do processo end-to-end. Contribuiu em agência, startups e e-commerce. <br data-v-4fe6a2c1><br data-v-4fe6a2c1>A capacidade de desenvolver o front-end se deu com a necessidade de entregar além dos desenhos de interfaces e com aprendizados com desenvolvedores incríveis.Como forma de estudo esse portfólio foi desenvolvido com <a href=\\\"https://nuxt.com/\\\" target=\\\"_blank\\\" data-v-4fe6a2c1>Nuxt</a>. <br data-v-4fe6a2c1><br data-v-4fe6a2c1>Possui experiência com criação de identidade visual. Última experiência profissional na <a href=\\\"https://www.innocean.com/br-en/\\\" target=\\\"_blank\\\" data-v-4fe6a2c1>Innocean</a>, uma agência de publicidade, onde eu atendia a <a href=\\\"https://hyundai.com.br/\\\" target=\\\"_blank\\\" data-v-4fe6a2c1> Hyundai</a>, junto do time de digital. <br data-v-4fe6a2c1><br data-v-4fe6a2c1>Veja os meus projetos. </p>\", 1)\nconst _hoisted_6 = { class: \"offset-lg-6 col-lg-4 col-8\" }\nconst _hoisted_7 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"offset-lg-2 col-lg-3\" }, [\n  /*#__PURE__*/_createElementVNode(\"h1\", null, \"Além do trabalho e para o trabalho.\")\n], -1))\nconst _hoisted_8 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"offset-lg-1 col-lg-4\" }, [\n  /*#__PURE__*/_createElementVNode(\"p\", null, [\n    /*#__PURE__*/_createTextVNode(\" Treino Crossfit e jiu-jitsu. Atualmente estou tentando encontrar a melhor forma de conciliar os dois treinos durante a semana. Correr ou caminhar no parque, para mim, é uma terapia. \"),\n    /*#__PURE__*/_createElementVNode(\"br\"),\n    /*#__PURE__*/_createElementVNode(\"br\"),\n    /*#__PURE__*/_createTextVNode(\"Sou apreciador de carros, seja antigo (lazanhona) ou novo. O céu com sua imensidão e cores me hipnotiza. Eu tenho algo platônico pelos cachorros de rua que não sei explicar. \")\n  ])\n], -1))\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_nuxt_link = _resolveComponent(\"nuxt-link\")\n  const _component_NuxtImg = _resolveComponent(\"NuxtImg\")\n\n  return (_openBlock(), _createElementBlock(\"main\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _hoisted_3,\n      _createElementVNode(\"div\", _hoisted_4, [\n        _hoisted_5,\n        _createVNode(_component_nuxt_link, {\n          class: \"ao-btn ao-btn-border\",\n          to: \"/projetos\"\n        }, {\n          default: _withCtx(() => [\n            _createTextVNode(\"Projetos\")\n          ]),\n          _: 1\n        })\n      ]),\n      _createElementVNode(\"div\", _hoisted_6, [\n        _createElementVNode(\"picture\", null, [\n          _createVNode(_component_NuxtImg, { src: \"/andre-oliveira-designer.png\" })\n        ])\n      ]),\n      _hoisted_7,\n      _hoisted_8\n    ])\n  ]))\n}\n\nimport \"/Users/diegoalmeida/Projetos/portfolio/pages/sobre.vue?vue&type=style&index=0&scoped=4fe6a2c1&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',\"data-v-4fe6a2c1\"]])",
+      "start": 1719586412015,
+      "end": 1719586412017,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,117 +62,117 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1719459711816,
-      "end": 1719459711816,
+      "start": 1719586412017,
+      "end": 1719586412017,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1719459711816,
-      "end": 1719459711816,
+      "start": 1719586412017,
+      "end": 1719586412017,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1719459711816,
-      "end": 1719459711816,
+      "start": 1719586412017,
+      "end": 1719586412017,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1719459711816,
-      "end": 1719459711816,
+      "start": 1719586412017,
+      "end": 1719586412017,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1719459711816,
-      "end": 1719459711816,
+      "start": 1719586412017,
+      "end": 1719586412017,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1719459711816,
-      "end": 1719459711816,
+      "start": 1719586412017,
+      "end": 1719586412017,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1719459711816,
-      "end": 1719459711816,
+      "start": 1719586412017,
+      "end": 1719586412017,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1719459711816,
-      "end": 1719459711816,
+      "start": 1719586412017,
+      "end": 1719586412017,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1719459711816,
-      "end": 1719459711816,
+      "start": 1719586412017,
+      "end": 1719586412017,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1719459711816,
-      "end": 1719459711816,
+      "start": 1719586412017,
+      "end": 1719586412017,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1719459711816,
-      "end": 1719459711816,
+      "start": 1719586412017,
+      "end": 1719586412017,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1719459711816,
-      "end": 1719459711816,
+      "start": 1719586412017,
+      "end": 1719586412017,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1719459711816,
-      "end": 1719459711816,
+      "start": 1719586412017,
+      "end": 1719586412017,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1719459711816,
-      "end": 1719459711816,
+      "start": 1719586412017,
+      "end": 1719586412017,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1719459711816,
-      "end": 1719459711816,
+      "start": 1719586412017,
+      "end": 1719586412017,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1719459711816,
-      "end": 1719459711816,
+      "start": 1719586412017,
+      "end": 1719586412017,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1719459711816,
-      "end": 1719459711817,
+      "start": 1719586412017,
+      "end": 1719586412018,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1719459711817,
-      "end": 1719459711817,
+      "start": 1719586412018,
+      "end": 1719586412018,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
       "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
-      "start": 1719459711817,
-      "end": 1719459711817,
+      "start": 1719586412018,
+      "end": 1719586412018,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -185,38 +185,38 @@
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1719459711818,
-      "end": 1719459711818,
+      "start": 1719586412018,
+      "end": 1719586412018,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1719459711818,
-      "end": 1719459711818,
+      "start": 1719586412018,
+      "end": 1719586412018,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1719459711818,
-      "end": 1719459711818,
+      "start": 1719586412018,
+      "end": 1719586412019,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1719459711818,
-      "end": 1719459711818,
+      "start": 1719586412019,
+      "end": 1719586412019,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1719459711818,
-      "end": 1719459711818,
+      "start": 1719586412019,
+      "end": 1719586412019,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1719459711818,
-      "end": 1719459711818,
+      "start": 1719586412019,
+      "end": 1719586412019,
       "order": "normal"
     }
   ]

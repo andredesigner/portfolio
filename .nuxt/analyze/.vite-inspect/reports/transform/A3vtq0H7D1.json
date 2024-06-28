@@ -4,208 +4,208 @@
     {
       "name": "virtual",
       "result": "import { default as fale_45comigozUWPYqtFzJMeta } from \"/Users/diegoalmeida/Projetos/portfolio/pages/fale-comigo.vue?macro=true\";\nimport { default as indexmk7V809PK7Meta } from \"/Users/diegoalmeida/Projetos/portfolio/pages/index.vue?macro=true\";\nimport { default as grupo_45paesaNnCLNLcsDMeta } from \"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/grupo-paes.vue?macro=true\";\nimport { default as hyundaim50Jzzk33IMeta } from \"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/hyundai.vue?macro=true\";\nimport { default as index1KaYusgi4lMeta } from \"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/index.vue?macro=true\";\nimport { default as paraiso_45femininooGqKpG4vQxMeta } from \"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/paraiso-feminino.vue?macro=true\";\nimport { default as pratic_45appb9MIMnHAvzMeta } from \"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/pratic-app.vue?macro=true\";\nimport { default as sobrezHD51hBvr7Meta } from \"/Users/diegoalmeida/Projetos/portfolio/pages/sobre.vue?macro=true\";\nexport default [\n  {\n    name: fale_45comigozUWPYqtFzJMeta?.name ?? \"fale-comigo\",\n    path: fale_45comigozUWPYqtFzJMeta?.path ?? \"/fale-comigo\",\n    meta: fale_45comigozUWPYqtFzJMeta || {},\n    alias: fale_45comigozUWPYqtFzJMeta?.alias || [],\n    redirect: fale_45comigozUWPYqtFzJMeta?.redirect,\n    component: () => import(\"/Users/diegoalmeida/Projetos/portfolio/pages/fale-comigo.vue\").then(m => m.default || m)\n  },\n  {\n    name: indexmk7V809PK7Meta?.name ?? \"index\",\n    path: indexmk7V809PK7Meta?.path ?? \"/\",\n    meta: indexmk7V809PK7Meta || {},\n    alias: indexmk7V809PK7Meta?.alias || [],\n    redirect: indexmk7V809PK7Meta?.redirect,\n    component: () => import(\"/Users/diegoalmeida/Projetos/portfolio/pages/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: grupo_45paesaNnCLNLcsDMeta?.name ?? \"projetos-grupo-paes\",\n    path: grupo_45paesaNnCLNLcsDMeta?.path ?? \"/projetos/grupo-paes\",\n    meta: grupo_45paesaNnCLNLcsDMeta || {},\n    alias: grupo_45paesaNnCLNLcsDMeta?.alias || [],\n    redirect: grupo_45paesaNnCLNLcsDMeta?.redirect,\n    component: () => import(\"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/grupo-paes.vue\").then(m => m.default || m)\n  },\n  {\n    name: hyundaim50Jzzk33IMeta?.name ?? \"projetos-hyundai\",\n    path: hyundaim50Jzzk33IMeta?.path ?? \"/projetos/hyundai\",\n    meta: hyundaim50Jzzk33IMeta || {},\n    alias: hyundaim50Jzzk33IMeta?.alias || [],\n    redirect: hyundaim50Jzzk33IMeta?.redirect,\n    component: () => import(\"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/hyundai.vue\").then(m => m.default || m)\n  },\n  {\n    name: index1KaYusgi4lMeta?.name ?? \"projetos\",\n    path: index1KaYusgi4lMeta?.path ?? \"/projetos\",\n    meta: index1KaYusgi4lMeta || {},\n    alias: index1KaYusgi4lMeta?.alias || [],\n    redirect: index1KaYusgi4lMeta?.redirect,\n    component: () => import(\"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: paraiso_45femininooGqKpG4vQxMeta?.name ?? \"projetos-paraiso-feminino\",\n    path: paraiso_45femininooGqKpG4vQxMeta?.path ?? \"/projetos/paraiso-feminino\",\n    meta: paraiso_45femininooGqKpG4vQxMeta || {},\n    alias: paraiso_45femininooGqKpG4vQxMeta?.alias || [],\n    redirect: paraiso_45femininooGqKpG4vQxMeta?.redirect,\n    component: () => import(\"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/paraiso-feminino.vue\").then(m => m.default || m)\n  },\n  {\n    name: pratic_45appb9MIMnHAvzMeta?.name ?? \"projetos-pratic-app\",\n    path: pratic_45appb9MIMnHAvzMeta?.path ?? \"/projetos/pratic-app\",\n    meta: pratic_45appb9MIMnHAvzMeta || {},\n    alias: pratic_45appb9MIMnHAvzMeta?.alias || [],\n    redirect: pratic_45appb9MIMnHAvzMeta?.redirect,\n    component: () => import(\"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/pratic-app.vue\").then(m => m.default || m)\n  },\n  {\n    name: sobrezHD51hBvr7Meta?.name ?? \"sobre\",\n    path: sobrezHD51hBvr7Meta?.path ?? \"/sobre\",\n    meta: sobrezHD51hBvr7Meta || {},\n    alias: sobrezHD51hBvr7Meta?.alias || [],\n    redirect: sobrezHD51hBvr7Meta?.redirect,\n    component: () => import(\"/Users/diegoalmeida/Projetos/portfolio/pages/sobre.vue\").then(m => m.default || m)\n  }\n]",
-      "start": 1719459711012,
-      "end": 1719459711012,
+      "start": 1719586410814,
+      "end": 1719586410814,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1719459711012,
-      "end": 1719459711012,
+      "start": 1719586410814,
+      "end": 1719586410814,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1719459711012,
-      "end": 1719459711012,
+      "start": 1719586410814,
+      "end": 1719586410814,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1719459711012,
-      "end": 1719459711012,
+      "start": 1719586410814,
+      "end": 1719586410815,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1719459711012,
-      "end": 1719459711012,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1719459711012,
-      "end": 1719459711012,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1719459711012,
-      "end": 1719459711012,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1719459711012,
-      "end": 1719459711012,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1719459711012,
-      "end": 1719459711012,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1719459711012,
-      "end": 1719459711012,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1719459711012,
-      "end": 1719459711012,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1719459711013,
-      "end": 1719459711013,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1719459711013,
-      "end": 1719459711013,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1719459711013,
-      "end": 1719459711013,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1719459711013,
-      "end": 1719459711013,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1719459711013,
-      "end": 1719459711013,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1719459711013,
-      "end": 1719459711013,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1719459711013,
-      "end": 1719459711013,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1719459711013,
-      "end": 1719459711013,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1719459711013,
-      "end": 1719459711013,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1719459711013,
-      "end": 1719459711013,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1719459711013,
-      "end": 1719459711013,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1719459711013,
-      "end": 1719459711013,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1719459711013,
-      "end": 1719459711013,
+      "start": 1719586410815,
+      "end": 1719586410815,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1719459711013,
-      "end": 1719459711013,
+      "start": 1719586410816,
+      "end": 1719586410816,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1719459711014,
-      "end": 1719459711016,
+      "start": 1719586410816,
+      "end": 1719586410817,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1719459711016,
-      "end": 1719459711016,
+      "start": 1719586410817,
+      "end": 1719586410817,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1719459711016,
-      "end": 1719459711016,
+      "start": 1719586410817,
+      "end": 1719586410817,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1719459711016,
-      "end": 1719459711016,
+      "start": 1719586410817,
+      "end": 1719586410817,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1719459711016,
-      "end": 1719459711016,
+      "start": 1719586410818,
+      "end": 1719586410818,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1719459711016,
-      "end": 1719459711017,
+      "start": 1719586410818,
+      "end": 1719586410818,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1719459711017,
-      "end": 1719459711017,
+      "start": 1719586410818,
+      "end": 1719586410818,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
       "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { default as fale_45comigozUWPYqtFzJMeta } from \"/Users/diegoalmeida/Projetos/portfolio/pages/fale-comigo.vue?macro=true\";\nimport { default as indexmk7V809PK7Meta } from \"/Users/diegoalmeida/Projetos/portfolio/pages/index.vue?macro=true\";\nimport { default as grupo_45paesaNnCLNLcsDMeta } from \"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/grupo-paes.vue?macro=true\";\nimport { default as hyundaim50Jzzk33IMeta } from \"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/hyundai.vue?macro=true\";\nimport { default as index1KaYusgi4lMeta } from \"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/index.vue?macro=true\";\nimport { default as paraiso_45femininooGqKpG4vQxMeta } from \"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/paraiso-feminino.vue?macro=true\";\nimport { default as pratic_45appb9MIMnHAvzMeta } from \"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/pratic-app.vue?macro=true\";\nimport { default as sobrezHD51hBvr7Meta } from \"/Users/diegoalmeida/Projetos/portfolio/pages/sobre.vue?macro=true\";\nexport default [\n  {\n    name: fale_45comigozUWPYqtFzJMeta?.name ?? \"fale-comigo\",\n    path: fale_45comigozUWPYqtFzJMeta?.path ?? \"/fale-comigo\",\n    meta: fale_45comigozUWPYqtFzJMeta || {},\n    alias: fale_45comigozUWPYqtFzJMeta?.alias || [],\n    redirect: fale_45comigozUWPYqtFzJMeta?.redirect,\n    component: () => __vitePreload(() => import(\"/Users/diegoalmeida/Projetos/portfolio/pages/fale-comigo.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: indexmk7V809PK7Meta?.name ?? \"index\",\n    path: indexmk7V809PK7Meta?.path ?? \"/\",\n    meta: indexmk7V809PK7Meta || {},\n    alias: indexmk7V809PK7Meta?.alias || [],\n    redirect: indexmk7V809PK7Meta?.redirect,\n    component: () => __vitePreload(() => import(\"/Users/diegoalmeida/Projetos/portfolio/pages/index.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: grupo_45paesaNnCLNLcsDMeta?.name ?? \"projetos-grupo-paes\",\n    path: grupo_45paesaNnCLNLcsDMeta?.path ?? \"/projetos/grupo-paes\",\n    meta: grupo_45paesaNnCLNLcsDMeta || {},\n    alias: grupo_45paesaNnCLNLcsDMeta?.alias || [],\n    redirect: grupo_45paesaNnCLNLcsDMeta?.redirect,\n    component: () => __vitePreload(() => import(\"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/grupo-paes.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: hyundaim50Jzzk33IMeta?.name ?? \"projetos-hyundai\",\n    path: hyundaim50Jzzk33IMeta?.path ?? \"/projetos/hyundai\",\n    meta: hyundaim50Jzzk33IMeta || {},\n    alias: hyundaim50Jzzk33IMeta?.alias || [],\n    redirect: hyundaim50Jzzk33IMeta?.redirect,\n    component: () => __vitePreload(() => import(\"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/hyundai.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: index1KaYusgi4lMeta?.name ?? \"projetos\",\n    path: index1KaYusgi4lMeta?.path ?? \"/projetos\",\n    meta: index1KaYusgi4lMeta || {},\n    alias: index1KaYusgi4lMeta?.alias || [],\n    redirect: index1KaYusgi4lMeta?.redirect,\n    component: () => __vitePreload(() => import(\"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/index.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: paraiso_45femininooGqKpG4vQxMeta?.name ?? \"projetos-paraiso-feminino\",\n    path: paraiso_45femininooGqKpG4vQxMeta?.path ?? \"/projetos/paraiso-feminino\",\n    meta: paraiso_45femininooGqKpG4vQxMeta || {},\n    alias: paraiso_45femininooGqKpG4vQxMeta?.alias || [],\n    redirect: paraiso_45femininooGqKpG4vQxMeta?.redirect,\n    component: () => __vitePreload(() => import(\"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/paraiso-feminino.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: pratic_45appb9MIMnHAvzMeta?.name ?? \"projetos-pratic-app\",\n    path: pratic_45appb9MIMnHAvzMeta?.path ?? \"/projetos/pratic-app\",\n    meta: pratic_45appb9MIMnHAvzMeta || {},\n    alias: pratic_45appb9MIMnHAvzMeta?.alias || [],\n    redirect: pratic_45appb9MIMnHAvzMeta?.redirect,\n    component: () => __vitePreload(() => import(\"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/pratic-app.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: sobrezHD51hBvr7Meta?.name ?? \"sobre\",\n    path: sobrezHD51hBvr7Meta?.path ?? \"/sobre\",\n    meta: sobrezHD51hBvr7Meta || {},\n    alias: sobrezHD51hBvr7Meta?.alias || [],\n    redirect: sobrezHD51hBvr7Meta?.redirect,\n    component: () => __vitePreload(() => import(\"/Users/diegoalmeida/Projetos/portfolio/pages/sobre.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  }\n]",
-      "start": 1719459711017,
-      "end": 1719459711017,
+      "start": 1719586410818,
+      "end": 1719586410819,
       "order": "normal",
       "sourcemaps": null
     },
     {
       "name": "vite:reporter",
-      "start": 1719459711017,
-      "end": 1719459711017,
+      "start": 1719586410819,
+      "end": 1719586410819,
       "order": "normal"
     }
   ]

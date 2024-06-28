@@ -1,1 +1,0 @@
-import{_ as t}from"./AoHeader.DLgMCDLB.js";import{_ as r,c as s,b as c,I as n,o as _}from"./entry.BCtoe7ES.js";import"./nuxt-link.qHc9arGk.js";const a={},p={class:"portfolio"};function d(o,f){const e=t;return _(),s("div",p,[c(e),n(o.$slots,"default")])}const u=r(a,[["render",d]]);export{u as default};

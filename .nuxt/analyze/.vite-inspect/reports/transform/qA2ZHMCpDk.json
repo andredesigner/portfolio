@@ -3,58 +3,58 @@
   "transforms": [
     {
       "name": "vite:load-fallback",
-      "result": "<script setup>\n  \n</script>\n\n<template>\n  <main class=\"container-fluid my-content\">\n    <div class=\"row\">\n      <div class=\"offset-lg-2 col-lg-3\">\n        <h1>Muito obrigado pela visita.</h1>\n      </div>\n      <div class=\"offset-lg-1 col-lg-4\">\n        <p>Fique a vontade para me mandar mensagem e marcar uma conversa ou um café, será um prazer conhece-lo e me apresentar.</p>\n        <form>\n          <div class=\"ao-input radius-top-left-right-10\">\n            <input type=\"text\" class=\"ao-form-control form-control shadow-none\" id=\"name\" required>\n            <label for=\"name\" class=\"ao-form-label form-label\">Como costumam te chamar</label>\n            <!-- <div id=\"emailHelp\" class=\"form-text\">We'll never share your email with anyone else.</div> -->\n          </div>\n          <div class=\"ao-input\">\n            <input type=\"email\" class=\"ao-form-control form-control shadow-none\" id=\"e-mail\" required>\n            <label for=\"e-mail\" class=\"ao-form-label form-label\">Um e-mail para eu retornar</label>\n            <!-- <div id=\"emailHelp\" class=\"form-text\">We'll never share your email with anyone else.</div> -->\n          </div>\n          <div class=\"ao-input radius-bottom-left-right-10\">\n            <textarea for=\"message\" class=\"ao-form-control ao-textarea form-control shadow-none\" id=\"message\" contenteditable required></textarea>\n            <label for=\"message\" class=\"ao-form-label form-label\">Você gosta de café?</label>\n            <!-- <div id=\"emailHelp\" class=\"form-text\">We'll never share your email with anyone else.</div> -->\n          </div>\n          <button type=\"submit\" class=\"btn ao-btn\">Enviar</button>\n        </form>\n      </div>\n    </div>\n  </main>\n</template>\n\n<style scoped>\n  .ao-btn{\n    margin-top: 40px;\n  }\n</style>",
-      "start": 1719459711091,
-      "end": 1719459711782,
+      "result": "<script setup>\n  \n</script>\n\n<template>\n  <main class=\"container-fluid my-content\">\n    <div class=\"row\">\n      <div class=\"offset-lg-2 col-lg-3\">\n        <h1>Muito obrigado pela visita.</h1>\n      </div>\n      <div class=\"offset-lg-1 col-lg-4\">\n        <p>Fique a vontade para me mandar mensagem e marcar uma conversa ou um café, será um prazer conhece-lo e me apresentar.</p>\n        <form>\n          <div class=\"ao-input radius-top-left-right-10\">\n            <input type=\"text\" class=\"ao-form-control form-control shadow-none\" id=\"name\" required>\n            <label for=\"name\" class=\"ao-form-label form-label\">Como costumam te chamar</label>\n            <!-- <div id=\"emailHelp\" class=\"form-text\">We'll never share your email with anyone else.</div> -->\n          </div>\n          <div class=\"ao-input\">\n            <input type=\"email\" class=\"ao-form-control form-control shadow-none\" id=\"e-mail\" required>\n            <label for=\"e-mail\" class=\"ao-form-label form-label\">Um e-mail para eu retornar</label>\n            <!-- <div id=\"emailHelp\" class=\"form-text\">We'll never share your email with anyone else.</div> -->\n          </div>\n          <div class=\"ao-input radius-bottom-left-right-10\">\n            <textarea for=\"message\" class=\"ao-form-control ao-textarea form-control shadow-none\" id=\"message\" contenteditable required></textarea>\n            <label for=\"message\" class=\"ao-form-label form-label\">Você gosta de café?</label>\n            <!-- <div id=\"emailHelp\" class=\"form-text\">We'll never share your email with anyone else.</div> -->\n          </div>\n          <button type=\"submit\" class=\"btn ao-btn ao-btn-fill\">Enviar</button>\n        </form>\n      </div>\n    </div>\n  </main>\n</template>\n\n<style scoped>\n  .ao-btn{\n    margin-top: 40px;\n  }\n</style>",
+      "start": 1719586411174,
+      "end": 1719586411971,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1719459711782,
-      "end": 1719459711782,
+      "start": 1719586411972,
+      "end": 1719586411972,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1719459711782,
-      "end": 1719459711782,
+      "start": 1719586411972,
+      "end": 1719586411972,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1719459711782,
-      "end": 1719459711782,
+      "start": 1719586411972,
+      "end": 1719586411972,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1719459711782,
-      "end": 1719459711782,
+      "start": 1719586411972,
+      "end": 1719586411972,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1719459711782,
-      "end": 1719459711782,
+      "start": 1719586411972,
+      "end": 1719586411972,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1719459711782,
-      "end": 1719459711782,
+      "start": 1719586411972,
+      "end": 1719586411972,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1719459711782,
-      "end": 1719459711782,
+      "start": 1719586411972,
+      "end": 1719586411972,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-6daecc50\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"container-fluid my-content\" }\nconst _hoisted_2 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"row\\\" data-v-6daecc50><div class=\\\"offset-lg-2 col-lg-3\\\" data-v-6daecc50><h1 data-v-6daecc50>Muito obrigado pela visita.</h1></div><div class=\\\"offset-lg-1 col-lg-4\\\" data-v-6daecc50><p data-v-6daecc50>Fique a vontade para me mandar mensagem e marcar uma conversa ou um café, será um prazer conhece-lo e me apresentar.</p><form data-v-6daecc50><div class=\\\"ao-input radius-top-left-right-10\\\" data-v-6daecc50><input type=\\\"text\\\" class=\\\"ao-form-control form-control shadow-none\\\" id=\\\"name\\\" required data-v-6daecc50><label for=\\\"name\\\" class=\\\"ao-form-label form-label\\\" data-v-6daecc50>Como costumam te chamar</label></div><div class=\\\"ao-input\\\" data-v-6daecc50><input type=\\\"email\\\" class=\\\"ao-form-control form-control shadow-none\\\" id=\\\"e-mail\\\" required data-v-6daecc50><label for=\\\"e-mail\\\" class=\\\"ao-form-label form-label\\\" data-v-6daecc50>Um e-mail para eu retornar</label></div><div class=\\\"ao-input radius-bottom-left-right-10\\\" data-v-6daecc50><textarea for=\\\"message\\\" class=\\\"ao-form-control ao-textarea form-control shadow-none\\\" id=\\\"message\\\" contenteditable required data-v-6daecc50></textarea><label for=\\\"message\\\" class=\\\"ao-form-label form-label\\\" data-v-6daecc50>Você gosta de café?</label></div><button type=\\\"submit\\\" class=\\\"btn ao-btn\\\" data-v-6daecc50>Enviar</button></form></div></div>\", 1)\nconst _hoisted_3 = [\n  _hoisted_2\n]\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(\"main\", _hoisted_1, _hoisted_3))\n}\n\nimport \"/Users/diegoalmeida/Projetos/portfolio/pages/fale-comigo.vue?vue&type=style&index=0&scoped=6daecc50&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',\"data-v-6daecc50\"]])",
-      "start": 1719459711782,
-      "end": 1719459711786,
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-2e8c9ec0\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"container-fluid my-content\" }\nconst _hoisted_2 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"row\\\" data-v-2e8c9ec0><div class=\\\"offset-lg-2 col-lg-3\\\" data-v-2e8c9ec0><h1 data-v-2e8c9ec0>Muito obrigado pela visita.</h1></div><div class=\\\"offset-lg-1 col-lg-4\\\" data-v-2e8c9ec0><p data-v-2e8c9ec0>Fique a vontade para me mandar mensagem e marcar uma conversa ou um café, será um prazer conhece-lo e me apresentar.</p><form data-v-2e8c9ec0><div class=\\\"ao-input radius-top-left-right-10\\\" data-v-2e8c9ec0><input type=\\\"text\\\" class=\\\"ao-form-control form-control shadow-none\\\" id=\\\"name\\\" required data-v-2e8c9ec0><label for=\\\"name\\\" class=\\\"ao-form-label form-label\\\" data-v-2e8c9ec0>Como costumam te chamar</label></div><div class=\\\"ao-input\\\" data-v-2e8c9ec0><input type=\\\"email\\\" class=\\\"ao-form-control form-control shadow-none\\\" id=\\\"e-mail\\\" required data-v-2e8c9ec0><label for=\\\"e-mail\\\" class=\\\"ao-form-label form-label\\\" data-v-2e8c9ec0>Um e-mail para eu retornar</label></div><div class=\\\"ao-input radius-bottom-left-right-10\\\" data-v-2e8c9ec0><textarea for=\\\"message\\\" class=\\\"ao-form-control ao-textarea form-control shadow-none\\\" id=\\\"message\\\" contenteditable required data-v-2e8c9ec0></textarea><label for=\\\"message\\\" class=\\\"ao-form-label form-label\\\" data-v-2e8c9ec0>Você gosta de café?</label></div><button type=\\\"submit\\\" class=\\\"btn ao-btn ao-btn-fill\\\" data-v-2e8c9ec0>Enviar</button></form></div></div>\", 1)\nconst _hoisted_3 = [\n  _hoisted_2\n]\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(\"main\", _hoisted_1, _hoisted_3))\n}\n\nimport \"/Users/diegoalmeida/Projetos/portfolio/pages/fale-comigo.vue?vue&type=style&index=0&scoped=2e8c9ec0&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',\"data-v-2e8c9ec0\"]])",
+      "start": 1719586411972,
+      "end": 1719586411976,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,117 +62,117 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1719459711786,
-      "end": 1719459711786,
+      "start": 1719586411976,
+      "end": 1719586411976,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1719459711786,
-      "end": 1719459711786,
+      "start": 1719586411976,
+      "end": 1719586411976,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1719459711786,
-      "end": 1719459711786,
+      "start": 1719586411976,
+      "end": 1719586411976,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1719459711786,
-      "end": 1719459711786,
+      "start": 1719586411976,
+      "end": 1719586411976,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1719459711787,
-      "end": 1719459711787,
+      "start": 1719586411976,
+      "end": 1719586411977,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1719459711787,
-      "end": 1719459711787,
+      "start": 1719586411977,
+      "end": 1719586411977,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1719459711787,
-      "end": 1719459711787,
+      "start": 1719586411977,
+      "end": 1719586411977,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1719459711787,
-      "end": 1719459711787,
+      "start": 1719586411977,
+      "end": 1719586411977,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1719459711787,
-      "end": 1719459711787,
+      "start": 1719586411977,
+      "end": 1719586411977,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1719459711787,
-      "end": 1719459711787,
+      "start": 1719586411977,
+      "end": 1719586411977,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1719459711787,
-      "end": 1719459711787,
+      "start": 1719586411977,
+      "end": 1719586411977,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1719459711787,
-      "end": 1719459711787,
+      "start": 1719586411977,
+      "end": 1719586411977,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1719459711787,
-      "end": 1719459711787,
+      "start": 1719586411977,
+      "end": 1719586411977,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1719459711787,
-      "end": 1719459711787,
+      "start": 1719586411977,
+      "end": 1719586411977,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1719459711787,
-      "end": 1719459711787,
+      "start": 1719586411977,
+      "end": 1719586411977,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1719459711787,
-      "end": 1719459711787,
+      "start": 1719586411977,
+      "end": 1719586411977,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1719459711787,
-      "end": 1719459711787,
+      "start": 1719586411977,
+      "end": 1719586411980,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1719459711787,
-      "end": 1719459711787,
+      "start": 1719586411980,
+      "end": 1719586411980,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
       "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
-      "start": 1719459711787,
-      "end": 1719459711788,
+      "start": 1719586411980,
+      "end": 1719586411981,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -185,38 +185,38 @@
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1719459711788,
-      "end": 1719459711788,
+      "start": 1719586411981,
+      "end": 1719586411981,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1719459711788,
-      "end": 1719459711788,
+      "start": 1719586411981,
+      "end": 1719586411981,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1719459711788,
-      "end": 1719459711788,
+      "start": 1719586411981,
+      "end": 1719586411981,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1719459711788,
-      "end": 1719459711788,
+      "start": 1719586411981,
+      "end": 1719586411982,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1719459711788,
-      "end": 1719459711788,
+      "start": 1719586411982,
+      "end": 1719586411982,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1719459711788,
-      "end": 1719459711788,
+      "start": 1719586411982,
+      "end": 1719586411982,
       "order": "normal"
     }
   ]

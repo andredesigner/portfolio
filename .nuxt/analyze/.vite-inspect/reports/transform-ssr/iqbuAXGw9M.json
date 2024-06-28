@@ -1,0 +1,288 @@
+{
+  "resolvedId": "/Users/diegoalmeida/Projetos/portfolio/pages/fale-comigo.vue?vue&type=style&index=0&scoped=2e8c9ec0&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\n  .ao-btn{\n    margin-top: 40px;\n  }\n",
+      "start": 1719586414944,
+      "end": 1719586414945,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/diegoalmeida/Projetos/portfolio/pages/fale-comigo.vue"
+        ],
+        "names": [],
+        "mappings": ";EAoCE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IACL,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;EAClB",
+        "file": "/Users/diegoalmeida/Projetos/portfolio/pages/fale-comigo.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<script setup>\n  \n</script>\n\n<template>\n  <main class=\"container-fluid my-content\">\n    <div class=\"row\">\n      <div class=\"offset-lg-2 col-lg-3\">\n        <h1>Muito obrigado pela visita.</h1>\n      </div>\n      <div class=\"offset-lg-1 col-lg-4\">\n        <p>Fique a vontade para me mandar mensagem e marcar uma conversa ou um café, será um prazer conhece-lo e me apresentar.</p>\n        <form>\n          <div class=\"ao-input radius-top-left-right-10\">\n            <input type=\"text\" class=\"ao-form-control form-control shadow-none\" id=\"name\" required>\n            <label for=\"name\" class=\"ao-form-label form-label\">Como costumam te chamar</label>\n            <!-- <div id=\"emailHelp\" class=\"form-text\">We'll never share your email with anyone else.</div> -->\n          </div>\n          <div class=\"ao-input\">\n            <input type=\"email\" class=\"ao-form-control form-control shadow-none\" id=\"e-mail\" required>\n            <label for=\"e-mail\" class=\"ao-form-label form-label\">Um e-mail para eu retornar</label>\n            <!-- <div id=\"emailHelp\" class=\"form-text\">We'll never share your email with anyone else.</div> -->\n          </div>\n          <div class=\"ao-input radius-bottom-left-right-10\">\n            <textarea for=\"message\" class=\"ao-form-control ao-textarea form-control shadow-none\" id=\"message\" contenteditable required></textarea>\n            <label for=\"message\" class=\"ao-form-label form-label\">Você gosta de café?</label>\n            <!-- <div id=\"emailHelp\" class=\"form-text\">We'll never share your email with anyone else.</div> -->\n          </div>\n          <button type=\"submit\" class=\"btn ao-btn ao-btn-fill\">Enviar</button>\n        </form>\n      </div>\n    </div>\n  </main>\n</template>\n\n<style scoped>\n  .ao-btn{\n    margin-top: 40px;\n  }\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1719586414945,
+      "end": 1719586414945,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1719586414945,
+      "end": 1719586414945,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1719586414945,
+      "end": 1719586414945,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1719586414945,
+      "end": 1719586414945,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1719586414945,
+      "end": 1719586414945,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".ao-btn{margin-top:40px}",
+      "start": 1719586414945,
+      "end": 1719586414946,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/Users/diegoalmeida/Projetos/portfolio/pages/fale-comigo.vue",
+        "mappings": "AACE,QACE,eACF",
+        "names": [],
+        "sources": [
+          "/Users/diegoalmeida/Projetos/portfolio/pages/fale-comigo.vue"
+        ],
+        "sourcesContent": [
+          "\n  .ao-btn{\n    margin-top: 40px;\n  }\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1719586414946,
+      "end": 1719586414946,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1719586414946,
+      "end": 1719586414947,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1719586414947,
+      "end": 1719586414947,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".ao-btn[data-v-2e8c9ec0]{margin-top:40px}",
+      "start": 1719586414947,
+      "end": 1719586414947,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/Users/diegoalmeida/Projetos/portfolio/pages/fale-comigo.vue",
+        "mappings": "AAAA,yBAAQ,eAAe",
+        "names": [],
+        "sources": [
+          "/Users/diegoalmeida/Projetos/portfolio/pages/fale-comigo.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1719586414947,
+      "end": 1719586414947,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1719586414947,
+      "end": 1719586414947,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1719586414947,
+      "end": 1719586414947,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1719586414947,
+      "end": 1719586414947,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1719586414947,
+      "end": 1719586414947,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1719586414947,
+      "end": 1719586414947,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1719586414947,
+      "end": 1719586414947,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1719586414947,
+      "end": 1719586414948,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1719586414948,
+      "end": 1719586414948,
+      "order": "normal"
+    }
+  ]
+}

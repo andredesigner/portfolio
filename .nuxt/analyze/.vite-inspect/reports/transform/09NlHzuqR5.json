@@ -3,58 +3,58 @@
   "transforms": [
     {
       "name": "vite:load-fallback",
-      "result": "<script setup>\n    import AoHeader from '~/components/AoHeader.vue';\n    import { useRoute } from 'vue-router'\n    import { gsap } from \"gsap\";\n\n    const links = [\n        {href: '/sobre', text: 'Sobre'},\n        {href: '/projetos', text: 'Projetos'},\n        {href: '/fale-comigo', text: 'Fale comigo'}\n    ]\n</script>\n    \n<template>\n    <main class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"offset-lg-2 col-lg-8\">\n                <div class=\"hero\"> \n                    <h1 class=\"title in-top-bottom\">Designer de produtos digitais com experiência em criação de marca e desenvolvimento.</h1>\n                </div>\n            </div>\n        </div>\n        <div class=\"row\">\n            <nav class=\"offset-lg-2 col-lg-8\">\n                <p class=\"mb-3\">Menu</p>\n                <ul class=\"ao-nav\">\n                    <li v-for=\"link in links\">\n                        <nuxt-link :to=\"link.href\">\n                            {{ link.text }}\n                        </nuxt-link>\n                    </li>\n                </ul>\n            </nav>\n        </div>\n    </main>\n</template>\n\n<style scoped>\n</style>\n",
-      "start": 1719459711108,
-      "end": 1719459711797,
+      "result": "<script setup>\n    import AoHeader from '~/components/AoHeader.vue';\n    import { useRoute } from 'vue-router'\n    import { gsap } from \"gsap\";\n\n    const links = [\n        {href: '/sobre', text: 'Sobre'},\n        {href: '/projetos', text: 'Projetos'},\n        {href: '/fale-comigo', text: 'Fale comigo'}\n    ]\n</script>\n    \n<template>\n    <main class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"offset-lg-2 col-lg-8\">\n                <div class=\"hero in-up\"> \n                    <h1 class=\"title in-top-bottom\">Designer de produtos digitais com experiência em criação de marca e desenvolvimento.</h1>\n                </div>\n            </div>\n        </div>\n        <div class=\"row\">\n            <nav class=\"offset-lg-2 col-lg-8\">\n                <p class=\"mb-3\">Menu</p>\n                <ul class=\"ao-nav\">\n                    <li v-for=\"link in links\">\n                        <nuxt-link :to=\"link.href\">\n                            {{ link.text }}\n                        </nuxt-link>\n                    </li>\n                </ul>\n            </nav>\n        </div>\n    </main>\n</template>\n\n<style scoped>\n</style>\n",
+      "start": 1719586411174,
+      "end": 1719586411984,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1719459711797,
-      "end": 1719459711797,
+      "start": 1719586411984,
+      "end": 1719586411984,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1719459711797,
-      "end": 1719459711797,
+      "start": 1719586411984,
+      "end": 1719586411984,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1719459711797,
-      "end": 1719459711797,
+      "start": 1719586411984,
+      "end": 1719586411984,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1719459711798,
-      "end": 1719459711798,
+      "start": 1719586411984,
+      "end": 1719586411984,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1719459711798,
-      "end": 1719459711798,
+      "start": 1719586411984,
+      "end": 1719586411984,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1719459711798,
-      "end": 1719459711798,
+      "start": 1719586411984,
+      "end": 1719586411984,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1719459711798,
-      "end": 1719459711798,
+      "start": 1719586411984,
+      "end": 1719586411984,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "result": "import { createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode } from \"vue\"\n\nconst _hoisted_1 = { class: \"container-fluid\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"row\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"offset-lg-2 col-lg-8\" }, [\n    /*#__PURE__*/_createElementVNode(\"div\", { class: \"hero\" }, [\n      /*#__PURE__*/_createElementVNode(\"h1\", { class: \"title in-top-bottom\" }, \"Designer de produtos digitais com experiência em criação de marca e desenvolvimento.\")\n    ])\n  ])\n], -1)\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"offset-lg-2 col-lg-8\" }\nconst _hoisted_5 = /*#__PURE__*/_createElementVNode(\"p\", { class: \"mb-3\" }, \"Menu\", -1)\nconst _hoisted_6 = { class: \"ao-nav\" }\n\nimport AoHeader from '~/components/AoHeader.vue';\n    import { useRoute } from 'vue-router'\n    import { gsap } from \"gsap\";\n\n    \nconst _sfc_main = {\n  __name: 'index',\n  setup(__props) {\n\n    const links = [\n        {href: '/sobre', text: 'Sobre'},\n        {href: '/projetos', text: 'Projetos'},\n        {href: '/fale-comigo', text: 'Fale comigo'}\n    ]\n\nreturn (_ctx, _cache) => {\n  const _component_nuxt_link = _resolveComponent(\"nuxt-link\")\n\n  return (_openBlock(), _createElementBlock(\"main\", _hoisted_1, [\n    _hoisted_2,\n    _createElementVNode(\"div\", _hoisted_3, [\n      _createElementVNode(\"nav\", _hoisted_4, [\n        _hoisted_5,\n        _createElementVNode(\"ul\", _hoisted_6, [\n          (_openBlock(), _createElementBlock(_Fragment, null, _renderList(links, (link) => {\n            return _createElementVNode(\"li\", null, [\n              _createVNode(_component_nuxt_link, {\n                to: link.href\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(_toDisplayString(link.text), 1)\n                ]),\n                _: 2\n              }, 1032, [\"to\"])\n            ])\n          }), 64))\n        ])\n      ])\n    ])\n  ]))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
-      "start": 1719459711798,
-      "end": 1719459711806,
+      "result": "import { createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode } from \"vue\"\n\nconst _hoisted_1 = { class: \"container-fluid\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"row\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"offset-lg-2 col-lg-8\" }, [\n    /*#__PURE__*/_createElementVNode(\"div\", { class: \"hero in-up\" }, [\n      /*#__PURE__*/_createElementVNode(\"h1\", { class: \"title in-top-bottom\" }, \"Designer de produtos digitais com experiência em criação de marca e desenvolvimento.\")\n    ])\n  ])\n], -1)\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"offset-lg-2 col-lg-8\" }\nconst _hoisted_5 = /*#__PURE__*/_createElementVNode(\"p\", { class: \"mb-3\" }, \"Menu\", -1)\nconst _hoisted_6 = { class: \"ao-nav\" }\n\nimport AoHeader from '~/components/AoHeader.vue';\n    import { useRoute } from 'vue-router'\n    import { gsap } from \"gsap\";\n\n    \nconst _sfc_main = {\n  __name: 'index',\n  setup(__props) {\n\n    const links = [\n        {href: '/sobre', text: 'Sobre'},\n        {href: '/projetos', text: 'Projetos'},\n        {href: '/fale-comigo', text: 'Fale comigo'}\n    ]\n\nreturn (_ctx, _cache) => {\n  const _component_nuxt_link = _resolveComponent(\"nuxt-link\")\n\n  return (_openBlock(), _createElementBlock(\"main\", _hoisted_1, [\n    _hoisted_2,\n    _createElementVNode(\"div\", _hoisted_3, [\n      _createElementVNode(\"nav\", _hoisted_4, [\n        _hoisted_5,\n        _createElementVNode(\"ul\", _hoisted_6, [\n          (_openBlock(), _createElementBlock(_Fragment, null, _renderList(links, (link) => {\n            return _createElementVNode(\"li\", null, [\n              _createVNode(_component_nuxt_link, {\n                to: link.href\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(_toDisplayString(link.text), 1)\n                ]),\n                _: 2\n              }, 1032, [\"to\"])\n            ])\n          }), 64))\n        ])\n      ])\n    ])\n  ]))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
+      "start": 1719586411984,
+      "end": 1719586411993,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,117 +62,117 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1719459711806,
-      "end": 1719459711806,
+      "start": 1719586411993,
+      "end": 1719586411993,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1719459711806,
-      "end": 1719459711806,
+      "start": 1719586411993,
+      "end": 1719586411993,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1719459711806,
-      "end": 1719459711806,
+      "start": 1719586411993,
+      "end": 1719586411993,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1719459711806,
-      "end": 1719459711806,
+      "start": 1719586411993,
+      "end": 1719586411993,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1719459711806,
-      "end": 1719459711806,
+      "start": 1719586411993,
+      "end": 1719586411993,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1719459711806,
-      "end": 1719459711806,
+      "start": 1719586411993,
+      "end": 1719586411993,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1719459711806,
-      "end": 1719459711806,
+      "start": 1719586411993,
+      "end": 1719586411993,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1719459711806,
-      "end": 1719459711806,
+      "start": 1719586411993,
+      "end": 1719586411993,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1719459711806,
-      "end": 1719459711806,
+      "start": 1719586411993,
+      "end": 1719586411993,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1719459711806,
-      "end": 1719459711806,
+      "start": 1719586411993,
+      "end": 1719586411993,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1719459711806,
-      "end": 1719459711806,
+      "start": 1719586411993,
+      "end": 1719586411993,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1719459711806,
-      "end": 1719459711806,
+      "start": 1719586411993,
+      "end": 1719586411993,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1719459711806,
-      "end": 1719459711806,
+      "start": 1719586411993,
+      "end": 1719586411993,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1719459711806,
-      "end": 1719459711806,
+      "start": 1719586411993,
+      "end": 1719586411993,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1719459711806,
-      "end": 1719459711806,
+      "start": 1719586411993,
+      "end": 1719586411993,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1719459711806,
-      "end": 1719459711806,
+      "start": 1719586411993,
+      "end": 1719586411993,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1719459711806,
-      "end": 1719459711807,
+      "start": 1719586411993,
+      "end": 1719586411994,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1719459711807,
-      "end": 1719459711807,
+      "start": 1719586411994,
+      "end": 1719586411994,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
       "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
-      "start": 1719459711807,
-      "end": 1719459711807,
+      "start": 1719586411994,
+      "end": 1719586411994,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -185,38 +185,38 @@
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1719459711807,
-      "end": 1719459711807,
+      "start": 1719586411994,
+      "end": 1719586411995,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1719459711807,
-      "end": 1719459711807,
+      "start": 1719586411995,
+      "end": 1719586411995,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1719459711807,
-      "end": 1719459711807,
+      "start": 1719586411995,
+      "end": 1719586411995,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1719459711807,
-      "end": 1719459711807,
+      "start": 1719586411995,
+      "end": 1719586411995,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1719459711807,
-      "end": 1719459711808,
+      "start": 1719586411995,
+      "end": 1719586411995,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1719459711808,
-      "end": 1719459711808,
+      "start": 1719586411995,
+      "end": 1719586411995,
       "order": "normal"
     }
   ]

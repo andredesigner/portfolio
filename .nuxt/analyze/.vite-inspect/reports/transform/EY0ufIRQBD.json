@@ -3,58 +3,58 @@
   "transforms": [
     {
       "name": "vite:load-fallback",
-      "result": "<script>\n\n    // definePageMeta({\n    //     layout: 'pageup',\n    // })\n\n\n</script>\n\n<template>\n    <main class=\"container-fluid my-content\">\n        <div class=\"row\">\n        <div class=\"offset-lg-2 col-lg-4\">\n            <h1>Lorem ipsum dolor sit amet consectetur.</h1>\n        </div>\n        <div class=\"col-lg-4\">\n            <p>Experiência profissional de mais de 10 anos no digital em visual design. Trabalhou em times gerenciados com base em metodologias ágeis e produtos escaláveis, participou do processo end-to-end. Contribuiu em agência, startups e e-commerce.</p>\n        </div>\n        <div class=\"offset-lg-1 col-lg-10 col-12\">\n            <picture>\n                <NuxtImg\n                    src=\"/img-project.png\"\n                    class=\"mb-4\"\n                />\n            </picture>\n        </div>\n        <div class=\"offset-lg-1 col-lg-5 col-12\">\n            <picture>\n                <NuxtImg\n                    src=\"/img-project-1.png\"\n                    class=\"mb-4\"\n                />\n            </picture>\n        </div>\n        <div class=\"col-lg-5 col-12\">\n            <picture>\n                <NuxtImg\n                    src=\"/img-project-1.png\"\n                    class=\"mb-4\"\n                />\n            </picture>\n        </div>\n        </div>\n    </main>\n</template>\n\n<style>\n\n    /* main{\n        margin-top: 20vh;\n    } */\n</style>",
-      "start": 1719459711113,
-      "end": 1719459711808,
+      "result": "<script>\n\n    // definePageMeta({\n    //     layout: 'pageup',\n    // })\n\n\n</script>\n\n<template>\n    <main class=\"container-fluid my-content\">\n        <div class=\"row\">\n        <div class=\"offset-lg-2 col-lg-4\">\n            <h1>Lorem ipsum dolor sit amet consectetur.</h1>\n        </div>\n        <div class=\"col-lg-4\">\n            <p>Experiência profissional de mais de 10 anos no digital em visual design. Trabalhou em times gerenciados com base em metodologias ágeis e produtos escaláveis, participou do processo end-to-end. Contribuiu em agência, startups e e-commerce.</p>\n        </div>\n        <div class=\"offset-lg-1 col-lg-10 col-12\">\n            <picture>\n                <NuxtImg\n                    src=\"/img-project.png\"\n                    class=\"mb-4 in-up\"\n                />\n            </picture>\n        </div>\n        <div class=\"offset-lg-1 col-lg-5 col-12\">\n            <picture>\n                <NuxtImg\n                    src=\"/img-project-1.png\"\n                    class=\"mb-4\"\n                />\n            </picture>\n        </div>\n        <div class=\"col-lg-5 col-12\">\n            <picture>\n                <NuxtImg\n                    src=\"/img-project-1.png\"\n                    class=\"mb-4\"\n                />\n            </picture>\n        </div>\n        </div>\n    </main>\n</template>\n\n<style>\n\n    /* main{\n        margin-top: 20vh;\n    } */\n</style>",
+      "start": 1719586411174,
+      "end": 1719586412000,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1719459711808,
-      "end": 1719459711808,
+      "start": 1719586412000,
+      "end": 1719586412000,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1719459711808,
-      "end": 1719459711808,
+      "start": 1719586412000,
+      "end": 1719586412000,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1719459711808,
-      "end": 1719459711808,
+      "start": 1719586412000,
+      "end": 1719586412000,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1719459711808,
-      "end": 1719459711808,
+      "start": 1719586412000,
+      "end": 1719586412000,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1719459711808,
-      "end": 1719459711808,
+      "start": 1719586412000,
+      "end": 1719586412000,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1719459711808,
-      "end": 1719459711808,
+      "start": 1719586412000,
+      "end": 1719586412000,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1719459711808,
-      "end": 1719459711808,
+      "start": 1719586412000,
+      "end": 1719586412000,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "result": "\n\n    // definePageMeta({\n    //     layout: 'pageup',\n    // })\n\n\n\nconst _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"container-fluid my-content\" }\nconst _hoisted_2 = { class: \"row\" }\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"offset-lg-2 col-lg-4\" }, [\n  /*#__PURE__*/_createElementVNode(\"h1\", null, \"Lorem ipsum dolor sit amet consectetur.\")\n], -1)\nconst _hoisted_4 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-lg-4\" }, [\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"Experiência profissional de mais de 10 anos no digital em visual design. Trabalhou em times gerenciados com base em metodologias ágeis e produtos escaláveis, participou do processo end-to-end. Contribuiu em agência, startups e e-commerce.\")\n], -1)\nconst _hoisted_5 = { class: \"offset-lg-1 col-lg-10 col-12\" }\nconst _hoisted_6 = { class: \"offset-lg-1 col-lg-5 col-12\" }\nconst _hoisted_7 = { class: \"col-lg-5 col-12\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtImg = _resolveComponent(\"NuxtImg\")\n\n  return (_openBlock(), _createElementBlock(\"main\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _hoisted_3,\n      _hoisted_4,\n      _createElementVNode(\"div\", _hoisted_5, [\n        _createElementVNode(\"picture\", null, [\n          _createVNode(_component_NuxtImg, {\n            src: \"/img-project.png\",\n            class: \"mb-4\"\n          })\n        ])\n      ]),\n      _createElementVNode(\"div\", _hoisted_6, [\n        _createElementVNode(\"picture\", null, [\n          _createVNode(_component_NuxtImg, {\n            src: \"/img-project-1.png\",\n            class: \"mb-4\"\n          })\n        ])\n      ]),\n      _createElementVNode(\"div\", _hoisted_7, [\n        _createElementVNode(\"picture\", null, [\n          _createVNode(_component_NuxtImg, {\n            src: \"/img-project-1.png\",\n            class: \"mb-4\"\n          })\n        ])\n      ])\n    ])\n  ]))\n}\n\nimport \"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/grupo-paes.vue?vue&type=style&index=0&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1719459711808,
-      "end": 1719459711809,
+      "result": "\n\n    // definePageMeta({\n    //     layout: 'pageup',\n    // })\n\n\n\nconst _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"container-fluid my-content\" }\nconst _hoisted_2 = { class: \"row\" }\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"offset-lg-2 col-lg-4\" }, [\n  /*#__PURE__*/_createElementVNode(\"h1\", null, \"Lorem ipsum dolor sit amet consectetur.\")\n], -1)\nconst _hoisted_4 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-lg-4\" }, [\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"Experiência profissional de mais de 10 anos no digital em visual design. Trabalhou em times gerenciados com base em metodologias ágeis e produtos escaláveis, participou do processo end-to-end. Contribuiu em agência, startups e e-commerce.\")\n], -1)\nconst _hoisted_5 = { class: \"offset-lg-1 col-lg-10 col-12\" }\nconst _hoisted_6 = { class: \"offset-lg-1 col-lg-5 col-12\" }\nconst _hoisted_7 = { class: \"col-lg-5 col-12\" }\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtImg = _resolveComponent(\"NuxtImg\")\n\n  return (_openBlock(), _createElementBlock(\"main\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _hoisted_3,\n      _hoisted_4,\n      _createElementVNode(\"div\", _hoisted_5, [\n        _createElementVNode(\"picture\", null, [\n          _createVNode(_component_NuxtImg, {\n            src: \"/img-project.png\",\n            class: \"mb-4 in-up\"\n          })\n        ])\n      ]),\n      _createElementVNode(\"div\", _hoisted_6, [\n        _createElementVNode(\"picture\", null, [\n          _createVNode(_component_NuxtImg, {\n            src: \"/img-project-1.png\",\n            class: \"mb-4\"\n          })\n        ])\n      ]),\n      _createElementVNode(\"div\", _hoisted_7, [\n        _createElementVNode(\"picture\", null, [\n          _createVNode(_component_NuxtImg, {\n            src: \"/img-project-1.png\",\n            class: \"mb-4\"\n          })\n        ])\n      ])\n    ])\n  ]))\n}\n\nimport \"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/grupo-paes.vue?vue&type=style&index=0&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1719586412000,
+      "end": 1719586412002,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,117 +62,117 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1719459711809,
-      "end": 1719459711809,
+      "start": 1719586412002,
+      "end": 1719586412002,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1719459711809,
-      "end": 1719459711809,
+      "start": 1719586412002,
+      "end": 1719586412002,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1719459711809,
-      "end": 1719459711810,
+      "start": 1719586412002,
+      "end": 1719586412002,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1719459711810,
-      "end": 1719459711810,
+      "start": 1719586412002,
+      "end": 1719586412002,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1719459711810,
-      "end": 1719459711810,
+      "start": 1719586412002,
+      "end": 1719586412002,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1719459711810,
-      "end": 1719459711810,
+      "start": 1719586412002,
+      "end": 1719586412002,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1719459711810,
-      "end": 1719459711810,
+      "start": 1719586412002,
+      "end": 1719586412002,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1719459711810,
-      "end": 1719459711810,
+      "start": 1719586412002,
+      "end": 1719586412002,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1719459711810,
-      "end": 1719459711810,
+      "start": 1719586412002,
+      "end": 1719586412002,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1719459711810,
-      "end": 1719459711810,
+      "start": 1719586412002,
+      "end": 1719586412002,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1719459711810,
-      "end": 1719459711810,
+      "start": 1719586412002,
+      "end": 1719586412002,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1719459711810,
-      "end": 1719459711810,
+      "start": 1719586412002,
+      "end": 1719586412002,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1719459711810,
-      "end": 1719459711810,
+      "start": 1719586412002,
+      "end": 1719586412002,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1719459711810,
-      "end": 1719459711810,
+      "start": 1719586412002,
+      "end": 1719586412002,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1719459711810,
-      "end": 1719459711810,
+      "start": 1719586412002,
+      "end": 1719586412002,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1719459711810,
-      "end": 1719459711810,
+      "start": 1719586412002,
+      "end": 1719586412002,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1719459711810,
-      "end": 1719459711810,
+      "start": 1719586412002,
+      "end": 1719586412003,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1719459711810,
-      "end": 1719459711811,
+      "start": 1719586412003,
+      "end": 1719586412004,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
       "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
-      "start": 1719459711811,
-      "end": 1719459711813,
+      "start": 1719586412004,
+      "end": 1719586412005,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -185,38 +185,38 @@
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1719459711813,
-      "end": 1719459711813,
+      "start": 1719586412005,
+      "end": 1719586412005,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1719459711813,
-      "end": 1719459711813,
+      "start": 1719586412005,
+      "end": 1719586412005,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1719459711813,
-      "end": 1719459711813,
+      "start": 1719586412005,
+      "end": 1719586412005,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1719459711813,
-      "end": 1719459711813,
+      "start": 1719586412005,
+      "end": 1719586412005,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1719459711813,
-      "end": 1719459711813,
+      "start": 1719586412005,
+      "end": 1719586412005,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1719459711813,
-      "end": 1719459711813,
+      "start": 1719586412005,
+      "end": 1719586412005,
       "order": "normal"
     }
   ]

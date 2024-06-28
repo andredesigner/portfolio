@@ -3,70 +3,70 @@
   "transforms": [
     {
       "name": "vite:load-fallback",
-      "result": "<script>\n\n    // definePageMeta({\n    //     layout: 'pageup',\n    // })\n\n\n</script>\n\n<template>\n    <main class=\"container-fluid my-content\">\n        <div class=\"row\">\n        <div class=\"offset-lg-2 col-lg-4\">\n            <h1>Lorem ipsum dolor sit amet consectetur.</h1>\n        </div>\n        <div class=\"col-lg-4\">\n            <p>Experiência profissional de mais de 10 anos no digital em visual design. Trabalhou em times gerenciados com base em metodologias ágeis e produtos escaláveis, participou do processo end-to-end. Contribuiu em agência, startups e e-commerce.</p>\n        </div>\n        <div class=\"offset-lg-1 col-lg-10 col-12\">\n            <picture>\n                <NuxtImg\n                    src=\"/img-project.png\"\n                    class=\"mb-4\"\n                />\n            </picture>\n        </div>\n        <div class=\"offset-lg-1 col-lg-5 col-12\">\n            <picture>\n                <NuxtImg\n                    src=\"/img-project-1.png\"\n                    class=\"mb-4\"\n                />\n            </picture>\n        </div>\n        <div class=\"col-lg-5 col-12\">\n            <picture>\n                <NuxtImg\n                    src=\"/img-project-1.png\"\n                    class=\"mb-4\"\n                />\n            </picture>\n        </div>\n        </div>\n    </main>\n</template>\n\n<style>\n\n    /* main{\n        margin-top: 20vh;\n    } */\n</style>",
-      "start": 1719459714270,
-      "end": 1719459714289,
+      "result": "<script>\n\n    // definePageMeta({\n    //     layout: 'pageup',\n    // })\n\n\n</script>\n\n<template>\n    <main class=\"container-fluid my-content\">\n        <div class=\"row\">\n        <div class=\"offset-lg-2 col-lg-4\">\n            <h1>Lorem ipsum dolor sit amet consectetur.</h1>\n        </div>\n        <div class=\"col-lg-4\">\n            <p>Experiência profissional de mais de 10 anos no digital em visual design. Trabalhou em times gerenciados com base em metodologias ágeis e produtos escaláveis, participou do processo end-to-end. Contribuiu em agência, startups e e-commerce.</p>\n        </div>\n        <div class=\"offset-lg-1 col-lg-10 col-12\">\n            <picture>\n                <NuxtImg\n                    src=\"/img-project.png\"\n                    class=\"mb-4 in-up\"\n                />\n            </picture>\n        </div>\n        <div class=\"offset-lg-1 col-lg-5 col-12\">\n            <picture>\n                <NuxtImg\n                    src=\"/img-project-1.png\"\n                    class=\"mb-4\"\n                />\n            </picture>\n        </div>\n        <div class=\"col-lg-5 col-12\">\n            <picture>\n                <NuxtImg\n                    src=\"/img-project-1.png\"\n                    class=\"mb-4\"\n                />\n            </picture>\n        </div>\n        </div>\n    </main>\n</template>\n\n<style>\n\n    /* main{\n        margin-top: 20vh;\n    } */\n</style>",
+      "start": 1719586414852,
+      "end": 1719586414889,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1719459714289,
-      "end": 1719459714289,
+      "start": 1719586414889,
+      "end": 1719586414889,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1719459714289,
-      "end": 1719459714289,
+      "start": 1719586414889,
+      "end": 1719586414889,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1719459714289,
-      "end": 1719459714289,
+      "start": 1719586414889,
+      "end": 1719586414889,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1719459714289,
-      "end": 1719459714289,
+      "start": 1719586414889,
+      "end": 1719586414889,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1719459714289,
-      "end": 1719459714289,
+      "start": 1719586414889,
+      "end": 1719586414889,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1719459714289,
-      "end": 1719459714289,
+      "start": 1719586414889,
+      "end": 1719586414889,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1719459714289,
-      "end": 1719459714289,
+      "start": 1719586414889,
+      "end": 1719586414889,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1719459714289,
-      "end": 1719459714289,
+      "start": 1719586414889,
+      "end": 1719586414889,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1719459714289,
-      "end": 1719459714289,
+      "start": 1719586414889,
+      "end": 1719586414889,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "result": "\n\n    // definePageMeta({\n    //     layout: 'pageup',\n    // })\n\n\n\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_NuxtImg = _resolveComponent(\"NuxtImg\")\n\n  _push(`<main${_ssrRenderAttrs(_mergeProps({ class: \"container-fluid my-content\" }, _attrs))}><div class=\"row\"><div class=\"offset-lg-2 col-lg-4\"><h1>Lorem ipsum dolor sit amet consectetur.</h1></div><div class=\"col-lg-4\"><p>Experiência profissional de mais de 10 anos no digital em visual design. Trabalhou em times gerenciados com base em metodologias ágeis e produtos escaláveis, participou do processo end-to-end. Contribuiu em agência, startups e e-commerce.</p></div><div class=\"offset-lg-1 col-lg-10 col-12\"><picture>`)\n  _push(_ssrRenderComponent(_component_NuxtImg, {\n    src: \"/img-project.png\",\n    class: \"mb-4\"\n  }, null, _parent))\n  _push(`</picture></div><div class=\"offset-lg-1 col-lg-5 col-12\"><picture>`)\n  _push(_ssrRenderComponent(_component_NuxtImg, {\n    src: \"/img-project-1.png\",\n    class: \"mb-4\"\n  }, null, _parent))\n  _push(`</picture></div><div class=\"col-lg-5 col-12\"><picture>`)\n  _push(_ssrRenderComponent(_component_NuxtImg, {\n    src: \"/img-project-1.png\",\n    class: \"mb-4\"\n  }, null, _parent))\n  _push(`</picture></div></div></main>`)\n}\n\nimport \"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/grupo-paes.vue?vue&type=style&index=0&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/projetos/grupo-paes.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1719459714289,
-      "end": 1719459714292,
+      "result": "\n\n    // definePageMeta({\n    //     layout: 'pageup',\n    // })\n\n\n\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_NuxtImg = _resolveComponent(\"NuxtImg\")\n\n  _push(`<main${_ssrRenderAttrs(_mergeProps({ class: \"container-fluid my-content\" }, _attrs))}><div class=\"row\"><div class=\"offset-lg-2 col-lg-4\"><h1>Lorem ipsum dolor sit amet consectetur.</h1></div><div class=\"col-lg-4\"><p>Experiência profissional de mais de 10 anos no digital em visual design. Trabalhou em times gerenciados com base em metodologias ágeis e produtos escaláveis, participou do processo end-to-end. Contribuiu em agência, startups e e-commerce.</p></div><div class=\"offset-lg-1 col-lg-10 col-12\"><picture>`)\n  _push(_ssrRenderComponent(_component_NuxtImg, {\n    src: \"/img-project.png\",\n    class: \"mb-4 in-up\"\n  }, null, _parent))\n  _push(`</picture></div><div class=\"offset-lg-1 col-lg-5 col-12\"><picture>`)\n  _push(_ssrRenderComponent(_component_NuxtImg, {\n    src: \"/img-project-1.png\",\n    class: \"mb-4\"\n  }, null, _parent))\n  _push(`</picture></div><div class=\"col-lg-5 col-12\"><picture>`)\n  _push(_ssrRenderComponent(_component_NuxtImg, {\n    src: \"/img-project-1.png\",\n    class: \"mb-4\"\n  }, null, _parent))\n  _push(`</picture></div></div></main>`)\n}\n\nimport \"/Users/diegoalmeida/Projetos/portfolio/pages/projetos/grupo-paes.vue?vue&type=style&index=0&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/projetos/grupo-paes.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
+      "start": 1719586414889,
+      "end": 1719586414897,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -76,148 +76,148 @@
           "/Users/diegoalmeida/Projetos/portfolio/pages/projetos/grupo-paes.vue"
         ],
         "sourcesContent": [
-          "<script>\n\n    // definePageMeta({\n    //     layout: 'pageup',\n    // })\n\n\n</script>\n\n<template>\n    <main class=\"container-fluid my-content\">\n        <div class=\"row\">\n        <div class=\"offset-lg-2 col-lg-4\">\n            <h1>Lorem ipsum dolor sit amet consectetur.</h1>\n        </div>\n        <div class=\"col-lg-4\">\n            <p>Experiência profissional de mais de 10 anos no digital em visual design. Trabalhou em times gerenciados com base em metodologias ágeis e produtos escaláveis, participou do processo end-to-end. Contribuiu em agência, startups e e-commerce.</p>\n        </div>\n        <div class=\"offset-lg-1 col-lg-10 col-12\">\n            <picture>\n                <NuxtImg\n                    src=\"/img-project.png\"\n                    class=\"mb-4\"\n                />\n            </picture>\n        </div>\n        <div class=\"offset-lg-1 col-lg-5 col-12\">\n            <picture>\n                <NuxtImg\n                    src=\"/img-project-1.png\"\n                    class=\"mb-4\"\n                />\n            </picture>\n        </div>\n        <div class=\"col-lg-5 col-12\">\n            <picture>\n                <NuxtImg\n                    src=\"/img-project-1.png\"\n                    class=\"mb-4\"\n                />\n            </picture>\n        </div>\n        </div>\n    </main>\n</template>\n\n<style>\n\n    /* main{\n        margin-top: 20vh;\n    } */\n</style>"
+          "<script>\n\n    // definePageMeta({\n    //     layout: 'pageup',\n    // })\n\n\n</script>\n\n<template>\n    <main class=\"container-fluid my-content\">\n        <div class=\"row\">\n        <div class=\"offset-lg-2 col-lg-4\">\n            <h1>Lorem ipsum dolor sit amet consectetur.</h1>\n        </div>\n        <div class=\"col-lg-4\">\n            <p>Experiência profissional de mais de 10 anos no digital em visual design. Trabalhou em times gerenciados com base em metodologias ágeis e produtos escaláveis, participou do processo end-to-end. Contribuiu em agência, startups e e-commerce.</p>\n        </div>\n        <div class=\"offset-lg-1 col-lg-10 col-12\">\n            <picture>\n                <NuxtImg\n                    src=\"/img-project.png\"\n                    class=\"mb-4 in-up\"\n                />\n            </picture>\n        </div>\n        <div class=\"offset-lg-1 col-lg-5 col-12\">\n            <picture>\n                <NuxtImg\n                    src=\"/img-project-1.png\"\n                    class=\"mb-4\"\n                />\n            </picture>\n        </div>\n        <div class=\"col-lg-5 col-12\">\n            <picture>\n                <NuxtImg\n                    src=\"/img-project-1.png\"\n                    class=\"mb-4\"\n                />\n            </picture>\n        </div>\n        </div>\n    </main>\n</template>\n\n<style>\n\n    /* main{\n        margin-top: 20vh;\n    } */\n</style>"
         ],
-        "mappings": ";;IAEI,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IAClB,CAAC,MAAM,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IACvB,CAAC,EAAE,CAAC;;;;;;;;;;;EAJR,cAAA,gBAAA,cAUU,KAAK,EAAC,4BAA4B,IAV5C;EAAA,MAAA;IAqBoB,GAAG,EAAC,kBAAkB;IACtB,KAAK,EAAC,MAAM;;EAtBhC;EAAA,MAAA;IA6BoB,GAAG,EAAC,oBAAoB;IACxB,KAAK,EAAC,MAAM;;EA9BhC;EAAA,MAAA;IAqCoB,GAAG,EAAC,oBAAoB;IACxB,KAAK,EAAC,MAAM;;EAtChC"
+        "mappings": ";;IAEI,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IAClB,CAAC,MAAM,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IACvB,CAAC,EAAE,CAAC;;;;;;;;;;;EAJR,cAAA,gBAAA,cAUU,KAAK,EAAC,4BAA4B,IAV5C;EAAA,MAAA;IAqBoB,GAAG,EAAC,kBAAkB;IACtB,KAAK,EAAC,YAAY;;EAtBtC;EAAA,MAAA;IA6BoB,GAAG,EAAC,oBAAoB;IACxB,KAAK,EAAC,MAAM;;EA9BhC;EAAA,MAAA;IAqCoB,GAAG,EAAC,oBAAoB;IACxB,KAAK,EAAC,MAAM;;EAtChC"
       }
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1719459714292,
-      "end": 1719459714292,
+      "start": 1719586414897,
+      "end": 1719586414897,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1719459714292,
-      "end": 1719459714292,
+      "start": 1719586414897,
+      "end": 1719586414897,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1719459714292,
-      "end": 1719459714292,
+      "start": 1719586414897,
+      "end": 1719586414897,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1719459714292,
-      "end": 1719459714292,
+      "start": 1719586414897,
+      "end": 1719586414897,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1719459714292,
-      "end": 1719459714292,
+      "start": 1719586414897,
+      "end": 1719586414897,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1719459714292,
-      "end": 1719459714292,
+      "start": 1719586414897,
+      "end": 1719586414897,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1719459714292,
-      "end": 1719459714292,
+      "start": 1719586414897,
+      "end": 1719586414897,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1719459714292,
-      "end": 1719459714292,
+      "start": 1719586414897,
+      "end": 1719586414897,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1719459714292,
-      "end": 1719459714292,
+      "start": 1719586414897,
+      "end": 1719586414897,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1719459714292,
-      "end": 1719459714292,
+      "start": 1719586414897,
+      "end": 1719586414897,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1719459714292,
-      "end": 1719459714292,
+      "start": 1719586414897,
+      "end": 1719586414897,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1719459714292,
-      "end": 1719459714292,
+      "start": 1719586414897,
+      "end": 1719586414897,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1719459714292,
-      "end": 1719459714292,
+      "start": 1719586414897,
+      "end": 1719586414897,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1719459714292,
-      "end": 1719459714292,
+      "start": 1719586414897,
+      "end": 1719586414897,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1719459714292,
-      "end": 1719459714292,
+      "start": 1719586414897,
+      "end": 1719586414897,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1719459714292,
-      "end": 1719459714292,
+      "start": 1719586414897,
+      "end": 1719586414897,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1719459714292,
-      "end": 1719459714292,
+      "start": 1719586414897,
+      "end": 1719586414897,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1719459714292,
-      "end": 1719459714292,
+      "start": 1719586414897,
+      "end": 1719586414897,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1719459714292,
-      "end": 1719459714293,
+      "start": 1719586414897,
+      "end": 1719586414898,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1719459714292,
-      "end": 1719459714293,
+      "start": 1719586414897,
+      "end": 1719586414898,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1719459714293,
-      "end": 1719459714293,
+      "start": 1719586414898,
+      "end": 1719586414898,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1719459714293,
-      "end": 1719459714293,
+      "start": 1719586414898,
+      "end": 1719586414898,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
       "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
-      "start": 1719459714293,
-      "end": 1719459714294,
+      "start": 1719586414898,
+      "end": 1719586414899,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -231,8 +231,8 @@
     {
       "name": "nuxt:pages-macros-transform",
       "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
-      "start": 1719459714293,
-      "end": 1719459714294,
+      "start": 1719586414898,
+      "end": 1719586414899,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -245,32 +245,32 @@
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1719459714294,
-      "end": 1719459714294,
+      "start": 1719586414899,
+      "end": 1719586414899,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1719459714294,
-      "end": 1719459714294,
+      "start": 1719586414899,
+      "end": 1719586414899,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1719459714294,
-      "end": 1719459714294,
+      "start": 1719586414899,
+      "end": 1719586414899,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1719459714294,
-      "end": 1719459714294,
+      "start": 1719586414899,
+      "end": 1719586414899,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1719459714294,
-      "end": 1719459714294,
+      "start": 1719586414899,
+      "end": 1719586414899,
       "order": "normal"
     }
   ]
