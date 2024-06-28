@@ -1,5 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  
+  image: {
+    provider: 'netlify',
+    netlify: {
+      baseURl: process.env.IMAGES_URL
+    }
+  },
+  devServer: {
+    port: 8000, // default: 3000     
+    host: '0.0.0.0', 
+  },
   app: {
     head: {
       charset: 'utf-8',
