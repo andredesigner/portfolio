@@ -72,7 +72,7 @@
 <style scoped>
     main{
         .hero{
-            padding-top: 40dvh;
+            padding-top: 20dvh;
 
             @media (min-width: 993px) {
                 padding-top: 50dvh;
