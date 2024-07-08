@@ -1,9 +1,10 @@
 /*
 Color
 */
-$brandcolor1: #FFB607;
-$brandcolor2: #4E401F;
-$brandcolor3: #FFFCF5;
+$brand-color-1: #FFB607;
+$brand-color-2: #4E401F;
+$brand-color-3: #FFFCF5;
+$brand-color-4: #3E5FAA;
 
 /*
 Font name
@@ -14,11 +15,12 @@ $font-title: "Epilogue", sans-serif;
 /*
 Font size
 */
-$size-font-title: 3.9vw;
-$size-font-nav: 100px;
+$size-font-title: 36px;
+$size-font-subtitle: 28px;
 $size-font-text: 20px;
 
 /*
 Radius
 */
-$radius: 10px;
+$radius-p: 4px;
+$radius-m: 10px;

@@ -12,7 +12,9 @@
 <template>
     <main class="container-fluid my-content">
         <div class="row">
-            <div class="offset-lg-2 col-lg-8">
+            <div class="offset-lg-5 col-lg-5">
+                <h1>Design de interface e marca</h1>
+                <p>Aplicações com foco está em mosrar o design visual.</p>
                 <ul class="ao-nav">
                     <li v-for="link in links">
                         <nuxt-link :to="'projetos' + link.href">

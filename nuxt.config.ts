@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  
   image: {
     provider: 'netlify',
     netlify: {
@@ -39,6 +40,6 @@ export default defineNuxtConfig({
       scrollTo: true
     }
   },
-  
+
   devtools: { enabled: true }
 })
