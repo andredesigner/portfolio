@@ -12,7 +12,6 @@ body{
     position: relative;
     
     p{
-        font-size: 20px;
         line-height: 160%;
         margin-bottom: 32px;
     }
@@ -44,6 +43,82 @@ body{
     main{
         background-color: $brand-color-3;
         padding-bottom: 22.22vh;
+        min-height: 100vh;
+
+        .hero{
+            padding-top: 20dvh;
+
+            @media (min-width: 993px) {
+                padding-top: 40dvh;
+                padding-bottom: 10dvh;
+            }
+        }
+
+        .wrap-details{
+            height: 100%;
+            padding-bottom: 40px;
+
+            @media (min-width: 993px) {
+                /* padding-top: 22.22vh; */
+            }
+        }
+
+        .skills{
+            position: sticky;
+            top: 22.22vh;
+
+            @media (max-width: 992px) {
+                display: flex;
+                gap: 12px;
+
+                picture{
+                    width: 20%;
+
+                    ~ div{
+                        width: 80%;
+                        line-height: 100%;
+
+                        b{
+                            line-height: 160%;
+                            margin-bottom: 0;
+                        }
+
+                        p{
+                            display: inline;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+
+            picture{
+                display: block;
+                @media (min-width: 993px){
+                    margin-bottom: 40px;
+                }
+            }
+
+            b{
+                display: block;
+                margin-bottom: 20px;
+            }
+
+            p{
+                margin-bottom: 12px;
+            }
+        }
+
+        #meet-andre{
+            padding-top: 140px;
+
+            @media (min-width: 993px) {
+                padding-top: 22.22vh;   
+            }
+        }
+    }
+
+    .mb-0{
+        margin-bottom: 0;
     }
 
     /*
@@ -60,14 +135,23 @@ body{
         line-height: 130%;
         font-weight: 400;
         margin-bottom: 40px;
+        letter-spacing: -2px;
     }
 
     .my-title{
         font-size: $size-font-title; 
+        font-weight: 400;
+        line-height: 1.2;
+        @media (max-width: 992px) {
+            font-size: 40px;
+        }
     }
 
     .my-subtitle{
         font-size: $size-font-subtitle;
+        @media (max-width: 992px) {
+            font-size: 32px;
+        }
     }
 
     .my-list-links{
@@ -82,28 +166,58 @@ body{
         }
 
         a{
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-
             &::before{
                 content: "";
                 width: 8px;
                 height: 8px;
                 position: relative;
                 display: block;
-                margin-right: 12px;
+            }
+        }
+    }
+
+    .external-link{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+
+        &:before{
+            content: "";
+            width: 8px;
+            height: 8px;
+            display: inline-block;
+            margin-right: 12px;
+            background-image: url('data:image/svg+xml,<svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H6H8V2L8 8H6V4H4V2H0V0ZM2 6H4V4H2V6ZM2 6V8H0V6H2Z" fill="%233E5FAA"/></svg>');
+        }
+    }
+
+    .wrap-form{
+        @media (min-width: 993px) {
+            display: grid;
+            grid-template: 'col-1 col-2';    
+        }
+
+        
+        .first{
+            grid-area: col-1;
+
+            .ao-input:nth-child(1){
+                border-top-left-radius: 10px;
+                @media (max-width: 992px) {
+                    border-top-right-radius: 10px;
+                }
+            }
+
+            .ao-input:nth-child(2){
+                border-top: 0;
+                @media (min-width: 993px) {
+                    border-bottom-left-radius: 10px;
+                }
             }
         }
 
-        .external-link{
-            &:before{
-                content: "";
-                width: 8px;
-                height: 8px;
-                display: inline-block;
-                background-image: url('data:image/svg+xml,<svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H6H8V2L8 8H6V4H4V2H0V0ZM2 6H4V4H2V6ZM2 6V8H0V6H2Z" fill="%233E5FAA"/></svg>');
-            }
+        .before{
+            grid-area: col-2;
         }
     }
 
@@ -136,16 +250,43 @@ body{
             padding: 16px 0 0 24px;
             overflow: auto;
 
-            &.ao-textarea{
-                padding-top: 34px;
-            }
-
             &:focus ~ .ao-form-label,
             &:valid ~ .ao-form-label{
                 transition: 0.3s ease-in-out all; 
                 top: 32%;
                 font-size: 14px;
             } 
+        }
+    }
+
+    .ao-text-area{        
+        border-bottom-right-radius: 10px;
+
+        @media (max-width: 992px) {
+            border-top: 0;
+            border-bottom-left-radius: 10px;
+        }
+
+        @media (min-width: 993px) {
+            border-left: 0;
+            min-height: 100%;
+            border-top-right-radius: 10px;
+        }
+
+        .ao-form-control{
+            top: 0;
+            padding-top: 34px;
+
+            &:focus ~ .ao-form-label,
+            &:valid ~ .ao-form-label{
+                transition: 0.3s ease-in-out all; 
+                top: 22px;
+                font-size: 14px;
+            } 
+        }
+
+        .ao-form-label{
+            top: 35px;
         }
     }
 
@@ -219,7 +360,7 @@ body{
                 }
 
                 span{
-                    font-size: 28px;
+                    font-size: 36px;
                 }
 
                 a{
@@ -273,13 +414,19 @@ body{
         }
     }
 
-    .radius-top-left-right-10{
+    .radius-top-left-10{
         border-top-left-radius: 10px;
+    }
+
+    .radius-top-right-10{
         border-top-right-radius: 10px;
     }
 
-    .radius-bottom-left-right-10{
+    .radius-bottom-left-10{
         border-bottom-left-radius: 10px;
+    }
+
+    .radius-bottom-right-10{
         border-bottom-right-radius: 10px;
     }
 

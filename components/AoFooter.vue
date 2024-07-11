@@ -11,9 +11,8 @@
         {href: 'https://github.com/andredesigner?tab=repositories', text: 'Github'}
     ]
 </script>
-
 <template>
-    <footer class="container-fluid sticky-bottom">
+    <footer class="container-fluid">
         <div class="row">
             <div class="offset-lg-2 col-lg-8">
                 <ul class="my-list-links">
