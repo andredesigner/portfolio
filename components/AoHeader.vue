@@ -41,7 +41,7 @@
                 <div class="offset-lg-1 col-lg-6 d-none d-sm-none d-md-block d-lg-block">
                     <p v-if="$route.name == 'index'" class="">Olá, seja bem vindo.</p>
                     <ul v-else class="nav-links">
-                        <NuxtLink to="/">Início</NuxtLink>
+                        <p><NuxtLink to="/">Início</NuxtLink> / Grupo Paes</p>
                     </ul>
                 </div>
                 <div class="col-9 col-lg-4">
@@ -64,7 +64,7 @@
     <div class="ao-modal" v-if="isModalVisible">
 
         <!-- Projetos -->
-        <div class="ao-modal-dialog in-left" v-if="isModalProjects">
+        <div class="ao-modal-dialog radius-top-left-10 radius-top-right-10 in-up" v-if="isModalProjects">
             <div class="ao-modal-header">
                 <span>Projetos</span>
                 <a href="#" @click="closeModal">Fechar</a>

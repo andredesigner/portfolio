@@ -25,7 +25,12 @@
         </div>
         <div id="meet-andre">
             <div class="row">
-                <div class="offset-lg-1 col-lg-2 order-lg-2">
+                <div class="offset-lg-2 col-lg-4">
+                    <p>Experiência profissional de mais de 10 anos no digital em visual design. Trabalhou em times gerenciados com base em metodologias ágeis e produtos escaláveis, participou do processo end-to-end. Contribuiu em agência, startups e e-commerce.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-lg-2 col-lg-2 order-lg-2">
                     <div class="wrap-details">
                         <div class="skills">
                             <picture>
@@ -45,8 +50,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="offset-lg-2 col-lg-5">
-                    <p>Experiência profissional de mais de 10 anos no digital em visual design. Trabalhou em times gerenciados com base em metodologias ágeis e produtos escaláveis, participou do processo end-to-end. Contribuiu em agência, startups e e-commerce.</p>
+                <div class="offset-lg-2 col-lg-4">
                     <h2 class="my-subtitle" style="margin-top: 120px;">Arcu odio adipiscing at quisque volutpat sapien.</h2>
                     <p>A capacidade de desenvolver o front-end se deu com a necessidade de entregar além dos desenhos de interfaces e com aprendizados com desenvolvedores incríveis.Como forma de estudo esse portfólio foi desenvolvido com <a href="https://nuxt.com/" target="_blank">Nuxt</a>.</p>
                     <h2 class="my-subtitle" style="margin-top: 120px;">At suspendisse diam est viverra a dui vel.</h2>

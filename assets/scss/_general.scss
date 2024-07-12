@@ -81,6 +81,7 @@ body{
                         b{
                             line-height: 160%;
                             margin-bottom: 0;
+                            line-height: 1;
                         }
 
                         p{
@@ -327,13 +328,14 @@ body{
             position: absolute;
             background-color: $brand-color-3;
             max-width: 90vw;
-            width: 100%;
             height: 100%;
             top: 0;
             right: 0;
-            overflow: auto;
+            overflow: hidden;
+
             @media (max-width: 992px) {
                 max-width: 100%;
+                margin: 12px 12px 0 12px;
             }
 
             .ao-modal-header{
@@ -370,6 +372,8 @@ body{
 
             .ao-modal-content{
                 padding: 24px;
+                overflow: scroll;
+                height: 100vh;
 
                 .ao-list-projects{
                     padding: 0;
@@ -383,7 +387,7 @@ body{
                     li{
                         width: 100%;
                         @media (min-width: 993px) {
-                            flex-basis: 25vw;
+                            flex-basis: 25%;
                         }
                     }
                     

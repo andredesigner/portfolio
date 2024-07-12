@@ -10,7 +10,7 @@
 <template>
     <main class="container-fluid">
         <div class="row">
-            <div class="offset-lg-2 col-lg-5">
+            <div class="offset-lg-2 col-lg-8">
                 <div class="hero">
                     <h1 class="my-title">Grupo Paes</h1>
                     <p>Experiência profissional de mais de 10 anos no digital em visual design. Trabalhou em times gerenciados com base em metodologias ágeis e produtos escaláveis, participou do processo end-to-end. Contribuiu em agência, startups e e-commerce.</p>
