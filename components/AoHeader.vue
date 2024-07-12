@@ -32,19 +32,19 @@
 <template>
     <header class="ao-nav">
         <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-3 col-lg-1">
-                    <NuxtLink to="/">
-                        <AoLogo class="in-top-bottom"></AoLogo>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-auto col-lg-1">
+                    <NuxtLink v-if="$route.name == 'index'" to="/">
+                        <AoLogo class="in-left"></AoLogo>
                     </NuxtLink>
+                    <div v-else class="nav-links in-left">
+                        <NuxtLink class="go-back" to="/">Início</NuxtLink>
+                    </div>
                 </div>
                 <div class="offset-lg-1 col-lg-6 d-none d-sm-none d-md-block d-lg-block">
                     <p v-if="$route.name == 'index'" class="">Olá, seja bem vindo.</p>
-                    <ul v-else class="nav-links">
-                        <p><NuxtLink to="/">Início</NuxtLink> / Grupo Paes</p>
-                    </ul>
                 </div>
-                <div class="col-9 col-lg-4">
+                <div class="col-auto col-lg-4">
                     <ul class="nav-links">
                         <li>
                             <a href="#" ref="projetos" @click="showModal('projetos')">Projetos</a>
@@ -62,7 +62,6 @@
         </div>
     </header>
     <div class="ao-modal" v-if="isModalVisible">
-
         <!-- Projetos -->
         <div class="ao-modal-dialog radius-top-left-10 radius-top-right-10 in-up" v-if="isModalProjects">
             <div class="ao-modal-header">
@@ -139,47 +138,7 @@
 
 <style scoped>
 
-    .ao-nav{
-        padding-top: 20px;
-        position: sticky;
-        top: 0;
-        z-index: 1;
-
-        svg,
-        p{
-            position: relative;
-        }
-
-        &::before{
-            content: "";
-            position: absolute;
-            top: 0;
-            width: 100%;
-            height: 200px;
-            background: linear-gradient(180deg, #FFFCF5 23%, rgba(255, 252, 245, 0) 100%);
-            z-index: 0;
-        }
-
-        p{
-            margin-bottom: 0;
-        }
-
-        .nav-links{
-            gap: 40px;
-            padding: 0;
-            margin: 0;
-            list-style: none;
-            display: flex;
-
-            @media(max-width: 992px){
-                justify-content: end;
-            }
-
-            a{
-                text-decoration: none;
-            }
-        }
-    }
+    
 
     button{
         margin-top: 40px;

@@ -54,8 +54,7 @@
                     <h2 class="my-subtitle" style="margin-top: 120px;">Arcu odio adipiscing at quisque volutpat sapien.</h2>
                     <p>A capacidade de desenvolver o front-end se deu com a necessidade de entregar além dos desenhos de interfaces e com aprendizados com desenvolvedores incríveis.Como forma de estudo esse portfólio foi desenvolvido com <a href="https://nuxt.com/" target="_blank">Nuxt</a>.</p>
                     <h2 class="my-subtitle" style="margin-top: 120px;">At suspendisse diam est viverra a dui vel.</h2>
-                    <p>Possui experiência com criação de identidade visual.</p>
-                    <p>Última experiência profissional na <a href="https://www.innocean.com/br-en/" target="_blank">Innocean</a>, uma agência de publicidade, onde eu atendia a <a href="https://hyundai.com.br/" target="_blank">Hyundai</a>, junto do time de Digital.</p>
+                    <p>Possui experiência com criação de identidade visual. Última experiência profissional na <a href="https://www.innocean.com/br-en/" target="_blank">Innocean</a>, uma agência de publicidade, onde eu atendia a <a href="https://hyundai.com.br/" target="_blank">Hyundai</a>, junto do time de Digital.</p>
                     <h2 class="my-subtitle" style="margin-top: 120px;">Além do trabalho e para o trabalho.</h2>
                     <p>Treino Crossfit e jiu-jitsu. Atualmente estou tentando encontrar a melhor forma de conciliar os dois treinos durante a semana. Correr ou caminhar no parque, para mim, é uma terapia.</p>
                     <p class="mb-0">Sou apreciador de carros, seja antigo (lazanhona) ou novo. O céu com sua imensidão e cores me hipnotiza. Eu tenho algo platônico pelos cachorros de rua que não sei explicar.</p>
