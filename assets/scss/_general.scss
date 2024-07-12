@@ -530,11 +530,11 @@ body{
 }
 
 .in-up{
-    animation: in-up ease-out .6s;
+    animation: in-up ease-out .4s;
 }
 
 .in-down{
-    animation: in-down ease-in .6s;
+    animation: in-down ease-in .4s;
 }
 
 .in-left{
@@ -542,7 +542,7 @@ body{
 }
 
 .in-right{
-    animation: in-left ease-in .3s;
+    animation: in-right ease-in .3s;
 }
 
 @keyframes in-up {

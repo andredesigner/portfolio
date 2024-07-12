@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-6 d-none d-sm-none d-md-block d-lg-block">
-                    <p v-if="$route.name == 'index'" class="">Olá, seja bem vindo.</p>
+                    <p v-if="$route.name == 'index'" class="in-down">Olá, seja bem vindo.</p>
                 </div>
                 <div class="col-auto col-lg-4">
                     <ul class="nav-links">
@@ -71,16 +71,33 @@
             <div class="ao-modal-content">
                 <p>Projetos de criação ou participação do André Oliveira com foco no visual design.</p>
                 <ul class="ao-list-projects">
-                    <li v-for="n in 4">
+                    <li>
                         <nuxt-link class="item-project" to="/projetos/grupo-paes" @click="closeModal">
                             <div class="name-project">
-                                Zeferina
+                                Grupo Paes
                                 <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M2.75 0H0.75V2H2.75V4H4.75V6H6.75V8H4.75V10H2.75V12H0.75V14H2.75V12H4.75V10H6.75V8H8.75V6H6.75V4H4.75V2H2.75V0Z" fill="#3E5FAA"/>
                                 </svg>
                             </div>
                             <NuxtImg
-                                src="/project-1.png"
+                                src="/projetos/grupo-paes/capa.png"
+                                sizes="100vw sm:50vw md:400px"
+                                placeholder
+                                quality="8"
+                            />
+                        </nuxt-link>
+                    </li>
+
+                    <li>
+                        <nuxt-link class="item-project" to="/projetos/hyundai" @click="closeModal">
+                            <div class="name-project">
+                                Hyundai
+                                <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.75 0H0.75V2H2.75V4H4.75V6H6.75V8H4.75V10H2.75V12H0.75V14H2.75V12H4.75V10H6.75V8H8.75V6H6.75V4H4.75V2H2.75V0Z" fill="#3E5FAA"/>
+                                </svg>
+                            </div>
+                            <NuxtImg
+                                src="/projetos/hyundai/capa.png"
                                 sizes="100vw sm:50vw md:400px"
                                 placeholder
                                 quality="8"
