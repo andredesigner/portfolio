@@ -11,7 +11,7 @@
                     </svg>
                     <!-- Modal -->
                     <div v-bind:class="{ active: isActive }" class="modal-info">
-                        <NuxtImg class="mb-4" src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2022/12/08/cohab-jose-bonifacio-(1)-1k22szlhpersp.jpg"/>
+                        <img class="mb-4" src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2022/12/08/cohab-jose-bonifacio-(1)-1k22szlhpersp.jpg"/>
                         <h3>Conjunto Habitacional José Bonifácio (COHAB 2)</h3>
                         <p>Onde nasci, fui criado e moro até hoje. É um bairro localizado na zona leste do município brasileiro de São Paulo. O bairro foi fundado em 1980 e sua principal praça é a Praça Mãe Menininha do Gantois, popularmente conhecida como "Praça Brasil".</p>
                         <div @click="isActive=false" class="close-modal">Fechar</div>
