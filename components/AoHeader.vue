@@ -1,163 +1,131 @@
-<script>
-    import AoLogo from './AoLogo.vue';
-    import { useRoute } from 'vue-router';
+<script setup>
+    const isActive = ref(false);
 
-    export default {
-        data() {
-            return {
-                isModalVisible: false,
-                isModalProjects: true,
-            }
-        },
-        methods: {
-            showModal(type) {
-                this.isModalVisible = true;
-                document.body.style.overflowY = "hidden";
-
-                if(type === "projetos"){
-                    this.isModalProjects = true;
-                }else{
-                    this.isModalProjects = false;
-                }
-            },
-            closeModal() {
-                this.isModalVisible = false;
-                document.body.style.overflowY = "auto";
-            }
-        },
+    function toggleActive(event) {
+        event.target.classList.toggle('active');
     }
-        
+    
 </script>
 
 <template>
-    <header class="ao-nav">
+    <header class="ao-header">
         <div class="container-fluid">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-auto col-lg-1">
-                    <NuxtLink v-if="$route.name == 'index'" to="/">
-                        <AoLogo class="in-left"></AoLogo>
-                    </NuxtLink>
-                    <div v-else class="nav-links in-left">
-                        <NuxtLink class="go-back" to="/">Início</NuxtLink>
+            <div class="row">
+                <div class="offset-lg-1 col-lg-10">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex">
+                            <NuxtLink class="ao-logo d-flex align-items-center" to="/">
+                                <AoLogo></AoLogo>
+                            </NuxtLink>
+                            <ul>
+                                <li>
+                                    <nuxt-link to="/">Início</nuxt-link>
+                                </li>
+                                <li>
+                                <nuxt-link to="/cases">Cases</nuxt-link>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul v-bind:class="{ active: isActive }" 
+                            class="social-media">
+                            <li>
+                                <nuxt-link to="https://instagram.com/andreoliveira.des.br" target="_blank">Instagram</nuxt-link>
+                            </li>
+                            <li>
+                                <nuxt-link to="https://www.linkedin.com/in/andreoliveiradesigner/" target="_blank">Linkedin</nuxt-link>
+                            </li>
+                        </ul>
+                        <span v-on:click="toggleActive" @click="isActive=!isActive" class="view-social-media">+</span>
                     </div>
                 </div>
-                <div class="offset-lg-1 col-lg-6 d-none d-sm-none d-md-block d-lg-block">
-                    <p v-if="$route.name == 'index'" class="in-down">Olá, seja bem vindo.</p>
-                </div>
-                <div class="col-auto col-lg-4">
-                    <ul class="nav-links">
-                        <li>
-                            <a href="#" ref="projetos" @click="showModal('projetos')">Projetos</a>
-                        </li>
-                        <li>
-                            <!-- <a href="malito:andreoliveiradesigner@gmail.com">E-mail</a> -->
-                            <a class="external-link" href="mailto:andreoliveiradesigner@gmail.com?subject=Acessei seu portfólio">E-mail</a>
-                        </li>
-                        <!-- <li>
-                            <a href="#" ref="fale-comigo" @click="showModal('fale-comigo')">Fale comigo</a>
-                        </li> -->
-                    </ul>
-                </div>
             </div>
         </div>
-    </header>
-    <div class="ao-modal" v-if="isModalVisible">
-        <!-- Projetos -->
-        <div class="ao-modal-dialog radius-top-left-10 radius-top-right-10 in-up" v-if="isModalProjects">
-            <div class="ao-modal-header">
-                <span>Projetos</span>
-                <a href="#" @click="closeModal">Fechar</a>
-            </div>
-            <div class="ao-modal-content">
-                <p>Projetos de criação ou participação do André Oliveira com foco no visual design.</p>
-                <ul class="ao-list-projects">
-                    <li>
-                        <nuxt-link class="item-project" to="/projetos/grupo-paes" @click="closeModal">
-                            <div class="name-project">
-                                Grupo Paes
-                                <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.75 0H0.75V2H2.75V4H4.75V6H6.75V8H4.75V10H2.75V12H0.75V14H2.75V12H4.75V10H6.75V8H8.75V6H6.75V4H4.75V2H2.75V0Z" fill="#3E5FAA"/>
-                                </svg>
-                            </div>
-                            <NuxtImg
-                                src="/projetos/grupo-paes/capa.png"
-                                sizes="100vw sm:50vw md:400px"
-                                placeholder
-                                quality="8"
-                            />
-                        </nuxt-link>
-                    </li>
-
-                    <li>
-                        <nuxt-link class="item-project" to="/projetos/hyundai" @click="closeModal">
-                            <div class="name-project">
-                                Hyundai
-                                <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.75 0H0.75V2H2.75V4H4.75V6H6.75V8H4.75V10H2.75V12H0.75V14H2.75V12H4.75V10H6.75V8H8.75V6H6.75V4H4.75V2H2.75V0Z" fill="#3E5FAA"/>
-                                </svg>
-                            </div>
-                            <NuxtImg
-                                src="/projetos/hyundai/capa.png"
-                                sizes="100vw sm:50vw md:400px"
-                                placeholder
-                                quality="8"
-                            />
-                        </nuxt-link>
-                    </li>
-                </ul>
-                <!-- <a class="tell-me" href="#">
-                    Me diga o que achou 
-                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-inspector="components/AoHeader.vue:44:33" data-v-fc12bfe7="">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.75 0H0.75V2H2.75V4H4.75V6H6.75V8H4.75V10H2.75V12H0.75V14H2.75V12H4.75V10H6.75V8H8.75V6H6.75V4H4.75V2H2.75V0Z" fill="#3E5FAA" data-v-fc12bfe7="">
-                        </path>
-                    </svg>
-                </a> -->
-            </div>
-        </div>
-
-        <!-- Fale comigo -->
-        <div class="ao-modal-dialog in-left" v-if="!isModalProjects">
-            <div class="ao-modal-header">
-                <span>Fale comigo</span>
-                <a href="#" v-on:click="closeModal">Fechar</a>
-            </div>
-            <div class="ao-modal-content">
-                <p>Fique a vontade para me mandar mensagem, marcar uma conversa ou um café, será um prazer ouvi-lo.</p>
-                <form>
-                    <div class="wrap-form">
-                        <div class="first">
-                            <div class="ao-input">
-                                <input type="text" class="ao-form-control form-control shadow-none" id="name" required>
-                                <label for="name" class="ao-form-label form-label">Como costumam te chamar</label>
-                                <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
-                            </div>
-                            <div class="ao-input">
-                                <input type="email" class="ao-form-control form-control shadow-none" id="e-mail" required>
-                                <label for="e-mail" class="ao-form-label form-label">Um e-mail para eu retornar</label>
-                                <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
-                            </div>
-                        </div>
-                        <div class="before">
-                            <div class="ao-input ao-text-area">
-                                <textarea for="message" class="ao-form-control ao-textarea form-control shadow-none" id="message" contenteditable required></textarea>
-                                <label for="message" class="ao-form-label form-label">Sua mensagem</label>
-                                <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
-                            </div>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn ao-btn ao-btn-fill">Enviar</button>
-                </form>
-                <p class="mt-5">Meu e-mail: <br> <a class="external-link" href="malito:andreoliveiradesigner@gmail.com">andreoliveiradesigner@gmail.com</a></p>
-            </div>
-        </div>
-    </div>
+    </header>    
+    
+    
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+.social-media{
+        @media (max-width: 992px) {
+            translate: 0 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100vw;
+            flex-direction: column;
+            gap: 24px !important;
+            padding: 24px 0 !important;
+            text-align: center;
+            background: rgba(217, 217, 217, 0.4);
+            -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(12px);
+            transition: all .2s ease-in;
 
-    
+            &.active{
+                translate: 0 0;
+                transition: all .2s ease-out;
+            }
+        }
+    }
 
-    button{
-        margin-top: 40px;
+    .view-social-media{
+        width: 44px;
+        height: 44px;
+        font-size: 36px;
+        padding: 0;
+        margin: 0;
+        line-height: 1;
+        text-align: center;
+        transition: all 0.2s ease-in-out;
+
+        @media (min-width: 993px) {
+            display: none;
+        }
+
+        &.active{
+            transform: rotate(45deg);
+            transform-origin: center;
+            transition: all .2s ease-in-out;
+        }
+    }
+
+    .ao-header{
+        .ao-logo{
+            margin-right: 120px;
+
+            @media (max-width: 992px){
+                margin-right: 40px;
+            }
+        }
+
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 120px;
+            padding: 72px 0;
+
+            @media (max-width: 992px){
+                gap: 40px;
+            }
+
+            a{
+                display: block;
+                font-size: 24px;
+                font-weight: 400;
+                text-decoration: none;
+                color: #5C4A20;
+                translate: 0 0;
+                transition: all .3s ease-in;
+
+                &:hover{
+                    translate: 0 -2px;
+                    color: #949494;
+                    transition: all .2s ease-out;
+                }
+            }
+        }
     }
 </style>

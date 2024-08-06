@@ -1,28 +1,26 @@
 <script setup>
-    import { onMounted } from "vue";
-    import gsap from "gsap";
-    import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-    const links = [
-        {href: 'https://www.linkedin.com/in/andreoliveiradesigner/', text: 'Linkedin'},
-        {href: 'https://www.dropbox.com/scl/fi/hb1syvsmrbnknvf3fb7x7/andre-oliveira-curriculo.pdf?rlkey=sda5kzkh6d20gf1clm63j68my&st=92yk43ks&dl=0', text: 'CV'},
-        {href: 'https://dribbble.com/andreoliveiradesigner', text: 'Dribbble'},
-        {href: 'https://www.instagram.com/andreoliveira.des.br/', text: 'Instragram'},
-        {href: 'https://github.com/andredesigner?tab=repositories', text: 'Github'}
-    ]
+    const isActive = ref(false);
 </script>
 <template>
     <footer class="container-fluid">
         <div class="row">
-            <div class="offset-lg-2 col-lg-8">
-                <ul class="my-list-links">
-                    <li class="col-4 col-lg-auto" v-for="link in links">
-                        <a :href="link.href" class="external-link" target="_blank">{{ link.text }}</a>
-                    </li>
-                </ul>
-                <span>©2024. <br> Todos os direitos reservados.</span>
-
-                <svg id="predinhos-mobile" viewBox="0 0 354 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div class="col-lg-10">
+                <div class="text-end">
+                    <svg @click="isActive=true" class="info-predinhos" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11 20C15.9707 20 20 15.9707 20 11C20 6.0293 15.9707 2 11 2C6.0293 2 2 6.0293 2 11C2 15.9707 6.0293 20 11 20ZM11 22C17.0752 22 22 17.0752 22 11C22 4.9248 17.0752 0 11 0C4.9248 0 0 4.9248 0 11C0 17.0752 4.9248 22 11 22ZM12 6V8H10V6H12ZM12 16V10H10V16H12Z" fill="#5C4A20"/>
+                    </svg>
+                    <!-- Modal -->
+                    <div v-bind:class="{ active: isActive }" class="modal-info">
+                        <NuxtImg class="mb-4" src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2022/12/08/cohab-jose-bonifacio-(1)-1k22szlhpersp.jpg"/>
+                        <h3>Conjunto Habitacional José Bonifácio (COHAB 2)</h3>
+                        <p>Onde nasci, fui criado e moro até hoje. É um bairro localizado na zona leste do município brasileiro de São Paulo. O bairro foi fundado em 1980 e sua principal praça é a Praça Mãe Menininha do Gantois, popularmente conhecida como "Praça Brasil".</p>
+                        <div @click="isActive=false" class="close-modal">Fechar</div>
+                    </div>
+                    <div class="shadow-modal"></div>
+                </div>
+            </div>
+            <div class="d-flex p-0">
+                <svg class="predinhos-mobile" viewBox="0 0 354 91" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M95.9922 47.9102H35.1484V62.7179H95.9922V47.9102Z" fill="#7B9B7E"/>
                     <path d="M114.087 47.9102H96V62.7179H114.087V47.9102Z" fill="#428C60"/>
                     <path d="M89.8408 51.2422H88.6992V54.0025H89.8408V51.2422Z" fill="#565656"/>
@@ -175,7 +173,7 @@
                     <path d="M138.123 51.7461H135.523V62.8089H138.123V51.7461Z" fill="#565656"/>
                 </svg>
 
-                <svg id="predinhos" viewBox="0 0 802 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg v-for="n in 2" class="predinhos" viewBox="0 0 802 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_9204_202)">
                     <path d="M233.919 27.3359H77.2188V64.5659H233.919V27.3359Z" fill="#799FA8"/>
                     <path d="M282.692 27.3359H233.922V64.5659H282.692V27.3359Z" fill="#70ACC4"/>
@@ -338,50 +336,109 @@
         </div>
     </footer>
 </template>
-
-
 <style lang="scss">
     footer{
         position: relative;
-        padding-top: 40px;
-        z-index: -1 !important;
-        background-color: #F3FBFE;
-
-        .ao-nav{
-            display: flex;
-            
-            li{
-                a{
-                    margin-bottom: 40px;
-                }
-            }
-        }
     }
 
-    #predinhos,
-    #predinhos-mobile{
+    .info-predinhos{
         margin-top: 40px;
+        cursor: pointer;
+    }
+
+    .predinhos,
+    .predinhos-mobile{
         width: 100%;
         height: auto;
         display: none;
     }
 
-    #predinhos-mobile{
+    .predinhos-mobile{
         @media (max-width: 992px) {
             display: block;
         }
     }
 
-    #predinhos{
+    .predinhos{
         @media (min-width: 993px) {
             display: block;
         }
     }
 
-    svg{
+    .modal-info{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+        max-width: 640px;
+        width: 92%;
+        padding: 24px;
+        text-align: left;
+        background-color: #5C4A20;
+        border-radius: 4px;
+        z-index: -99;
+        opacity: 0;
+        top: 60%;
+        transition: all .3s ease-in;
+
         @media (max-width: 992px) {
-            // margin-bottom: 43px;
+            padding: 12px;
+        }
+
+        &.active{
+            top: 50%;
+            opacity: 1;
+            z-index: 99;
+            transition: all .3s ease-in;
+
+            &+.shadow-modal{
+                top: 0;
+                opacity: 1;
+            }
+        }
+
+        svg{
+            cursor: pointer;
+            flex: inherit;
+        }
+
+        h3{
+            font-size: 24px;
+            color: #FFFCF5;
+            margin-bottom: 24px;
+            line-height: 140%;
+        }
+
+        p,
+        a{
+            font-size: 20px;
+            color: #FFFCF5;
+            text-decoration: none;
+            margin-bottom: 40px;
+        }
+
+        a{
+            font-weight: 500;
         }
     }
 
+    .shadow-modal{
+        position: fixed;
+        width: 1100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background: rgba(217, 217, 217, 0.4);
+        backdrop-filter: blur(12px);
+        top: 100%;
+        opacity: 0;
+    }
+
+    .close-modal{
+        display: block;
+        font-size: 20px;
+        color: #FFFCF5;
+        cursor: pointer;
+
+    }
 </style>
