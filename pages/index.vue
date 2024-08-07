@@ -55,11 +55,11 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-lg-12 p-0">
                 <iframe src="https://www.youtube.com/embed/9CkhldhysSA?si=0EnckZKkMq8MfLHP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-        </div>
+        </div> -->
         <div class="row">
             <div class="offset-lg-1 col-lg-10">
                 <div class="ao-border-top">
