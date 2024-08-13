@@ -7,6 +7,7 @@ export default defineNuxtConfig({
       baseURl: process.env.IMAGES_URL
     }
   },
+
   app: {
     head: {
       charset: 'utf-8',
@@ -24,15 +25,17 @@ export default defineNuxtConfig({
     },
     pageTransition: { name: 'page', mode: 'out-in' }
   },
+
   css: [
     "bootstrap/dist/css/bootstrap.min.css",
     "/assets/scss/main.scss"
   ],
-  modules: [
-    "@nuxt/image",
-    '@hypernym/nuxt-gsap',
-    '@nuxt/devtools',
-  ],
+
+  modules: ["@nuxt/image", '@hypernym/nuxt-gsap', '@nuxt/devtools', "nuxt-gtag"],
+
+  gtag: {
+    id: 'G-DG43J8Y4FQ'
+  },
 
   gsap: {
     extraPlugins: {

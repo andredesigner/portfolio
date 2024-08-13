@@ -12,6 +12,7 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "nuxt": "^3.10.2",
+    "nuxt-gtag": "^2.1.0",
     "sass-loader": "^14.1.0",
     "vue": "^3.4.19",
     "vue-router": "^4.2.5"
