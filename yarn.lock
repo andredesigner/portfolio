@@ -323,6 +323,20 @@
   resolved "https://registry.npmjs.org/@fastify/busboy/-/busboy-2.1.1.tgz"
   integrity sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==
 
+"@gtm-support/core@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/@gtm-support/core/-/core-3.0.1.tgz"
+  integrity sha512-SctcoqvvAbGAgZzOb7DZ4wjbZF3ZS7Las3qIEByv6g7mzPf4E9LpRXcQzjmywYLcUx2jys7PWJAa3s5slvj/0w==
+
+"@gtm-support/vue-gtm@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/@gtm-support/vue-gtm/-/vue-gtm-3.0.1.tgz"
+  integrity sha512-SeLN3R+5gHJ+1AtJPP4/+2lJ6vOfXo1pL094//GcKY7RrMk3ltxIS/CJ3PSlL2Dpxjr9UAov0m4K1SdvYj3Xzw==
+  dependencies:
+    "@gtm-support/core" "^3.0.1"
+  optionalDependencies:
+    vue-router ">= 4.1.0 < 5.0.0"
+
 "@hypernym/nuxt-gsap@^2.4.2":
   version "2.4.2"
   resolved "https://registry.npmjs.org/@hypernym/nuxt-gsap/-/nuxt-gsap-2.4.2.tgz"
@@ -4865,14 +4879,14 @@ vue-devtools-stub@^0.1.0:
   resolved "https://registry.npmjs.org/vue-devtools-stub/-/vue-devtools-stub-0.1.0.tgz"
   integrity sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==
 
-vue-router@^4.2.5, vue-router@^4.4.0:
+vue-router@^4.2.5, vue-router@^4.4.0, "vue-router@>= 4.1.0 < 5.0.0":
   version "4.4.3"
   resolved "https://registry.npmjs.org/vue-router/-/vue-router-4.4.3.tgz"
   integrity sha512-sv6wmNKx2j3aqJQDMxLFzs/u/mjA9Z5LCgy6BE0f7yFWMjrPLnS/sPNn8ARY/FXw6byV18EFutn5lTO6+UsV5A==
   dependencies:
     "@vue/devtools-api" "^6.6.3"
 
-"vue@^2.7.0 || ^3.2.25", vue@^3.0.0, vue@^3.2.0, vue@^3.2.25, vue@^3.3.4, vue@^3.4.19, vue@^3.4.32, "vue@>=2.7 || >=3", vue@3.4.37:
+"vue@^2.7.0 || ^3.2.25", vue@^3.0.0, vue@^3.2.0, vue@^3.2.25, vue@^3.3.4, vue@^3.4.19, vue@^3.4.32, "vue@>= 3.2.0 < 4.0.0", "vue@>=2.7 || >=3", vue@3.4.37:
   version "3.4.37"
   resolved "https://registry.npmjs.org/vue/-/vue-3.4.37.tgz"
   integrity sha512-3vXvNfkKTBsSJ7JP+LyR7GBuwQuckbWvuwAid3xbqK9ppsKt/DUvfqgZ48fgOLEfpy1IacL5f8QhUVl77RaI7A==

@@ -31,11 +31,11 @@ export default defineNuxtConfig({
     "/assets/scss/main.scss"
   ],
 
-  modules: ["@nuxt/image", '@hypernym/nuxt-gsap', '@nuxt/devtools', "nuxt-gtag"],
-
-  gtag: {
-    id: 'G-DG43J8Y4FQ'
-  },
+  modules: [
+    "@nuxt/image",
+    '@hypernym/nuxt-gsap',
+    '@nuxt/devtools', 
+    "nuxt-gtag"],
 
   gsap: {
     extraPlugins: {
