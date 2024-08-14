@@ -46,7 +46,7 @@
 </template>
 
 <style scoped lang="scss">
-.social-media{
+    .social-media{
         @media (max-width: 992px) {
             translate: 0 100%;
             position: fixed;
@@ -96,6 +96,10 @@
 
             @media (max-width: 992px){
                 margin-right: 40px;
+            }
+
+            svg{
+                transform: translate(0px, -16px);
             }
         }
 
