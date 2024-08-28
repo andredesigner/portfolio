@@ -63,11 +63,11 @@
         <div class="row">
             <div class="offset-lg-1 col-lg-10">
                 <div class="ao-border-top">
-                    <span class="medium-text color-text-2 mb-72">Última experiência</span>
+                    <span class="medium-text color-text-2 mb-72 emphasis">Última experiência</span>
                     <p class="big-text color-text-2 mb-0">Designer de Interface do usuário na <a class="big-text color-text-1" href="https://www.innocean.com/br-en/" target="_blank" >@Innocean</a>, atendia a <a class="color-text-1" href="https://hyundai.com.br/" target="_blank">@Hyundai.</a></p>
                 </div>
                 <div class="ao-border-top">
-                    <span class="medium-text color-text-2 mb-72">Atualmente</span>
+                    <span class="medium-text color-text-2 mb-72 emphasis">Atualmente</span>
                     <p class="big-text"><span class="color-text-2">Freelancer</span> de marca e web design.</p>
                     <div class="row">
                         <div class="col-lg-6">
@@ -93,7 +93,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="ao-border-top pb-0-mobile">
+                <div class="ao-border-top pb-0">
                     <picture class="my-picture">
                         <NuxtImg
                             src="/andre-oliveira-designer.png"
@@ -102,16 +102,16 @@
                             quality="10"
                         />
                     </picture>
-                    <p class="big-text mt-72"><span class="color-text-2">Desenvolvo soluções criativas</span> para resolução de problemas.</p>
-                    <div class="row" style="margin-top: 60vh;">
-                        <div class="col-lg-6">
-                            <p class="medium-text color-text-2 mt-72">Veja meu</p>
-                            <nuxt-link class="medium-text color-text-1" to="/cases">Trabalho aqui</nuxt-link>
-                        </div>
-                        <div class="col-lg-6">
-                            <p class="medium-text color-text-2 mt-72">Vamos trabalhar juntos,</p>
-                            <a class="medium-text color-text-1 my-email" href="mailto:andreoliveiradesigner@gmail.com">Me envie um e-mail.</a>
-                        </div>
+                    <p class="big-text mt-72" style="padding-bottom: 60vh;"><span class="color-text-2">Desenvolvo soluções criativas</span> para resolução de problemas.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="medium-text color-text-2 mt-72">Veja meu</p>
+                        <nuxt-link class="medium-text color-text-1 ao-button" to="/cases">Trabalho aqui.</nuxt-link>
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="medium-text color-text-2 mt-72">Vamos trabalhar juntos,</p>
+                        <a class="medium-text color-text-1 ao-button" href="mailto:andreoliveiradesigner@gmail.com">Me envie um e-mail.</a>
                     </div>
                 </div>
             </div>
@@ -122,13 +122,14 @@
 <style scoped>
     .my-picture{
         position: sticky;
-        top: 12px;
+        top: 20px;
         display: block;
         z-index: -1;
         width: 75%;
 
         @media (min-width: 993px) {
             width: 28%;
+            top: 80px;
         }
     }
 

@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="offset-lg-1 col-lg-10">
                     <div class="d-flex justify-content-between align-items-center">
-                        <div class="d-flex">
+                        <div class="d-flex w-100 justify-content-between-mobile">
                             <NuxtLink class="ao-logo d-flex align-items-center" to="/">
                                 <AoLogo></AoLogo>
                             </NuxtLink>
@@ -78,6 +78,12 @@
         line-height: 1;
         text-align: center;
         transition: all 0.2s ease-in-out;
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        display: inline-block;
+        background-color: #FFB607;
+        border-radius: 44px;
 
         @media (min-width: 993px) {
             display: none;
@@ -95,11 +101,7 @@
             margin-right: 120px;
 
             @media (max-width: 992px){
-                margin-right: 40px;
-            }
-
-            svg{
-                transform: translate(0px, -16px);
+                margin-right: 20px;
             }
         }
 
@@ -112,7 +114,7 @@
             padding: 72px 0;
 
             @media (max-width: 992px){
-                gap: 40px;
+                gap: 20px;
             }
 
             a{
@@ -123,6 +125,13 @@
                 color: #5C4A20;
                 translate: 0 0;
                 transition: all .3s ease-in;
+                padding: 8px 24px;
+                border-radius: 8px;
+
+                &.router-link-active{
+                    background-color: #330707;
+                    color: #FFFCF5;
+                }
 
                 &:hover{
                     translate: 0 -2px;

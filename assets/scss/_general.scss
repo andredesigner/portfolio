@@ -349,3 +349,43 @@ iframe{
     margin-top: 72px !important;
     display: block;
 }
+
+.emphasis{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+
+    &:before{
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        background-color: #FFB607;
+    }
+}
+
+.ao-button{
+    background-color: #330707;
+    color: #FFFCF5;
+    font-size: 24px;
+    border-radius: 8px;
+    padding: 24px 40px;
+    margin-top: 12px;
+    display: inline-block;
+    translate: 0 0;
+    transition: all .3s ease-in;
+    cursor: pointer;
+
+    &:hover{
+        translate: 0 -2px;
+        color: #949494;
+        transition: all .2s ease-out;
+    }
+}
+
+.justify-content-between-mobile{
+    @media (max-width: 992px){
+        justify-content: space-between;
+    }
+}

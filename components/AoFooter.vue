@@ -13,8 +13,8 @@
                     <div v-bind:class="{ active: isActive }" class="modal-info">
                         <img class="mb-4" src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2022/12/08/cohab-jose-bonifacio-(1)-1k22szlhpersp.jpg"/>
                         <h3>Conjunto Habitacional José Bonifácio (COHAB 2)</h3>
-                        <p>Onde nasci, fui criado e moro até hoje. É um bairro localizado na zona leste do município brasileiro de São Paulo. O bairro foi fundado em 1980 e sua principal praça é a Praça Mãe Menininha do Gantois, popularmente conhecida como "Praça Brasil".</p>
-                        <div @click="isActive=false" class="close-modal">Fechar</div>
+                        <p class="mb-0">Onde nasci, fui criado e moro até hoje. É um bairro localizado na zona leste do município brasileiro de São Paulo. O bairro foi fundado em 1980 e sua principal praça é a Praça Mãe Menininha do Gantois, popularmente conhecida como "Praça Brasil".</p>
+                        <div @click="isActive=false" class="close-modal ao-button">Fechar</div>
                     </div>
                     <div class="shadow-modal"></div>
                 </div>
@@ -342,7 +342,7 @@
     }
 
     .info-predinhos{
-        margin-top: 40px;
+        margin-top: 80px;
         cursor: pointer;
     }
 
@@ -374,7 +374,7 @@
         width: 92%;
         padding: 24px;
         text-align: left;
-        background-color: #5C4A20;
+        background-color: #EDEDED;
         border-radius: 4px;
         z-index: -99;
         opacity: 0;
@@ -404,7 +404,6 @@
 
         h3{
             font-size: 24px;
-            color: #FFFCF5;
             margin-bottom: 24px;
             line-height: 140%;
         }
@@ -412,7 +411,6 @@
         p,
         a{
             font-size: 20px;
-            color: #FFFCF5;
             text-decoration: none;
             margin-bottom: 40px;
         }
@@ -435,10 +433,7 @@
     }
 
     .close-modal{
-        display: block;
-        font-size: 20px;
-        color: #FFFCF5;
-        cursor: pointer;
-
+        font-size: 24px;
+        font-weight: 400;
     }
 </style>
