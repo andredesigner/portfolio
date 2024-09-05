@@ -41,8 +41,8 @@
                         </div>
                         <div class="col-lg-4">
                             <p class="item-summary">
-                                <span class="medium-text color-text-2 d-block">Formação</span>
-                                <span class="medium-text color-text-1 d-block">Design gráfico</span>
+                                <span class="medium-text color-text-2 d-block">Estilo músical</span>
+                                <span class="medium-text color-text-1 d-block">Rap</span>
                             </p>
                         </div>
                         <div class="col-lg-4">
